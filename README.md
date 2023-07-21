@@ -1,4 +1,4 @@
-# İstastik Dersleri
+# İstatistik Dersleri
 
 Ücretsiz istatistik dersleri
 
