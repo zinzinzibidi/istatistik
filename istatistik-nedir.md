@@ -1,4 +1,4 @@
-#İstatistik Nedir?
+# İstatistik Nedir?
 
 > "İstatistiklerle yalan söylemek kolaydır. Ama onlarsız doğruyu söylemek çok daha zordur."
 > Frederick Mosteller
