@@ -29,14 +29,11 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 
 İki yöntemin yanında az bilinen bir yöntem daha vardır. “Keşifsel Veri Analizi” adıyla tanımlanan bu metodda betimsel ve çıkarımsal istatistikte kullanılan tekniklerin grafikler yardımıyla özetlenmesi esastır. 1960’larda John Tukey tarafından literatüre kazandırılmıştır.
 
-<head>
-  <style>
-      table {
-          width: 100%;
-      }
-  </style>
-</head>
 
 |   |   |   |
 |---|---|---|
 |<<< Önceki Konu|İçindekiler|Sonraki Konu >>>|
+
+| <div style="width:33%">property</div> | <div style="width:33%">property</div>                    |
+| --------------------------------------- | ------------------------------------- |
+| `border-bottom-right-radius`            | Defines the shape of the bottom-right |
