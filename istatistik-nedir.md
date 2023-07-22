@@ -20,7 +20,7 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 ## İstatistiğin Yöntemleri
 
 <p align="center" style="border-radius: 48px;">
-<img src="https://zinzinzibidi.com/img/istatistik/istatistik-yontemleri2.png" height="auto" width="480" style="border-radius:50%"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/istatistik-yontemleri2.png" height="auto" width="480" style="border-radius:50%"/>
 </p>
 
 <b>Betimsel İstatistik (descriptive statistics)</b>: Verilerin ortalamalar, standart sapmalar, grafikler ile özetlendiği, geçmişe yönelik yorumlandığı istatistik yöntemidir.
