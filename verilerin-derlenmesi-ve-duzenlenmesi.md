@@ -97,6 +97,8 @@ Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görü
 
 <br>
 
-Bu noktada sınavda 48, 64 ve 88 not alan öğrencilerin çoğunlukta olduğu sonucuna varabiliriz. Yaptığımız işleme “sınıflama” (statistical classification) denilmektedir. f notasyonu^[frekans (frequency)], birimlerin veri setinde hangi sıklıkla tekrar edildiğini belirtmektedir.
+Bu noktada sınavda 48, 64 ve 88 not alan öğrencilerin çoğunlukta olduğu sonucuna varabiliriz. Yaptığımız işleme “sınıflama” (statistical classification) denilmektedir. f notasyonu[^1], birimlerin veri setinde hangi sıklıkla tekrar edildiğini belirtmektedir.
 
 Tabloyu biraz daha özet hâle getirelim.
+
+[^1]: frekans (frequency)
