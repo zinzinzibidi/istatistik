@@ -156,8 +156,7 @@ D) Sürekli veri
 
 <details>
 <summary>Yanıtı Göster</summary>
-
-  Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümerik veriler olmamalarından dolayı <br>nominal veri</b> türünde değerlendirilir.
+<br>Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümerik veriler olmamalarından dolayı <br>nominal veri</b> türünde değerlendirilir.
 </details>
 
 <br>
