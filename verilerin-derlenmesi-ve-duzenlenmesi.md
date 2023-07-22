@@ -35,6 +35,6 @@ Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görü
   </tr>
   <tr>
     <td>04</td>
-    <td align="center>2</td>
+    <td align="center">2</td>
   </tr>
 </table>
