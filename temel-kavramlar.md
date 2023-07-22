@@ -107,6 +107,8 @@ Aynı şekilde anket sorularındaki 1’den 3’e kadar olan seçeneklere verile
   </tr>
 </table>
 
+<br>
+
 <p align="center">
   <img src="https://zinzinzibidi.com/img/istatistik/anakutle-ve-orneklem.png" style="width: 480px;"/>
 </p>
