@@ -40,6 +40,44 @@ Anakütlede <b>µ</b> (mü), örneklemde <b>x̄</b> (x üzeri çizgi, x-bar) not
 
 $$ \mu = {\Sigma X_i \over N} $$
 
-<div align="center">Frekans Serilerinde</div>div>
+<div align="center">Frekans Serilerinde</div>
 
 $$ \mu = {\Sigma X_i f_i \over N} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \mu = {\Sigma m_i f_i \over N} $$
+
+#### Örneklem Aritmetik Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \bar x = {\Sigma x_i \over n}$$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \bar x = {\Sigma x_i f_i \over n} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \bar x = {\Sigma m_i f_i \over n} $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
