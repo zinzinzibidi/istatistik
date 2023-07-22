@@ -200,4 +200,4 @@ D) Sürekli veri
   </tr>
 </table>
 
-[^1] [Türkiye Bankalar Birliği | İstatistikî Raporlar](https://www.tbb.org.tr/tr/bankacilik/banka-ve-sektor-bilgileri/istatistiki-raporlar/59)
+[^1]: [Türkiye Bankalar Birliği | İstatistikî Raporlar](https://www.tbb.org.tr/tr/bankacilik/banka-ve-sektor-bilgileri/istatistiki-raporlar/59)
