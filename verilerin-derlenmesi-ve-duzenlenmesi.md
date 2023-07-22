@@ -148,9 +148,9 @@ Bu tür basit örneklerde sınıf aralığı ve birim sayısının az olmasında
 
 İstatistik standartlarına uygun gruplandırma yapmak istersek sınıf aralığını aşağıdaki formül ile belirleriz.
 
-$$ Sınıf Aralığı = x_{max} - x_{min}]/[1+3.3log(n) $$
+$$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
 
-$$   $$
+$$  Sınıf Aralığı = \text{Sınıf Uzunlugu (Range)}/\text{Sınıf Sayısı} $$
 
 
 
