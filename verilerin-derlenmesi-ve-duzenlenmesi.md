@@ -213,7 +213,7 @@ Dikkat edilirse ilk aralığımız olan 04 ≤ x < 17 aralığının uzunluğu
 17 – 04 = 13’tür. “Sınıf aralığı” ifadesi buradan gelmektedir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/sinav-notlari-dagilimi2.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/sinav-notlari-dagilimi.png" style="width: 480px;"/>
 </p>
 
 Bir önceki histogram grafiğinden farklı olarak sınav notlarının 43 ve 56 aralığında yoğunlaştığını rahatlıkla söyleyebilir, “44 öğrencinin 16’sı
