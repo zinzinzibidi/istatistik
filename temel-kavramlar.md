@@ -170,6 +170,5 @@ D) Sürekli veri
 
 <details>
 <summary>Yanıtı Göster</summary>
-
-Nümerik veriler ondalıklı değerler almadıkları sürece aralıklı veri türünde değerlendirilir.
+<br>Nümerik veriler ondalıklı değerler almadıkları sürece aralıklı veri türünde değerlendirilir.
 </details>
