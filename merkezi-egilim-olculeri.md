@@ -33,3 +33,9 @@ Aritmetik Ortalama (Arithmetic Mean), en bilinen ve en çok kullanılan ortalama
 Anakütlede <b>µ</b> (mü), örneklemde <b>x̄</b> (x üzeri çizgi, x-bar) notasyonu kullanılır.
 
 <b>Σ</b> toplamı, <b>N</b> anakütlede, <b>n</b> örneklemde gözlem sayısını belirtir.
+
+#### Anakütle Aritmetik Ortalaması
+
+<center>Basit Serilerde</center>
+
+$$ \mu = {\Sigma X_i \over N} $$
