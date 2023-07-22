@@ -28,3 +28,7 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 <b>Çıkarımsal İstatistik (statistical inference)</b>: Verilerin hipotez testleri, varyans analizi, korelasyon analizi, regresyon analizi gibi tekniklerle hem geçmişe hem de geleceğe yönelik yorumlandığı istatistik yöntemidir.
 
 İki yöntemin yanında az bilinen bir yöntem daha vardır. “Keşifsel Veri Analizi” adıyla tanımlanan bu metodda betimsel ve çıkarımsal istatistikte kullanılan tekniklerin grafikler yardımıyla özetlenmesi esastır. 1960’larda John Tukey tarafından literatüre kazandırılmıştır.
+
+|   |   |   |
+|---|---|---|
+|<<< Önceki Konu|İçindekiler|Sonraki Konu >>>|
