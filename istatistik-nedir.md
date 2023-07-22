@@ -32,11 +32,12 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    <td colspan="3">Navigasyon</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+    <td> [&#60;&#60;&#60; Önceki Konu]() </td>
+     <td> [İçindekiler]() </td>
+     <td> [Sonraki Konu &#62;&#62;&#62;]() </td>
   </tr>
 </table>
 
