@@ -342,7 +342,7 @@ B) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 <br>
 C) Sınıf Uzunluğu: 10 | Sınıf Aralığı: 5 <br>
 D) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 
 
-Yanıt: 
+<b>Yanıt</b>: 
 
 $$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
 
