@@ -184,7 +184,7 @@ Boy uzunluklarının aritmetik ortalamasını bulunuz.
 
 <br>
 
-$$ \mu = {\Sigma X_i \over N} $$
+$$ \mu = {\Sigma X_i f_i \over N} $$
 
 $$ \mu = {155 + 320 + 1155 + 2720 + 3150 + 180 + 740 + 190 \over 55} = 172.91 \approx 173 \text{ cm} $$
 
