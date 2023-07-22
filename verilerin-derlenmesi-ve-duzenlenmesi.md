@@ -25,3 +25,16 @@ $$ x = 04, 04, 12, 12, 12, 12, 24, 24, 24, 24, 25, 25, 33, 44, 45, 45, 48, 48, 4
 Serinin az sayıda birimden oluşmasından ve tek bir değişken içermesinden dolayı derleme aşaması tamamlanmıştır.
 
 Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görülebilir. Hangi sayıların hangi sıklıkla tekrar edildiğini görebilmek için birimleri sınıflandırabiliriz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>x</th>
+    <th>f (tekrar sayısı)</th>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>2</td>
+  </tr>
+</table>
