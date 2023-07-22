@@ -87,3 +87,38 @@ Işını tamsayılara denk gelecek şekilde eşit parçalara böldüğümüzde (
 <img src="https://zinzinzibidi.com/img/istatistik/kimlik.png" align="left" style="width: 96px;"/> 
 
 Nitel verilerin birer kategorik değişken, nicel (sayısal) verilerin ise nümerik değişkenler olduğunu öğrendik. Kategorik değişkenler çoğunlukla metinsel değerlerden oluşmakla birlikte aralarında hiyerarşik düzen olup olmaması, kategorik değişkenin alt türünü belirlemektedir. Hiyerarşik sıralamanın olması durumunda ordinal, olmaması durumunda nominal veri ayrımını yapabiliriz. Nümerik değişkenler ise tamamen sayısal verilerden oluşur. Veriler ondalıklı ise sürekli, değilse aralıklı (kesikli) olduğunu söyleyebiliriz.
+
+<img src="https://zinzinzibidi.com/img/istatistik/anket.png" align="right" style="width: 96px;"/> 
+
+Nitel verilerin birer kategorik değişken, nicel (sayısal) verilerin ise nümerik değişkenler olduğunu öğrendik. Kategorik değişkenler çoğunlukla metinsel değerlerden oluşmakla birlikte aralarında hiyerarşik düzen olup olmaması, kategorik değişkenin alt türünü belirlemektedir. Hiyerarşik sıralamanın olması durumunda ordinal, olmaması durumunda nominal veri ayrımını yapabiliriz. Nümerik değişkenler ise tamamen sayısal verilerden oluşur. Veriler ondalıklı ise sürekli, değilse aralıklı (kesikli) olduğunu söyleyebiliriz.
+
+Aynı şekilde anket sorularındaki 1’den 3’e kadar olan seçeneklere verilen yanıtları analiz etmek istediğimizde, istatistik yazılımında veri türünü “aralıklı veri” (discrete data) belirlememeliyiz. Anket soruları 1’den 3’e kadar “katılmıyorum - kararsızım - katılıyorum” değerlerinden oluşan, kendi içerisinde hiyerarşik düzeni olan verilerdir. Bu sebeple bu tür anketler ordinal veri türü ile oluşturulur, ordinal veri türüne ait istatiksel yöntemler uygulanır.
+
+İstatistikte veri türleri başta kafamızı karıştırabilir. Tam olarak anlaşılması zaman almaktadır. Net olarak görülmemesine rağmen birbirlerinden kesin çizgilerle ayrılmışlardır. İstatistiksel modellemelere başlanılmadan önce veri türlerinin sisteme doğru tanıtılması analizlerimizin de doğru sonuçlanmasını sağlayacaktır. Hatalı veri türü ile yapılan modellemeler ve analizler hatalı sonuçlar doğuracaktır. Veri türleri bu yüzden başlangıç aşamasında kritik öneme sahiptir.
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">Veri Türleri ile ilgili YouTube videosu</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=kyjlxsLW1Is">Teach me STATISTICS in half an hour!</a></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/anakutle-ve-orneklem.png" style="width: 480px;"/>
+</p>
+
+## Anakütle ve Örneklem
+
+<b>Anakütle (Population)</b>: Araştırma konusu tüm veri birimlerini içeren küme
+
+Kimi kaynaklarda “anakitle”, “popülasyon”, “yığın”, “evren” terimleriyle ifade edilir.
+
+Toplam nüfus, 2020 yılında üniversite okuyan öğrencilerin sayısı, 2021 yılında tüm banka çalışanlarının sayısı anakütleye örnektir.
+
+<b>Örneklem (Sample)</b>: Araştırma konusu anakütleden belirli sayıda veri birimi seçilerek oluşturulan küme
+
+2021 yılında tüm banka çalışanların sayısını anakütle olarak göstermiştik. Türkiye Bankalar Birliğinin verilerine göre Haziran 2021’de toplam 180,019 mevduat bankası çalışanı bulunmaktadır.1 Çalışanların 61,268’i kamu bankalarında, 118,751’i özel bankalarda çalışmaktadır. Kamu ve Özel Bankalarda aynı pozisyonda çalışanların maaş ortalamalarını karşılaştırmak istediğimizde 180,019 birim içerisinde araştırma konusu pozisyonda çalışan tüm personellerin maaşlarını tespit etmek neredeyse imkânsızdır. Bu sebeple her iki kümeden de belirli sayıda örnek seçip ortalamaları hesaplamak gerçeğe en yakın sonucu verecektir. Kamu bankalarında uzman pozisyonunda çalışan 120, özel bankalarda eşdeğer pozisyonda çalışan diğer 120 personelden oluşan 2 örneklem kümesi seçtiğimizde yaptığımız seçime örnekleme deriz. Hem kamu hem de özel bankalarda çalışanların maaş ortalamalarını incelediğimizde ortalama, standart sapma, medyan gibi önemli göstergelere ulaşabilir, anakütleye ait parametreleri doğru tahmin edebiliriz.
