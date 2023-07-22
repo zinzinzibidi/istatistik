@@ -52,6 +52,21 @@ Nitel verilerin tamamı kategorik değişkenlerden elde edilir. Adından da anla
 
 Saç rengimiz, çalıştığımız kurum, okuduğumuz okul, cinsiyetimiz birer nominal değişkendir.
 
-Ordinal Veri (Ordinal Data): Sayısal olmayan, kendi içinde hiyerarşik olarak sıralanabilen değişkenlerden oluşan kategorik veri türüdür.
+<img src="https://zinzinzibidi.com/img/istatistik/mezuniyet.png" align="right" style="width: 64px;"/> 
 
+<b>Ordinal Veri (Ordinal Data)</b>: Sayısal olmayan, kendi içinde hiyerarşik olarak sıralanabilen değişkenlerden oluşan kategorik veri türüdür.
+
+Eğitim düzeyi (ilkokul – lise – üniversite), futbol saha mevkileri (defans – orta saha – forvet), “kesinlikle katılmıyorum – katılmıyorum – kararsızım – katılıyorum – kesinlikle kalıyorum” yanıtlarından oluşan anket sorularında kullanılan likert ölçekleri (likert scale) gibi sayısal veriler içermeyen fakat kendi içinde sıralanabilen değişkenlerden oluşur.
+
+<img src="https://zinzinzibidi.com/img/istatistik/sayilar.png" align="right" style="width: 64px;"/> 
+
+<b>Aralıklı Veri (Discrete Data)</b>: 0, 1, 2, 3… gibi tamsayılardan oluşan, ondalıklı sayılar içermeyen nümerik veri türüdür.
+
+Yaş, aralıklı veriye en iyi örnektir. Bir kimsenin yaşını sorduğumuzda “24.9 yaşındayım” yanıtını almayız. 25’ine birkaç hafta kalmasına rağmen “24 yaşındayım.” yanıtını alırız. Somut bir örnek vermek gerekirse tenis kortunda bulunan tenis toplarının sayısı aralıklı veridir. “Sahada 4.6 tenis topu var.” şeklinde sayımlar yapamayacağız gibi bulacağımız toplam değeri daima tamsayı (integer) olacaktır. “Sahada 5 tenis topu var.” gibi…
+
+<img src="https://zinzinzibidi.com/img/istatistik/termostat.png" align="right" style="width: 64px;"/> 
+
+<b>Sürekli Veri (Continuous Data)</b>: 1.24, 2.43 gibi ondalıklı (float) değerler alan nümerik veri türüdür. Bu veri türündeki değerler tamsayı da olabilir. Önemli olan ölçümün ondalıklı sayılarla yapılıp yapılmadığıdır.
+
+Sürekli verilere en iyi örnek bugün kullandığımız termometrelerdir. Sıcaklık değerleri 18, 25, 30 gibi derecelerle gösterilebildiği gibi 17.8, 25.4, 30.2 gibi ondalıklı sayılarla da ölçülebilmektedir.
 
