@@ -1,4 +1,4 @@
-# İstatistik Nedir?
+# <span style="color: #238636">İstatistik Nedir?</span>
 
 > "İstatistiklerle yalan söylemek kolaydır. Ama onlarsız doğruyu söylemek çok daha zordur."
 > Frederick Mosteller
