@@ -147,7 +147,7 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 
 ## Sıra Sizde
 
-Uygulama: Kahverengi, sarı ve siyah değişkenlerinin veri türü nedir?
+<b>Uygulama</b>: Kahverengi, sarı ve siyah değişkenlerinin veri türü nedir?
 
 A) Nominal veri <br>
 B) Ordinal veri <br>
@@ -157,4 +157,16 @@ D) Sürekli veri
 <details>
 <summary>Yanıtı Göster</summary>
 Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümerik veriler olmamalarından dolayı <br>nominal veri</b> türünde değerlendirilir.
+</details>
+
+<b>Uygulama</b>: 64, 43, 50, 75 ve 80 notları ne tür bir veri türüdür?
+
+A) Nominal veri
+B) Ordinal veri
+C) Aralıklı veri
+D) Sürekli veri
+
+<details>
+<summary>Yanıtı Göster</summary>
+Nümerik veriler ondalıklı değerler almadıkları sürece aralıklı veri türünde değerlendirilir.
 </details>
