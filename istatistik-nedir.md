@@ -35,5 +35,8 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 |<<< Önceki Konu|İçindekiler|Sonraki Konu >>>|
 
 
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| <<< Önceki Konu | İçindekiler | Sonraki Konu >>> |
+<div>
+  <div style="width: 33%; position: relative; float: left"> Önceki Konu </div>
+  <div style="width: 33%; position: relative; float: left"> İçindekiler </div>
+  <div style="width: 33%; position: relative; float: left"> Sonraki Konu </div>
+</div>
