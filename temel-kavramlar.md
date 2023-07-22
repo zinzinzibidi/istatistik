@@ -159,7 +159,7 @@ D) Sürekli veri
 Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümerik veriler olmamalarından dolayı <br>nominal veri</b> türünde değerlendirilir.
 </details>
 
-<br><br>
+<br>
 
 <b>Uygulama</b>: 64, 43, 50, 75 ve 80 notları ne tür bir veri türüdür?
 
