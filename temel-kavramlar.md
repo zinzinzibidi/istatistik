@@ -196,6 +196,6 @@ D) Sürekli veri
   <tr>
     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/istatistik-nedir.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
      <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-     <td><a href="https://">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/verilerin-derlenmesi-ve-duzenlenmesi.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
   </tr>
 </table>
