@@ -66,6 +66,8 @@ $$ \bar x = {\Sigma m_i f_i \over n} $$
 
 > Excel’de aritmetik ortalama almak için =ORTALAMA() formülünü kullanabiliriz.
 
+<br>
+
 <b>Uygulama</b>: Bir sınıftan seçilen 10 öğrencinin sınav notları aşağıda verilmiştir.
 
 $$ x = 40, 55, 60, 60, 65, 70, 75, 80, 85, 90 $$
