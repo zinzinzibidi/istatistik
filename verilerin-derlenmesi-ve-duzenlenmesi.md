@@ -101,4 +101,42 @@ Bu noktada sınavda 48, 64 ve 88 not alan öğrencilerin çoğunlukta olduğu so
 
 Tabloyu biraz daha özet hâle getirelim.
 
+<table align="center">
+  <tr>
+    <th>Sınıf Aralığı</th>
+    <th>Frekans (f)</th>
+  </tr>
+  <tr align="center">
+    <td>00 - 25</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>26 - 50</td>
+    <td>14</td>
+  </tr>
+  <tr align="center">
+    <td>51 - 75</td>
+    <td>13</td>
+  </tr>
+  <tr align="center">
+    <td>76 - 100</td>
+    <td>5</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>44</td>
+  </tr>
+</table>
+
+<br>
+
+
+
+
+
+
+
+
+
+
 [^1]: frekans (frequency)
