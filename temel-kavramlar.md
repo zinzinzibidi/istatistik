@@ -35,7 +35,7 @@ Veri birimlerinin (hücrelerin) bir kısmı #YOK ve benzeri ifadeler içerirse, 
 Serilerde değişkenlerden biri mutlaka nümerik ya da alfabetik sıralanmalıdır. Ürün adları alfabetik sıralandığı için bu veri setini aynı zamanda “ürün serisi” olarak adlandırabiliriz.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/veri-turleri.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/veri-turleri2.png" style="width: 480px;"/>
 </p>
 
 Veri türleri (data types) ya da değişken türleri (types of variables) istatistikte modellemeye başlanılmadan önce bilinmesi gereken en önemli konudur. Bu sebeple tam olarak öğrenilmeden analize devam edilmemeli, modelleme aşamasından önce tereddütte kalınması durumunda anlamları tekrar gözden geçirilmelidir.
