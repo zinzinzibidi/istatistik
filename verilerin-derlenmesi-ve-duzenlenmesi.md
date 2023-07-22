@@ -135,8 +135,22 @@ Bu işleme ise gruplandırma ya da gruplama (statistical grouping) denilmektedir
 ## Verilerin Grafikleştirilmesi
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/verilerin-grafiklestirilmesi.png" style="width: 360px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/verilerin-grafiklestirilmesi.png" style="width: 480px;"/>
 </p>
+
+Yoğunlaşmayı net görebilmek için histogram grafikleri kullanırız. (Yukarıdaki grafik histogram grafiğidir.)
+
+Bu tür basit örneklerde sınıf aralığı ve birim sayısının az olmasından dolayı grafik kullanmamıza bile gerek bulunmamaktadır. Buna rağmen çok fazla verinin ve sınıf aralığının olduğu veri setlerinde grafik kullanılması yoğunlaşmanın nerede olduğunu anlamamızda tablolara göre daha fazla esneklik sağlayacaktır.
+
+## Gruplandırmada Sınıf Aralığı Uzunluğunun Belirlenmesi
+
+İstatistik sınav notları örneğinde sınıf aralığını 25 notluk dilimlere ayırarak 4 farklı dilimde belirledik. Sınıfları aralıklandırmayı, diğer bir ifade ile gruplandırmayı tamamen kendi yöntemlerimizle gerçekleştirdik.
+
+İstatistik standartlarına uygun gruplandırma yapmak istersek sınıf aralığını aşağıdaki formül ile belirleriz.
+
+$$ Sınıf Aralığı = x_{max} - x_{min}]/[1+3.3log(n) $$
+
+$$   $$
 
 
 
