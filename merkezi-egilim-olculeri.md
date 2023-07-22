@@ -36,6 +36,6 @@ Anakütlede <b>µ</b> (mü), örneklemde <b>x̄</b> (x üzeri çizgi, x-bar) not
 
 #### Anakütle Aritmetik Ortalaması
 
-<center>Basit Serilerde</center>
+<span style="text-align: center">Basit Serilerde</span>
 
 $$ \mu = {\Sigma X_i \over N} $$
