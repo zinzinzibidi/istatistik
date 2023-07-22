@@ -32,4 +32,4 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 
 |Name|Value|
 |----|---------|
-|<img width=200/>|<img width=500/>|
+|<img width=33%/>|<img width=33%/>|
