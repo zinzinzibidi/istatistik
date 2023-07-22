@@ -35,7 +35,7 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
           width: 100%;
       }
   </style>
-</head>head>
+</head>
 
 |   |   |   |
 |---|---|---|
