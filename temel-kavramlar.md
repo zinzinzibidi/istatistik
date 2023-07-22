@@ -123,7 +123,7 @@ Toplam nüfus, 2020 yılında üniversite okuyan öğrencilerin sayısı, 2021 y
 
 <b>Örneklem (Sample)</b>: Araştırma konusu anakütleden belirli sayıda veri birimi seçilerek oluşturulan küme
 
-2021 yılında tüm banka çalışanların sayısını anakütle olarak göstermiştik. Türkiye Bankalar Birliğinin verilerine göre Haziran 2021’de toplam 180,019 mevduat bankası çalışanı bulunmaktadır.1 Çalışanların 61,268’i kamu bankalarında, 118,751’i özel bankalarda çalışmaktadır. Kamu ve Özel Bankalarda aynı pozisyonda çalışanların maaş ortalamalarını karşılaştırmak istediğimizde 180,019 birim içerisinde araştırma konusu pozisyonda çalışan tüm personellerin maaşlarını tespit etmek neredeyse imkânsızdır. Bu sebeple her iki kümeden de belirli sayıda örnek seçip ortalamaları hesaplamak gerçeğe en yakın sonucu verecektir. Kamu bankalarında uzman pozisyonunda çalışan 120, özel bankalarda eşdeğer pozisyonda çalışan diğer 120 personelden oluşan 2 örneklem kümesi seçtiğimizde yaptığımız seçime örnekleme deriz. Hem kamu hem de özel bankalarda çalışanların maaş ortalamalarını incelediğimizde ortalama, standart sapma, medyan gibi önemli göstergelere ulaşabilir, anakütleye ait parametreleri doğru tahmin edebiliriz.
+2021 yılında tüm banka çalışanların sayısını anakütle olarak göstermiştik. Türkiye Bankalar Birliğinin verilerine göre Haziran 2021’de toplam 180,019 mevduat bankası çalışanı bulunmaktadır.[^1] Çalışanların 61,268’i kamu bankalarında, 118,751’i özel bankalarda çalışmaktadır. Kamu ve Özel Bankalarda aynı pozisyonda çalışanların maaş ortalamalarını karşılaştırmak istediğimizde 180,019 birim içerisinde araştırma konusu pozisyonda çalışan tüm personellerin maaşlarını tespit etmek neredeyse imkânsızdır. Bu sebeple her iki kümeden de belirli sayıda örnek seçip ortalamaları hesaplamak gerçeğe en yakın sonucu verecektir. Kamu bankalarında uzman pozisyonunda çalışan 120, özel bankalarda eşdeğer pozisyonda çalışan diğer 120 personelden oluşan 2 örneklem kümesi seçtiğimizde yaptığımız seçime örnekleme deriz. Hem kamu hem de özel bankalarda çalışanların maaş ortalamalarını incelediğimizde ortalama, standart sapma, medyan gibi önemli göstergelere ulaşabilir, anakütleye ait parametreleri doğru tahmin edebiliriz.
 
 ### İstatistik ve Parametre Arasındaki Fark Nedir?
 
@@ -199,3 +199,5 @@ D) Sürekli veri
      <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/verilerin-derlenmesi-ve-duzenlenmesi.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
   </tr>
 </table>
+
+[^1] [Türkiye Bankalar Birliği | İstatistikî Raporlar](https://www.tbb.org.tr/tr/bankacilik/banka-ve-sektor-bilgileri/istatistiki-raporlar/59)
