@@ -160,6 +160,14 @@ $$ x = 04, 04, 12, 12, 12, 12, 24, 24, 24, 24, 25, 25, 33, 44, 45, 45, 48, 48, 4
 * x<sub>min</sub>: En düşük değer
 * n: Birim sayısı
 
+Formülü x serisine uyguladığımızda
+
+$$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
+
+$$ Sınıf Aralığı = [88 - 04]/[1+3.3log(44)] $$
+
+$$ Sınıf Aralığı = \approx 13.08 \approx 13 
+
 
 
 
