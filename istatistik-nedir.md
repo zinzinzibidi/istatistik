@@ -34,6 +34,6 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 |---|---|---|
 |<<< Önceki Konu|İçindekiler|Sonraki Konu >>>|
 
-| <div style="width:33%"></div> | <div style="width:33%"></div> |
-| --------------------------------------- | ------------------------------------- |
-| `border-bottom-right-radius`            | Defines the shape of the bottom-right |
+| <div style="width:33%"></div> | <div style="width:33%"></div> | <div style="width:33%"></div> |
+| --------------------------------------- | ------------------------------------- | ------------------------------------- |
+| <<< Önceki Konu | İçindekiler | Sonraki Konu >>> |
