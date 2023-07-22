@@ -137,7 +137,7 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 
 ### Örneklem Seçiminin Doğru Yapılması Neden Önemlidir?
 
-<img src="https://zinzinzibidi.com/img/istatistik/istanbul.png" align="left" style="width: 128px;"/>
+<img src="https://zinzinzibidi.com/img/istatistik/istanbul.png" align="left" style="width: 164px;"/>
 
 İstanbul Yerel Seçimleri için anket çalışması yaptığımızı ve 1000 kişiden oluşan veri setimiz olduğunu varsayalım. Eğer tüm İstanbul nüfusu içerisinden sadece Beşiktaş’ta oturan 1000 kişiye anket sorularını yöneltirsek anket sonuçları hatalı olacaktır. Çünkü anket sonuçları Beşiktaş’ta kimin belediye başkanı olabileceğini doğru tahmin edebilmesine rağmen İstanbul genelinde kimin büyükşehir belediye başkanı olacağını doğru tahmin edemeyecektir. Bu sebeple 1000 birimin “nüfus yoğunluklarına göre” ilçelere bölüştürülmesi, anket sorularının bu ilçelerde oturanlara sorulması anakütle parametrelerini doğru tahmin etmemizi sağlayacaktır.
 
