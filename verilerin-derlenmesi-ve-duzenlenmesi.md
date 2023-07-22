@@ -37,4 +37,60 @@ Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görü
     <td>04</td>
     <td align="center">2</td>
   </tr>
+  <tr>
+    <td>12</td>
+    <td align="center">4</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td align="center">4</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td align="center">2</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td>44</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td align="center">2</td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td align="center">7</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td align="center">3</td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td align="center">3</td>
+  </tr>
+  <tr>
+    <td>64</td>
+    <td align="center">6</td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td align="center">3</td>
+  </tr>
+  <tr>
+    <td>74</td>
+    <td align="center">1</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td align="center">5</td>
+  </tr>
+  <tr>
+    <td>Toplam (Σ)</td>
+    <td align="center">44</td>
+  </tr>
 </table>
