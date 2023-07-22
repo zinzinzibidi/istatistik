@@ -166,7 +166,7 @@ $$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
 
 $$ Sınıf Aralığı = [88 - 04]/[1+3.3log(44)] $$
 
-$$ Sınıf Aralığı = \approx 13.08 \approx 13 
+$$ Sınıf Aralığı = \approx 13.08 \approx 13 $$
 
 
 
