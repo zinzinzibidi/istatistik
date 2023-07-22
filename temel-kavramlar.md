@@ -172,3 +172,19 @@ D) Sürekli veri
 <summary>Yanıtı Göster</summary>
 <br>Nümerik veriler ondalıklı değerler almadıkları sürece aralıklı veri türünde değerlendirilir.
 </details>
+
+<br>
+
+<b>Uygulama</b>: Anket yanıtları "düşük", "orta" ve "yüksek" olan değişkenler hangi veri türünde değerlendirilir?
+
+A) Nominal veri <br>
+B) Ordinal veri <br>
+C) Aralıklı veri <br>
+D) Sürekli veri
+
+<details>
+<summary>Yanıtı Göster</summary>
+<br>Anket sorularına verilen yanıtların neredeyse tamamı ordinal veri türünde değerlendirilir. Ordinal veriler, kendi içinde hiyerarşik sıralamaya sahip verilerden oluşur.
+</details>
+
+<br>
