@@ -62,12 +62,19 @@ $$ \bar x = {\Sigma x_i f_i \over n} $$
 
 $$ \bar x = {\Sigma m_i f_i \over n} $$
 
+<b>m</b>: Sınıf Orta Sayısı, <b>f</b>: Frekans
 
+> Excel’de aritmetik ortalama almak için =ORTALAMA() formülünü kullanabiliriz.
 
+<b>Uygulama</b>: Bir sınıftan seçilen 10 öğrencinin sınav notları aşağıda verilmiştir.
 
+$$ x = 40, 55, 60, 60, 65, 70, 75, 80, 85, 90 $$
 
+Notların aritmetik ortalamasını bulunuz.
 
+$$ \bar x = {\Sigma x_i \over n}  $$
 
+$$ \bar x = {40 + 55 + 60 + 60 + 65 + 70 + 75 + 80 + 85 + 90 \over 10} = 68 $$
 
 
 
