@@ -168,6 +168,136 @@ $$ Sınıf Aralığı = [88 - 04]/[1+3.3log(44)] $$
 
 $$ Sınıf Aralığı \approx 13.08 \approx 13 $$
 
+<table align="center">
+  <tr>
+    <th>Sınıf Aralığı</th>
+    <th>Frekans (f)</th>
+  </tr>
+  <tr align="center">
+    <td>04 ≤ x < 17</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>17 ≤ x < 30</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>30 ≤ x < 43</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>43 ≤ x < 56</td>
+    <td>16</td>
+  </tr>
+    <tr align="center">
+    <td>56 ≤ x < 69</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>69 ≤ x < 82</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>82 ≤ x < 95</td>
+    <td>5</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>44</td>
+  </tr>
+</table>
+
+<br>
+
+Dikkat edilirse ilk aralığımız olan 04 ≤ x < 17 aralığının uzunluğu
+17 – 04 = 13’tür. “Sınıf aralığı” ifadesi buradan gelmektedir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/sinav-notlari-dagilimi.png" style="width: 480px;"/>
+</p>
+
+Bir önceki histogram grafiğinden farklı olarak sınav notlarının 43 ve 56 aralığında yoğunlaştığını rahatlıkla söyleyebilir, “44 öğrencinin 16’sı
+43 ≤ x < 56 aralığında not almıştır” sonucuna varabiliriz.
+
+## Göreceli ve Birikimli Frekans
+
+<b>Göreceli Frekans (Relatif Frekans, Relative Frequency)</b>: Frekans dağılımının yüzdesel gösterimidir.
+
+<b>Birikimli Frekans (Kümülatif Frekans, Cumulative Frequency)</b>: Frekans dağılımının birikimli gösterimidir.
+
+<table align="center">
+  <tr>
+    <th>Sınıf Aralığı</th>
+    <th>Frekans (f)</th>
+    <th>Gör. Frekans (%)</th>
+    <th>Bir. Frekans (Σf)</th>
+    <th>Gör. Bir. Fre. (%Σf)</th>
+  </tr>
+  <tr align="center">
+    <td>04 ≤ x < 17</td>
+    <td>6</td>
+    <td>%13.64</td>
+    <td>6</td>
+    <td>%13.64</td>
+  </tr>
+  <tr align="center">
+    <td>17 ≤ x < 30</td>
+    <td>6</td>
+    <td>%13.64</td>
+    <td>12</td>
+    <td>%27.27</td>
+  </tr>
+  <tr align="center">
+    <td>30 ≤ x < 43</td>
+    <td>1</td>
+    <td>%2.27</td>
+    <td>13</td>
+    <td>%29.55</td>
+  </tr>
+  <tr align="center">
+    <td>43 ≤ x < 56</td>
+    <td>16</td>
+    <td>%36.36</td>
+    <td>29</td>
+    <td>%65.91</td>
+  </tr>
+  <tr align="center">
+    <td>56 ≤ x < 69</td>
+    <td>6</td>
+    <td>%13.64</td>
+    <td>35</td>
+    <td>%79.55</td>
+  </tr>
+  <tr align="center">
+    <td>69 ≤ x < 82</td>
+    <td>4</td>
+    <td>%9.09</td>
+    <td>39</td>
+    <td>%88.64</td>
+  </tr>
+  <tr align="center">
+    <td>82 ≤ x < 95</td>
+    <td>5</td>
+    <td>%11.36</td>
+    <td>44</td>
+    <td>%100</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>44</td>
+    <td>%100</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+
+<br>
+
+04 ≤ x < 17 aralığının göreceli frekansı hesaplanırken frekans sayısı frekans toplamına bölünür ve % (yüzde) ifadesi ile gösterilir.
+(6/44 = 0.1364 = %13.64)
+
+Birikimli frekansta bir önceki sınıf aralığının frekans sayısı toplanır ve sonraki sınıf aralığına geçilir.
+
 
 
 
