@@ -130,7 +130,13 @@ Tabloyu biraz daha özet hâle getirelim.
 
 <br>
 
+Bu işleme ise gruplandırma ya da gruplama (statistical grouping) denilmektedir. Gruplandırma, sınıf dağılımlarının özet tablolara dönüştürülmesi işlemidir. Örnekte istatistik dersinden alınan notların 0 ve 75 arasında yoğunlaştığı görülebilir.
 
+## Verilerin Grafikleştirilmesi
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/verilerin-grafiklestirilmesi.png" style="width: 360px;"/>
+</p>
 
 
 
