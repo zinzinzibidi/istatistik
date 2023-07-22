@@ -78,11 +78,189 @@ $$ \bar x = {\Sigma x_i \over n}  $$
 
 $$ \bar x = {40 + 55 + 60 + 60 + 65 + 70 + 75 + 80 + 85 + 90 \over 10} = 68 $$
 
+<br>
 
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+  </tr>
+</table>
 
+<br>
 
+Boy uzunluklarının aritmetik ortalamasını bulunuz.
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+    <th>X<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>155</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>320</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>1155</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>2720</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>3150</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>1080</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>740</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>190</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>9510</td>
+  </tr>
+</table>
+
+<br>
+
+$$ \mu = {\Sigma X_i \over N} $$
+
+$$ \mu = {155 + 320 + 1155 + 2720 + 3150 + 180 + 740 + 190 \over 55} = 172.91 \approx 173 \text{ cm} $$
+
+<br>
+
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
+
+<br>
+
+Boy uzunluklarının aritmetik ortalamasını bulunuz.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı</th>
+    <th>m<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
+
+<br>
 
 
 
