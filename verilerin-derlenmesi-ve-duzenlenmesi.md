@@ -342,6 +342,15 @@ B) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 <br>
 C) Sınıf Uzunluğu: 10 | Sınıf Aralığı: 5 <br>
 D) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 
 
+<details>
+<summary>Yanıtı Göster</summary>
 
+$$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
+
+$$ Sınıf Aralığı = [88 - 04]/[1+3.3log(44)] $$
+
+$$ Sınıf Aralığı \approx 13.08 \approx 13 $$
+
+</details>
 
 [^1]: frekans (frequency)
