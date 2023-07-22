@@ -84,6 +84,6 @@ Işını tamsayılara denk gelecek şekilde eşit parçalara böldüğümüzde (
 
 ## Veri Türlerinde Dikkat Edilmesi Gerekenler
 
-<img src="https://zinzinzibidi.com/img/istatistik/kimlik.png" align="left" style="width: 64px;"/> 
+<img src="https://zinzinzibidi.com/img/istatistik/kimlik.png" align="left" style="width: 96px;"/> 
 
 Nitel verilerin birer kategorik değişken, nicel (sayısal) verilerin ise nümerik değişkenler olduğunu öğrendik. Kategorik değişkenler çoğunlukla metinsel değerlerden oluşmakla birlikte aralarında hiyerarşik düzen olup olmaması, kategorik değişkenin alt türünü belirlemektedir. Hiyerarşik sıralamanın olması durumunda ordinal, olmaması durumunda nominal veri ayrımını yapabiliriz. Nümerik değişkenler ise tamamen sayısal verilerden oluşur. Veriler ondalıklı ise sürekli, değilse aralıklı (kesikli) olduğunu söyleyebiliriz.
