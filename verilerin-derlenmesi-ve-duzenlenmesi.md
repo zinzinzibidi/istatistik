@@ -157,7 +157,7 @@ $$  Sınıf Aralığı = \text{Sınıf Uzunluğu (Range)}/\text{Sınıf Sayısı
 $$ x = 04, 04, 12, 12, 12, 12, 24, 24, 24, 24, 25, 25, 33, 44, 45, 45, 48, 48, 48, 48, 48, 48, 48, 50, 50, 50, 55, 55, 55, 64, 64, 64, 64, 64, 64, 71, 71, 71, 74, 88, 88, 88, 88, 88 $$
 
 * x<sub>max</sub>: En yüksek değer
-* xmin: En düşük değer
+* x<sub>min</sub>: En düşük değer
 * n: Birim sayısı
 
 
