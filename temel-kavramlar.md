@@ -163,9 +163,9 @@ Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümer
 
 <b>Uygulama</b>: 64, 43, 50, 75 ve 80 notları ne tür bir veri türüdür?
 
-A) Nominal veri
-B) Ordinal veri
-C) Aralıklı veri
+A) Nominal veri <br>
+B) Ordinal veri <br>
+C) Aralıklı veri <br>
 D) Sürekli veri
 
 <details>
