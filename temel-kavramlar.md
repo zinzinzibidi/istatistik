@@ -124,3 +124,23 @@ Toplam nüfus, 2020 yılında üniversite okuyan öğrencilerin sayısı, 2021 y
 <b>Örneklem (Sample)</b>: Araştırma konusu anakütleden belirli sayıda veri birimi seçilerek oluşturulan küme
 
 2021 yılında tüm banka çalışanların sayısını anakütle olarak göstermiştik. Türkiye Bankalar Birliğinin verilerine göre Haziran 2021’de toplam 180,019 mevduat bankası çalışanı bulunmaktadır.1 Çalışanların 61,268’i kamu bankalarında, 118,751’i özel bankalarda çalışmaktadır. Kamu ve Özel Bankalarda aynı pozisyonda çalışanların maaş ortalamalarını karşılaştırmak istediğimizde 180,019 birim içerisinde araştırma konusu pozisyonda çalışan tüm personellerin maaşlarını tespit etmek neredeyse imkânsızdır. Bu sebeple her iki kümeden de belirli sayıda örnek seçip ortalamaları hesaplamak gerçeğe en yakın sonucu verecektir. Kamu bankalarında uzman pozisyonunda çalışan 120, özel bankalarda eşdeğer pozisyonda çalışan diğer 120 personelden oluşan 2 örneklem kümesi seçtiğimizde yaptığımız seçime örnekleme deriz. Hem kamu hem de özel bankalarda çalışanların maaş ortalamalarını incelediğimizde ortalama, standart sapma, medyan gibi önemli göstergelere ulaşabilir, anakütleye ait parametreleri doğru tahmin edebiliriz.
+
+### İstatistik ve Parametre Arasındaki Fark Nedir?
+
+Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benzeri göstergelerdir. İstatistik (statistic), örneklemden elde edilen aynı göstergelerin parametreyi tahmin etmek amacıyla kullanılmasıdır. Merkezî Eğilim Ölçüleri bölümünde konu detaylı olarak incelenecektir. Şimdilik sadece istatistik denilince aklımıza örneklem’in (sample), parametre denilince de anakütle’nin (population) gelmesi yeterlidir.
+
+### İstatistikçiler Neden Örneklem Seçimi Yapar?
+
+<img src="https://zinzinzibidi.com/img/istatistik/durbun.png" align="left" style="width: 96px;"/>
+
+Örneklemdeki amaç yığın parametrelerine ulaşılmasının zahmetli, maliyetli ve çok fazla zaman almasından kaynaklanmaktadır. Eğer elimizde inceleme konusu kümenin tüm veri birimlerini içeren veri seti yoksa örneklem modellemeleri oluşturmak anakütleyi temsil etmenin en sağlıklı ve en güvenilir yoludur. Bu sebeple örneklem modellemeleri yapmak hem daha az zahmetli hem de daha az zaman alan temel istatistik yöntemdir. Anketler örneklemede en sık kullanılan araçlardır. İnceleme konusu popülasyondan seçilen belirli sayıdaki örneğe ait veri, anakütle parametrelerini tahmin etmek için kullanılır.
+
+### Örneklem Seçiminin Doğru Yapılması Neden Önemlidir?
+
+<img src="https://zinzinzibidi.com/img/istatistik/istanbul.png" align="left" style="width: 96px;"/>
+
+İstanbul Yerel Seçimleri için anket çalışması yaptığımızı ve 1000 kişiden oluşan veri setimiz olduğunu varsayalım. Eğer tüm İstanbul nüfusu içerisinden sadece Beşiktaş’ta oturan 1000 kişiye anket sorularını yöneltirsek anket sonuçları hatalı olacaktır. Çünkü anket sonuçları Beşiktaş’ta kimin belediye başkanı olabileceğini doğru tahmin edebilmesine rağmen İstanbul genelinde kimin büyükşehir belediye başkanı olacağını doğru tahmin edemeyecektir. Bu sebeple 1000 birimin “nüfus yoğunluklarına göre” ilçelere bölüştürülmesi, anket sorularının bu ilçelerde oturanlara sorulması anakütle parametrelerini doğru tahmin etmemizi sağlayacaktır.
+
+<img src="https://zinzinzibidi.com/img/istatistik/tuik.png" align="right" style="width: 96px;"/> 
+
+Örneklem seçiminin resmî anlamda yapıldığı diğer bir örnek Türkiye İstatistik Kurumu (TÜİK) tarafından düzenli olarak hesaplanan “işsizlik oranı”dır. İşsizlik oranı hesaplanırken tüm ülke nüfusunun iş durumunu tespit etmek imkânsıza yakın olduğu için 58,560 hanehalkına2 anket soruları yöneltir. Katılımcılara son 4 haftada iş arayıp aramadıkları sorulur.3 Toplam 24,604,086 hanehalkının sadece %0.24’üne denk gelen 58,560 birimlik hanehalkı ile işsizlik oranları hesaplanır.4 Anakütlenin yüzde 1’i bile olmayan örnekleme yapılır. Biraz önce de belirttiğimiz gibi önemli olan parametrelerin doğru tahmin edilmesidir. Örneklem büyüklüğü arttıkça parametreler de gerçeğe en yakın tahmin edilebilecektir.
