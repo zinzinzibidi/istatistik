@@ -36,12 +36,10 @@ Anakütlede <b>µ</b> (mü), örneklemde <b>x̄</b> (x üzeri çizgi, x-bar) not
 
 #### Anakütle Aritmetik Ortalaması
 
-<div align="center">
-  Basit Serilerde
-</div>
-
-<center>Basit Serilerde</center>
-
-<p style="text-align: center;">Basit Serilerde</p>
+<div align="center">Basit Serilerde</div>
 
 $$ \mu = {\Sigma X_i \over N} $$
+
+<div align="center">Frekans Serilerinde</div>div>
+
+$$ \mu = {\Sigma X_i f_i \over N} $$
