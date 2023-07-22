@@ -100,7 +100,7 @@ Aynı şekilde anket sorularındaki 1’den 3’e kadar olan seçeneklere verile
 
 <table align="center">
   <tr>
-    <td align="center">Veri Türleri ile ilgili YouTube videosu</td>
+    <td align="center"><b>Veri Türleri ile ilgili YouTube videosu</b></td>
   </tr>
   <tr>
     <td><a href="https://www.youtube.com/watch?v=kyjlxsLW1Is" target="_blank">Teach me STATISTICS in half an hour!</a></td>
