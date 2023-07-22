@@ -8,4 +8,4 @@ Veri modellemesinde “Verilerin Toplanması” (Collecting Data) aşamasının 
 
 Elimizde 122 öğrencinin istatistik sınav notlarını temsil edecek 44 öğrenciye ait 4 farklı sınıfın verisi olsun.
 
-$$ \[ x_1 = 48, 45, 48, 64, 50, 24, 04, 12, 88, 71, 64\] $$
+$$ x_1 = 48, 45, 48, 64, 50, 24, 04, 12, 88, 71, 64 $$
