@@ -144,3 +144,17 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 <img src="https://zinzinzibidi.com/img/istatistik/tuik.png" align="right" style="width: 186px;"/> 
 
 Örneklem seçiminin resmî anlamda yapıldığı diğer bir örnek Türkiye İstatistik Kurumu (TÜİK) tarafından düzenli olarak hesaplanan “işsizlik oranı”dır. İşsizlik oranı hesaplanırken tüm ülke nüfusunun iş durumunu tespit etmek imkânsıza yakın olduğu için 58,560 hanehalkına2 anket soruları yöneltir. Katılımcılara son 4 haftada iş arayıp aramadıkları sorulur.3 Toplam 24,604,086 hanehalkının sadece %0.24’üne denk gelen 58,560 birimlik hanehalkı ile işsizlik oranları hesaplanır.4 Anakütlenin yüzde 1’i bile olmayan örnekleme yapılır. Biraz önce de belirttiğimiz gibi önemli olan parametrelerin doğru tahmin edilmesidir. Örneklem büyüklüğü arttıkça parametreler de gerçeğe en yakın tahmin edilebilecektir.
+
+## Sıra Sizde
+
+Uygulama: Kahverengi, sarı ve siyah değişkenlerinin veri türü nedir?
+
+A) Nominal veri
+B) Ordinal veri
+C) Aralıklı veri
+D) Sürekli veri
+
+<details>
+<summary>Yanıtı Göster</summary>
+Saç renkleri kendi içerisinde hiyerarşik sıralanamadıkları için ve nümerik veriler olmamalarından dolayı <br>nominal veri</b> türünde değerlendirilir.
+</details>
