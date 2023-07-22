@@ -298,8 +298,49 @@ Bir önceki histogram grafiğinden farklı olarak sınav notlarının 43 ve 56 a
 
 Birikimli frekansta bir önceki sınıf aralığının frekans sayısı toplanır ve sonraki sınıf aralığına geçilir.
 
+0 + 6 = 6
 
+6 + 6 = 12
 
+12 + 1 = 13
+
+...
+
+Göreceli birikimli frekans, birikimli frekansın oransal gösterimidir.
+43 ≤ x < 56 aralığının göreceli birikimli hesaplanırken birikimli frekans değeri frekans toplamına bölünür. Göreceli frekansta olduğu gibi % ifadesi ile gösterilir. (29/44 = %65.91)
+
+Yorumlanmaları şu şekildedir:
+
+* 44 öğrencinin %9’u 69 ≤ x < 82 aralığında not almıştır. (göreceli frekans)
+* 04 ≤ x < 82 aralığında not alanların sayısı 39’dur. (birikimli frekans)
+* 04 ≤ x < 82 aralığında not alanların örneklem içindeki payı %89’dur. (göreceli birikimli frekans)
+
+Hatırlarsanız 122 öğrenciden 44 öğrenciyi örnekleme amacıyla seçmiştik. Bu sebeple “örneklem içindeki payı %89’dur” yorumlaması yerine “tüm öğrenciler içindeki payı %89’dur” sonucuna varmak istatistiksel olarak anlamlı olmazdı.
+
+> Herhangi bir istatistiksel kaynakta “göreceli” ya da “relatif” ifadeleri geçiyorsa “oransal” (nispî, proportional) değerlerden söz ediliyordur. Göreceli değerler çoğunlukla oransal (yüzdesel) artışları veya azalışları göstermek için kullanılır.
+
+## Yüzde (%) Gösterimleri ve Yuvarlamalar
+
+% (yüzde) ifadeleri kendi notasyonu ile gösterilse de 0.1424 şeklinde ondalıklı da gösterilebilir. Kimi zaman ondalıklı değerler 100 ile çarpılır ve 14.24 gösterimleri tercih edilir. “Çarpı 100” gösterimlerinin tercih edilmesi durumunda sütun başlıklarında ifadenin oransal değer olduğu mutlaka belirtilmelidir. Sütun başlığının “Pay” yerine “Pay (%)” olması gibi …
+
+İstatistikte 0 değeri sayıların başlangıcında kullanılmayabilir. Örneğin; “0.1424” oranını “.1424” şeklinde gösterebiliriz. “Nokta Sayı” gösterimleri noktadan önce 0 (sıfır) kullanıldığını belirtir.
+
+Hesap makinenizde <b>.1424 x 2</b> işlemini yaptığınızda sonucun <b>0.2848</b> olduğunu görebilirsiniz.
+
+Yuvarlamalar (rounding) ondalık basamakların azaltılmasında kullanılan ve sayı okunurluğunu artıran özelliklerden biridir. Yuvarlamalarda son ondalığın 5 veya 5’ten yukarı olup olmadığına bakılır. 5 veya 5’ten yukarı ise bir üst sayıya tamamlanır. Değilse soldaki ondalıkta değişiklik yapılmaz.
+
+0.14245732<b>9</b> = 0.1424573<b>3</b> = 0.142457<b>3</b> = 0.14245<b>7</b> = 0.1424<b>6</b> = 0.142<b>5</b> = 0.14<b>3</b> = 0.1<b>4</b> = 0.<b>1</b>
+
+---
+
+## Sıra Sizde
+
+<b>Uygulama</b>: x = 10, 10, 10, 11, 11, 16, 18, 20, 22, 22, 24 serisinin sınıf uzunluğu ve sınıf aralığı kaçtır?
+
+A) Sınıf Uzunluğu: 10 | Sınıf Aralığı: 5 <br>
+B) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 <br>
+C) Sınıf Uzunluğu: 10 | Sınıf Aralığı: 5 <br>
+D) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 
 
 
 
