@@ -150,8 +150,11 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 Uygulama: Kahverengi, sarı ve siyah değişkenlerinin veri türü nedir?
 
 A) Nominal veri
+
 B) Ordinal veri
+
 C) Aralıklı veri
+
 D) Sürekli veri
 
 <details>
