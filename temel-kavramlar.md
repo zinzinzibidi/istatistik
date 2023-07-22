@@ -143,7 +143,7 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 
 <img src="https://zinzinzibidi.com/img/istatistik/tuik.png" align="right" style="width: 186px;"/> 
 
-Örneklem seçiminin resmî anlamda yapıldığı diğer bir örnek Türkiye İstatistik Kurumu (TÜİK) tarafından düzenli olarak hesaplanan “işsizlik oranı”dır. İşsizlik oranı hesaplanırken tüm ülke nüfusunun iş durumunu tespit etmek imkânsıza yakın olduğu için 58,560 hanehalkına2 anket soruları yöneltir. Katılımcılara son 4 haftada iş arayıp aramadıkları sorulur.3 Toplam 24,604,086 hanehalkının sadece %0.24’üne denk gelen 58,560 birimlik hanehalkı ile işsizlik oranları hesaplanır.4 Anakütlenin yüzde 1’i bile olmayan örnekleme yapılır. Biraz önce de belirttiğimiz gibi önemli olan parametrelerin doğru tahmin edilmesidir. Örneklem büyüklüğü arttıkça parametreler de gerçeğe en yakın tahmin edilebilecektir.
+Örneklem seçiminin resmî anlamda yapıldığı diğer bir örnek Türkiye İstatistik Kurumu (TÜİK) tarafından düzenli olarak hesaplanan “işsizlik oranı”dır. İşsizlik oranı hesaplanırken tüm ülke nüfusunun iş durumunu tespit etmek imkânsıza yakın olduğu için 58,560 hanehalkına[^2] anket soruları yöneltir. Katılımcılara son 4 haftada iş arayıp aramadıkları sorulur.[^3] Toplam 24,604,086 hanehalkının sadece %0.24’üne denk gelen 58,560 birimlik hanehalkı ile işsizlik oranları hesaplanır.[^4] Anakütlenin yüzde 1’i bile olmayan örnekleme yapılır. Biraz önce de belirttiğimiz gibi önemli olan parametrelerin doğru tahmin edilmesidir. Örneklem büyüklüğü arttıkça parametreler de gerçeğe en yakın tahmin edilebilecektir.
 
 ## Sıra Sizde
 
@@ -201,3 +201,6 @@ D) Sürekli veri
 </table>
 
 [^1]: [Türkiye Bankalar Birliği | İstatistikî Raporlar](https://www.tbb.org.tr/tr/bankacilik/banka-ve-sektor-bilgileri/istatistiki-raporlar/59)
+[^2]: Ortalama 3.3 kişiden oluşan aile topluluğu
+[^3]: [TÜİK İşgücü İstatistikleri Mikro Veri Seti (2020)](https://www.tuik.gov.tr/media/microdata/pdf/isgucu.pdf)
+[^4]: [TRT Haber | Türkiye'de ortalama hanehalkı büyüklüğü 3,3 kişi oldu](https://www.trthaber.com/haber/turkiye/turkiyede-ortalama-hanehalki-buyuklugu-33-kisi-oldu-578715.html)
