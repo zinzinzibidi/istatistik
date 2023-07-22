@@ -342,15 +342,26 @@ B) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 <br>
 C) Sınıf Uzunluğu: 10 | Sınıf Aralığı: 5 <br>
 D) Sınıf Uzunluğu: 14 | Sınıf Aralığı: 3 
 
-<details>
-<summary>Yanıtı Göster</summary>
-<code>
+Yanıt: 
 $$ Sınıf Aralığı = [x_{max} - x_{min}]/[1+3.3log(n)] $$
 
-$$ Sınıf Aralığı = [88 - 04]/[1+3.3log(44)] $$
+$$ Sınıf Aralığı = [24 - 10]/[1+3.3log(11)] $$
 
-$$ Sınıf Aralığı \approx 13.08 \approx 13 $$
-</code>
-</details>
+$$ Sınıf Aralığı \approx 3.1556 \approx 3 $$
+
+Bu şekilde sınıf aralığını 3 buluruz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">Navigasyon</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/zinzinzibidi/istatistik/edit/main/temel-kavramlar.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+  </tr>
+</table>
 
 [^1]: frekans (frequency)
