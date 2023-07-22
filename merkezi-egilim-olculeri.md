@@ -318,7 +318,13 @@ $$ \text{Log Geo Ort} = {\Sigma f_ilogx_i \over \Sigma f_i}  $$
 
 $$ \text{Log Geo Ort} = {\Sigma f_ilogm_i \over \Sigma f_i} $$
 
+<b>m</b>: Sınıf Orta Sayısı, <b>f</b>: Frekans
 
+Logaritmik geometrik ortalamanın antilogaritması geometrik ortalamayı vermektedir.
+
+> Excel’de geometrik ortalama almak için =GEOORT() formülünü kullanabiliriz.
+
+<br>
 
 
 
