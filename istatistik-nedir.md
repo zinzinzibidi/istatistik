@@ -19,7 +19,7 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
 
 ## İstatistiğin Yöntemleri
 
-<p align="center" style="border-radius: 48px;">
+<p align="center" style="border-radius: 50%;">
   <img src="https://zinzinzibidi.com/img/istatistik/istatistik-yontemleri2.png" height="auto" width="480" style="border-radius:50%"/>
 </p>
 
