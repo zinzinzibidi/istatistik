@@ -350,7 +350,7 @@ $$ Sınıf Aralığı = [24 - 10]/[1+3.3log(11)] $$
 
 $$ Sınıf Aralığı \approx 3.1556 \approx 3 $$
 
-Bu şekilde sınıf aralığını 3 buluruz.
+Bu şekilde sınıf aralığını 3 buluruz. Sınıf uzunluğu 24 - 10 = 14'tür.
 
 <br>
 
