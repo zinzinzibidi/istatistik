@@ -33,7 +33,7 @@ Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görü
     <th>x</th>
     <th>f (tekrar sayısı)</th>
   </tr>
-  <tr>
+  <tr align="center">
     <td>04</td>
     <td align="center">2</td>
   </tr>
