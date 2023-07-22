@@ -35,11 +35,11 @@ Dikkatli bakıldığında veri setinin tekrar eden sayılardan oluştuğu görü
   </tr>
   <tr align="center">
     <td>04</td>
-    <td align="center">2</td>
+    <td>2</td>
   </tr>
-  <tr>
+  <tr align="center">
     <td>12</td>
-    <td align="center">4</td>
+    <td>4</td>
   </tr>
   <tr>
     <td>24</td>
