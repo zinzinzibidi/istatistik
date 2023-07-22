@@ -70,3 +70,20 @@ Yaş, aralıklı veriye en iyi örnektir. Bir kimsenin yaşını sorduğumuzda �
 
 Sürekli verilere en iyi örnek bugün kullandığımız termometrelerdir. Sıcaklık değerleri 18, 25, 30 gibi derecelerle gösterilebildiği gibi 17.8, 25.4, 30.2 gibi ondalıklı sayılarla da ölçülebilmektedir.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/isin.png" style="width: 240px;"/>
+</p>
+
+Sürekli verileri matematikteki ışına benzetebiliriz. Işın üzerindeki herhangi bir nokta, verinin sürekli bir değişkene bağlı olduğunu gösterecektir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/kesikli-isin.png" style="width: 240px;"/>
+</p>
+
+Işını tamsayılara denk gelecek şekilde eşit parçalara böldüğümüzde (eşit aralıklarla kestiğimizde) aralıklı veriler elde ederiz. Aralıklı verilerle oluşturulan değişkenlere aynı zamanda “kesikli değişken” adı verilmesinin sebebi budur.
+
+## Veri Türlerinde Dikkat Edilmesi Gerekenler
+
+<img src="https://zinzinzibidi.com/img/istatistik/kimlik.png" align="left" style="width: 64px;"/> 
+
+Nitel verilerin birer kategorik değişken, nicel (sayısal) verilerin ise nümerik değişkenler olduğunu öğrendik. Kategorik değişkenler çoğunlukla metinsel değerlerden oluşmakla birlikte aralarında hiyerarşik düzen olup olmaması, kategorik değişkenin alt türünü belirlemektedir. Hiyerarşik sıralamanın olması durumunda ordinal, olmaması durumunda nominal veri ayrımını yapabiliriz. Nümerik değişkenler ise tamamen sayısal verilerden oluşur. Veriler ondalıklı ise sürekli, değilse aralıklı (kesikli) olduğunu söyleyebiliriz.
