@@ -21,7 +21,7 @@ Bu bölümde istatistikte sıkça kullanılan temel kavramlara değinilecektir. 
 <b>Seri (Serie)</b>: Değişkenlere ait değerlerin büyükten küçüğe, küçükten büyüğe, en yakın zamandan en uzak zamana, en uzak zamandan en yakın zamana ya da alfabetik sıralanması
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/temel-kavramlar-excel.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/temel-kavramlar-excel.png" style="width: 360px;"/>
 </p>
 
 Yukarıdaki Excel tablosu, ürünlere ait uzunluk, genişlik ve yükseklik değerlerini içeren basit bir veri setidir. Eğer tabloyu veri tabanından edinirsek adına ham veri diyebiliriz. Ham veriler işlenmemiş verileri içeren tablolardan oluşur. Beyaz hücreler içerisinde gösterilen uzunluk, genişlik ve yükseklik değerleri aynı zamanda birer veri birimidir. Ürün adları mavi alanda gösterilmesine rağmen ürün adları da birer “veri birimi”dir.
@@ -46,10 +46,12 @@ Nitel verilerin tamamı kategorik değişkenlerden elde edilir. Adından da anla
 
 > Nominal kelime anlamıyla “görünür”, ordinal ise “sıralı” demektir.
 
-<img src="https://zinzinzibidi.com/img/istatistik/cinsiyet.png" align="right" style="width: 96px;"/> 
+<img src="https://zinzinzibidi.com/img/istatistik/cinsiyet.png" align="right" style="width: 64px;"/> 
 
 <b>Nominal Veri (Nominal Data)</b>: Sayısal olmayan, kendi içinde sıralanamayan değişkenlerden oluşan kategorik veri türüdür.
 
 Saç rengimiz, çalıştığımız kurum, okuduğumuz okul, cinsiyetimiz birer nominal değişkendir.
+
+Ordinal Veri (Ordinal Data): Sayısal olmayan, kendi içinde hiyerarşik olarak sıralanabilen değişkenlerden oluşan kategorik veri türüdür.
 
 
