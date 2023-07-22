@@ -37,6 +37,6 @@ Veri bilimi gibi istatistik de disiplinler arası alandır. Astronomide astroist
   <tr>
     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
      <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/temel-kavramlar.md">Sonraki Konu &#62;&#62;&#62;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/temel-kavramlar.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
   </tr>
 </table>
