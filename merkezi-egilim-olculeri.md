@@ -582,11 +582,11 @@ $$ \text{Bilesik Faiz} = [(1 + r_1)(1 + r_2)...(1 + r_n)]^{1 \over n} - 1 $$
 
 Dikkat edilirse geometrik ortalama ve bileşik faiz formülü birbirine çok benzemektedir. Bu sebeple bileşik faize aynı zamanda faiz oranlarının geometrik ortalaması diyebiliriz.
 
-$$ \text{Bilesik Faiz} = [(1 + 0.10)(1 + 0.20)(1 + 0.15)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx \%14.93 $$
+$$ \text{Bilesik Faiz} = [(1 + 0.10)(1 + 0.20)(1 + 0.15)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx %14.93 $$
 
 Parantez içindeki çarpımların sonucu 1.518’dir. Anapara + faiz gelirini ise 1518 TL hesaplamıştık. Çarpımdan 1 çıkartırsak (1.518 – 1) toplam faiz gelirin yüzdesini buluruz. (%51.8) Bulduğumuz %14.93 bileşik faiz oranının sağlamasını yapmak istersek
 
-$$ \text{Bilesik Faiz} = [(1 + 0.1493)(1 + 0.1493)(1 + 0.1493)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx \%14.93 $$
+$$ \text{Bilesik Faiz} = [(1 + 0.1493)(1 + 0.1493)(1 + 0.1493)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx %14.93 $$
 
 aynı sonuca ulaşırız.
 
