@@ -1842,7 +1842,7 @@ $$ Q_4 = \text{Serinin Son Elemanı} $$
 
 $$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
 
-$$ \text{Q}_1 $$
+$$ Q_1 = \text{Low}_Q + { { { \Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt}  $$
 
 <ul>
     <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
