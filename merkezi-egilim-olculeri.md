@@ -2267,10 +2267,116 @@ belirtmektedir.
 
 ---
 
-### Sıra Sizde
+## Sıra Sizde
 
+<strong>Uygulama</strong>: Bir sınıftan seçilen 8 öğrencinin sınav notları aşağıda verilmiştir.
 
+$$ x = 55, 60, 70, 75, 80, 85, 85, 90 $$
 
+Notların aritmetik ortalamasını bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Seride 8 değer vardır. (n=8)
+
+$$ \bar x = {\Sigma x_i \over n} $$
+
+$$ \bar x = {55 + 60 + 70 + 75 + 80 + 85 + 85 + 90 \over 8} = 75 $$
+
+Sınav notlarının aritmetik ortalaması <strong>75</strong> bulunur.
+
+<br>
+
+<strong>Uygulama</strong>: Bir sınıftan seçilen 6 öğrencinin sınav notları aşağıda verilmiştir.
+
+$$ x = 4, 68, 70, 70, 72, 96 $$
+
+Notların geometrik ortalamasını bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Seride 6 değer vardır. (n=6)
+
+$$ \text{Log Geo Ort} = {\Sigma logx_i \over n} $$
+$$ \text{Log Geo Ort} = {log(4) + log(68) + log(70) + log(70) + log(72) + log(96) \over 6} $$
+$$ \text{Log Geo Ort} = 9.9644/6 = 1.6607 $$
+$$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 45.78 \approx 46 $$
+
+Sınav notlarının geometrik ortalaması <strong>46</strong> bulunur.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 7 birimden oluşan örneklem listelenmiştir.
+
+$$ x = 44, 46, 48, 48, 50, 52, 112 $$
+
+Örneklemin harmonik ortalamasını bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Seride 7 değer vardır. (n=7)
+
+$$ \text{Hrm Ort} = {n \over \Sigma {1 \over x_i}} = {7 \over {1 \over 44} + {1 \over 46} + {1 \over 48} + {1 \over 48} + {1 \over 50} + {1 \over 52} + {1 \over 112}} $$
+
+$$ \text{Hrm Ort} = 7/0.1344 = 52.13 \approx 52 $$
+
+Örneklemin harmonik ortalaması <strong>52</strong> bulunur.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
+
+$$ x = 4, 4, 8, 12, 12, 12, 12, 16, 18, 20, 24, 28 $$
+
+Serinin medyanını (ortanca değerini) bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Gözlem sayısının çift olduğu basit serilerde medyan değeri aşağıdaki gibi hesaplanır.
+
+$$ \tilde x = { { x_{n\over 2} } + { x_{ { n\over 2}+1 } } \over 2} $$
+$$ \tilde x = { { x_{12\over 2} } + { x_{ { 12\over 2}+1 } } \over 2} $$
+$$ \tilde x = { { x_6 } + { x_7 } \over 2} $$
+$$ \tilde x = { { 12 } + { 12 } \over 2} $$
+$$ \tilde x = { 24 \over 2} $$
+$$ \tilde x = { 12 } $$
+
+Serinin medyan değeri <strong>12</strong> bulunur.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
+
+$$ x = 4, 4, 8, 12, 12, 12, 12, 16, 18, 20, 24, 28 $$
+
+Serinin mod'unu (tepe değerini) bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Seride en çok tekrar eden değer 12 olduğu için serinin modu <strong>12</strong>'dir.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
+
+$$ x = 4, 4, 8, 12, 12, 12, 12, 16, 18, 20, 24, 28 $$ 
+
+Serinin 3. dereceden kartilini (Q<sub>3</sub>'ü) bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>:
+
+$$ Q_3 = x_{ {3n+2} \over 4} $$
+$$ Q_3 = x_{ {3(12)+2} \over 4} $$
+$$ Q_3 = x_{ {38} \over 4} $$
+$$ Q_3 = x_{9.50} $$
+$$ Q_3  = { { x_9 } + { x_{10} } \over 2} $$
+9. ve 10. sıradaki birimler 18 ve 20'dir.
+$$ Q_3  = { 18 + 20 \over 2} $$
+$$ Q_3  = 19 $$
+
+Serinin 3. dereceden kartili (Q<sub>3</sub>'ü) <strong>19</strong> bulunur.
 
 
 
