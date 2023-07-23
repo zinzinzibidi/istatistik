@@ -2148,9 +2148,32 @@ Düzeltilmiş Ortalama serinin başındaki ve sonundaki aykırı değerlerin etk
 
 #### Anakütle ve Örneklem Düzeltilmiş Ortalaması
 
-$$ \text{Duzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } $$
+$$ \text{Düzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } $$
 
 <br>
+
+<strong>Uygulama</strong>: x<sub>a</sub> = 2, 4, 4, 22, 23, 24, 24, 24, 26, 26, 26, 28, 28, 112, 114, 118 serisinin düzeltilmiş ortalamasını bulunuz.
+
+<br>
+
+Seri geneli itibariyle 22 ve 28 arasında dağılmaktadır. Aritmetik ortalamanın bu iki değer arasında olması beklenir. Fakat 37.81 bulunmuştur. Bu sebeple aritmetik ortalama yerine düzeltilmiş ortalama kullanılması daha uygundur.
+
+Gözlem sayısı n: 16’dır.
+
+$$ Q_1 = x_{ {n+2} \over 4} = x_{ {16+2} \over 4} = x_{4.5} = { {x_4 + x_5} \over 2 } = { {22 + 23 } \over 2 } \approx 22.5 = 23 $$
+
+Gözlem sayısı çift olduğu için
+
+$$ Q_2 = \tilde x ={ { x_{ {n} \over 2} } + { x_{ { {n} \over 2} + 1 } } \over 2 } ={ { x_{ {16} \over 2} } + { x_{ { {16} \over 2} + 1 } } \over 2 } = { { x_8 + x_9 } \over 2 } = { {24 + 26} \over 2 } = { 50 \over 2 } = 25 $$
+
+$$ Q_3 = x_{ {3n+2} \over 4} = x_{ {3*16+2} \over 4} = x_{12.5} \approx x_{13} = 28 $$
+
+$$ \text{Duzeltilmis Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } = { {23 + 2*25 + 28} \over 4 } = { 101 \over 4 } = 25.25 \approx 25 $$
+
+---
+
+### Kırpılmış Ortalama
+
 
 
 
