@@ -425,6 +425,183 @@ $$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 3.8635 \approx 3.86 \text{ puan} $$
 
 3.86 değeri 10<sup>0.5870</sup> ifadesi ile denktir.
 
+<br>
+
+<b>Uygulama</b>: 67 hastanın hematoloji sonuçları aşağıdaki gibidir. (Hematoloji: Kan bilimi, NEUT: Nötrofil)
+
+<table align="center">
+  <tr>
+    <th>NEUT (k/uL)</th>
+    <th>Hasta Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>0.00 - 1.00</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>1.00 - 2.00</td>
+    <td>14</td>
+  </tr>
+  <tr align="center">
+    <td>2.00 - 3.00</td>
+    <td>22</td>
+  </tr>
+  <tr align="center">
+    <td>3.00 - 4.00</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>4.00 - 5.00</td>
+    <td>9</td>
+  </tr>
+   <tr align="center">
+    <td>5.00 - 6.00</td>
+    <td>2</td>
+  </tr>
+   <tr align="center">
+    <td>6.00 - 7.00</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>67</td>
+  </tr>
+</table>
+
+Nötrofil sonuçlarının geometrik ortalamasını bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>NEUT (k/uL)</th>
+    <th>Sınıf Orta Sayısı (m<sub>i</sub>)</th>
+    <th>Hasta Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>*log(m<sub>i</sub>)</th>
+  </tr>
+  <tr align="center">
+    <td>0.00 - 1.00</td>
+    <td>0.50</td>
+    <td>1</td>
+    <td>1*log(0.50)</td>
+  </tr>
+  <tr align="center">
+    <td>1.00 - 2.00</td>
+    <td>1.50</td>
+    <td>14</td>
+    <td>14*log(1.50)</td>
+  </tr>
+  <tr align="center">
+    <td>2.00 - 3.00</td>
+    <td>2.50</td>
+    <td>22</td>
+    <td>22*log(2.50)</td>
+  </tr>
+  <tr align="center">
+    <td>3.00 - 4.00</td>
+    <td>3.50</td>
+    <td>18</td>
+    <td>18*log(3.50)</td>
+  </tr>
+  <tr align="center">
+    <td>4.00 - 5.00</td>
+    <td>4.50</td>
+    <td>9</td>
+    <td>9*log(4.50)</td>
+  </tr>
+   <tr align="center">
+    <td>5.00 - 6.00</td>
+    <td>5.50</td>
+    <td>2</td>
+    <td>2*log(5.50)</td>
+  </tr>
+   <tr align="center">
+    <td>6.00 - 7.00</td>
+    <td>6.50</td>
+    <td>1</td>
+    <td>1*log(6.50)</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>67</td>
+    <td>28.88</td>
+  </tr>
+</table>
+
+$$ \text{Log Geo Ort} = {\Sigma f_ilogm_i \over \Sigma f_i} = {28.88 \over 67} = 0.4311 $$
+
+$$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 2.6985 \approx 2.70 \text{ k/uL} $$
+
+<br>
+
+#### Bileşik Faiz Hesaplamaları
+
+Bileşik faiz formülünün temeli geometrik ortalamaya dayanmaktadır.
+
+<table align="center">
+  <tr>
+    <th>Yıl</th>
+    <th>Anapara</th>
+    <th>Faiz Oranı</th>
+    <th>Faiz Geliri</th>
+  </tr>
+  <tr align="center">
+    <td>1</td>
+    <td>1000/td>
+    <td>%10</td>
+    <td>100</td>
+  </tr>
+  <tr align="center">
+    <td>2</td>
+    <td>1100/td>
+    <td>%20</td>
+    <td>220</td>
+  </tr>
+  <tr align="center">
+    <td>3</td>
+    <td>1320/td>
+    <td>%15</td>
+    <td>198</td>
+  </tr>
+</table>
+
+3. yılın sonunda Anapara + Faiz Geliri = 1320 + 198 = 1518 TL’dir. Sonuç olarak yatırımcı 1000 TL ile açtığı mevduat hesabından vade sonunda %51.8 getiri elde etmiştir.
+
+$$ \text{Geo Ort} = \sqrt[n]{X_1X_2...X_n} $$
+
+Geometrik ortalamayı yukarıdaki gibi ifade etmiştik. Formül aynı zamanda
+
+$$ \text{Geo Ort} = (X_1X_2...X_n)^{1 \over n} $$
+
+gösterimi ile aynıdır.
+
+$$ \text{Bilesik Faiz} = [(1 + r_1)(1 + r_2)...(1 + r_n)]^{1 \over n} - 1 $$
+
+<b>r</b>: faiz oranı, <b>n</b>: dönem sayısı
+
+Dikkat edilirse geometrik ortalama ve bileşik faiz formülü birbirine çok benzemektedir. Bu sebeple bileşik faize aynı zamanda faiz oranlarının geometrik ortalaması diyebiliriz.
+
+$$ \text{Bilesik Faiz} = [(1 + 0.10)(1 + 0.20)(1 + 0.15)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx \%14.93 $$
+
+Parantez içindeki çarpımların sonucu 1.518’dir. Anapara + faiz gelirini ise 1518 TL hesaplamıştık. Çarpımdan 1 çıkartırsak (1.518 – 1) toplam faiz gelirin yüzdesini buluruz. (%51.8) Bulduğumuz %14.93 bileşik faiz oranının sağlamasını yapmak istersek
+
+$$ \text{Bilesik Faiz} = [(1 + 0.1493)(1 + 0.1493)(1 + 0.1493)]^{1 \over 3} - 1 = 1.518^{1 \over 3} - 1 \approx 0.1493 \approx \%14.93 $$
+
+aynı sonuca ulaşırız.
+
+Yorumlanması şu şekildedir:
+
+Yatırımcı 1000 TL anaparasını 3 yıl boyunca sırasıyla %10, %15 ve %20 faiz oranlarından bileşik faize yatırmak yerine %14.93 sabit oranı ile bileşik faize yatırırsa vade sonunda aynı getiriyi elde edecektir. (%51.8)
+
+---
+
+### Harmonik Ortalama
+
+Harmonik Ortalama (Harmonic Mean), değişkenlerden birinin sabit, diğerinin sabit olmadığı durumlarda kullanılan, genellikle hız, fiyat ve verimlilik hesaplamalarında tercih edilen ortalama türüdür. Aykırı değerlerden en az etkilenen duyarlı ortalamadır. Hesaplanabilmesi için seride sıfır ve negatif değer olmamalıdır.
+
+
+
 
 
 
