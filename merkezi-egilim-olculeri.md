@@ -1088,6 +1088,41 @@ $$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{m_i}^2} \over \Sigma f_i } = \sqrt { 
 
 Ağırlıklı Ortalama (Weighted Mean) ya da Tartılı Aritmetik Ortalama finans alanında sıkça kullanılan duyarlı ortalamalardan biridir. Aralarındaki ilişkiden dolayı değişkenlerden biri ya da birkaçı ağırlıklandırılır, hesaplanmak istenen asıl değişkenin ortalaması bulunur. Özel durumlarda kullanılır ve diğer ortalama türlerine göre istatistiksel olarak daha anlamlıdır.
 
+#### Anakütle Ağırlıklı Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Agırlıklı Ort} = { {\Sigma w_iX_i} \over \Sigma X_i }$$
+
+#### Örneklem Ağırlıklı Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Agırlıklı Ort} = { {\Sigma w_ix_i} \over \Sigma x_i } $$
+
+> Excel’de ağırlıklı ortalamanın formülü bulunmamaktadır. =TOPLA.ÇARPIM()/TOPLA() formül kombinasyonu kullanılabilir.
+
+<br>
+
+<b>Uygulama</b>:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
