@@ -127,8 +127,6 @@ $$ \bar x = {40 + 55 + 60 + 60 + 65 + 70 + 75 + 80 + 85 + 90 \over 10} = 68 $$
 
 Boy uzunluklarının aritmetik ortalamasını bulunuz.
 
-<br>
-
 <table align="center">
   <tr>
     <th>Boy Uzunluğu</th>
