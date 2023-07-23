@@ -132,7 +132,7 @@ Boy uzunluklarının aritmetik ortalamasını bulunuz.
 <table align="center">
   <tr>
     <th>Boy Uzunluğu</th>
-    <th>Öğrenci Sayısı</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
     <th>X<sub>i</sub>f<sub>i</sub></th>
   </tr>
   <tr align="center">
@@ -702,7 +702,7 @@ Boy uzunluklarının harmonik ortalamasını bulunuz.
 <table align="center">
   <tr>
     <th>Boy Uzunluğu</th>
-    <th>Öğrenci Sayısı</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
     <th>f<sub>i</sub>/X<sub>i</sub></th>
   </tr>
   <tr align="center">
@@ -944,7 +944,7 @@ Boy uzunluklarının kareli ortalamasını bulunuz.
 <table align="center">
   <tr>
     <th>Boy Uzunluğu</th>
-    <th>Öğrenci Sayısı</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
     <th>f<sub>i</sub>*X<sub>i</sub><sup>2</sup></th>
   </tr>
   <tr align="center">
