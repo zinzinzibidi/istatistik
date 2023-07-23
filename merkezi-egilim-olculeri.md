@@ -1845,10 +1845,6 @@ $$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med
 
 $$ Q_1 $$
 
-$$ Q_2 = \text{Low}_Q + { { { 2\Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} = \tilde X $$
-
-$$ Q_3 = \text{Low}_Q + { { { 3\Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} $$
-
 <ul>
     <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
     <li>f<sub>QPre</sub>: Kartil sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
