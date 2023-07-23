@@ -1201,7 +1201,29 @@ Finans dünyasında ağırlıklı ortalama TLREF (Türk Lirası Gecelik Referans
 
 ---
 
+### Duyarlı Ortalamaların Karşılaştırılması
 
+Uygulamada çoğunlukla aritmetik ortalama kullanılsa da aykırı değerlerin yüksek olduğu serilerde geometrik ve harmonik ortalama tercih edilebilir. Geometrik ve harmonik ortalama hesaplamalarında seride negatif ve sıfır değerlerinin bulunmamasına dikkat edilmelidir. Ağırlıklı ortalama ise stok faiz oranı gibi özel durumlarda tercih edilen, basit serilerde kullanılamayan özel bir duyarlı ortalamadır.
+
+$$ \text{Kareli Ort} \geq \text{Aritmetik Ort} \geq \text{Geometrik Ort} \geq \text{Harmonik Ort} $$
+
+Tüm serilerde yukarıdaki büyüklük sıralaması geçerlidir. Harmonik ortalama aykırı değerlerden en az etkilenen duyarlı ortalama olmakla birlikte aykırı değerlerin yoğun olduğu serilerde kareli ortalama güvenirliği en az olan ortalama türüdür.
+
+X<sub>1</sub> = 10, 10, 11, 11, 12, 12, 480 basit serisinin duyarlı ortalamaları hesaplandığında sırasıyla
+
+$$ \text{Kareli Ort} \geq \text{Aritmetik Ort} \geq \text{Geometrik Ort} \geq \text{Harmonik Ort} $$
+
+$$ 182 \geq 78 \geq 19 \geq 13 $$
+
+ortalamaları bulunur. 480 aykırı değeri seriden çıkarıldığında serinin aritmetik ortalaması 11 olmaktadır. Bu sebeple aykırı değerin varlığı durumunda harmonik ortalama (13) seri ortalamasını istatistiksel olarak daha anlamlı ifade ettiği sonucuna varılabilir.
+
+Seri karşılaştırmalarında harmonik ortalama istatistiksel olarak daha anlamlı iken aykırı değerlerin varlığı kabul edildiği durumlarda aritmetik ortalamanın kullanılmasında sakınca bulunmamaktadır. Bununla birlikte aykırı değerlerin yoğun olduğu serilerde medyan gibi duyarlı olmayan ortalamalar tercih edilmektedir. Günümüzde gini katsayısının yüksek olduğu ülkelerde medyan değerleri, kişi başına milli gelir karşılaştırmalarında aritmetik ortalamaya göre daha gerçekçi sonuçlar vermektedir.[^2]
+
+---
+
+### SPSS'te Duyarlı Ortalamalar
+
+#### Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.[^3]
 
 
 
@@ -1223,4 +1245,7 @@ Finans dünyasında ağırlıklı ortalama TLREF (Türk Lirası Gecelik Referans
 
 [^1]: Aykırı değer (outlier)
 
+[^2]: Ortalama Gelir, Medyan Gelir ve Gini Katsayısı örneği için <a href="https://www.givingwhatwecan.org/blog/measuring-global-inequality-median-income-gdp-per-capita-and-the-gini-index#countries-by-gdp-per-capita-ppp-mean-income-ppp-median-income-ppp-gini-index-and--below-poverty-line3" target="_blank">tıklayınız</a>.
+
+[^3]: IBM SPSS Statistics | version 26.0.0.0
 
