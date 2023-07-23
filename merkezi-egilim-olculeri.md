@@ -344,6 +344,94 @@ Antilog alırken hesap makinemizde 10<sup>Log Geo Ort</sup> işlemini yapabiliri
 
 Seri 84 ve 1486 olmak üzere iki aykırı değer (outlier) içermektedir. Aritmetik ortalama 356’dır ve geometrik ortalama 267 bulunmuştur. Verilerin çoğunluğu 244 ve 254 arasında dağılırken aritmetik ortalama (356) seriyi istatistiksel olarak anlamlı temsil etmemektedir. Geometrik ortalama nispeten daha anlamlıdır.
 
+<b>Uygulama</b>: Anket sorularına verilen cevapların puan tablosu aşağıdaki gibidir.
+
+<table align="center">
+  <tr>
+    <th>Puan</th>
+    <th>Yanıt Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>1</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>2</td>
+    <td>24</td>
+  </tr>
+  <tr align="center">
+    <td>3</td>
+    <td>30</td>
+  </tr>
+  <tr align="center">
+    <td>4</td>
+    <td>64</td>
+  </tr>
+  <tr align="center">
+    <td>5</td>
+    <td>145</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>275</td>
+  </tr>
+</table>
+
+Puanların geometrik ortalamasını bulunuz.
+
+<table align="center">
+  <tr>
+    <th>Puan (X<sub>i</sub>)</th>
+    <th>Yanıt Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>*log(X<sub>i</sub>)</th>
+  </tr>
+  <tr align="center">
+    <td>1</td>
+    <td>12</td>
+    <td>12*log(1)</td>
+  </tr>
+  <tr align="center">
+    <td>2</td>
+    <td>24</td>
+    <td>24*log(2)</td>
+  </tr>
+  <tr align="center">
+    <td>3</td>
+    <td>30</td>
+    <td>30*log(3)</td>
+  </tr>
+  <tr align="center">
+    <td>4</td>
+    <td>64</td>
+    <td>64*log(4)</td>
+  </tr>
+  <tr align="center">
+    <td>5</td>
+    <td>145</td>
+    <td>145*log(5)</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>275</td>
+    <td>161.42</td>
+  </tr>
+</table>
+
+$$ \text{Log Geo Ort} = {\Sigma f_ilogX_i \over \Sigma f_i} = {161.42 \over 275} = 0.5870 $$
+
+$$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 3.8635 \approx 3.86 \text{ puan} $$
+
+3.86 değeri 10<sup>0.5870</sup> ifadesi ile denktir.
+
+
+
+
+
+
+
+
+
+
 
 
 
