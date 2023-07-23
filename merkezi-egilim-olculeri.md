@@ -1355,6 +1355,7 @@ $$ \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } 
 <div align="center">Gruplandırılmış Serilerde</div>
 
 $$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
+
 <ul>
     <li>Low<sub>med</sub>: Medyan sınıfının alt değeri. (Medyan sınıfı bulunurken toplam frekans (Σfi) 2’ye bölünür.)</li>
     <li>f<sub>medPre</sub>: Medyan sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
@@ -1781,7 +1782,7 @@ Notların mod değerini bulunuz.
 
 <br>
 
-$$ \text{Mod} = \text{Low}_\text{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * \text{ClassInt} $$
+$$ Mod = Low_{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * ClassInt $$
 
 <ul>
     <li>Low<sub>mod</sub>: Mod sınıfının alt değeri (En çok frekansa sahip grup, mod sınıfıdır.)</li>
