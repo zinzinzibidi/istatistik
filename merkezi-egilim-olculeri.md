@@ -1653,7 +1653,7 @@ Notların medyan değerini bulunuz.
   </tr>
 </table>
 
-$$ \tilde X = \text{Low}_\text{med} + { { { \Sigma f_i \over 2 } - { \text{f}_\text{medPre} } }\over \text{f}_\text{med} } * \text{ClassInt} $$
+$$ \tilde X = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
 
 <ul>
     <li>Low<sub>med</sub>: Birikimli frekanslar içerisinde (Σfi)/2 = 100/2 = 50. sıraya denk gelen 60 – 80 aralığının alt değeri 60’dır.</li>
