@@ -326,10 +326,23 @@ Logaritmik geometrik ortalamanın antilogaritması geometrik ortalamayı vermekt
 
 <br>
 
+<b>Uygulama</b>: 10 hastanın kan tahlili sonuçları aşağıdaki gibidir.
 
+$$ x = 84, 244, 246, 248, 248, 250, 251, 252, 254, 1486 $$
 
+Kan tahlili sonuçlarının geometrik ortalamasını bulunuz.
 
+$$ \text{Log Geo Ort} = {\Sigma logx_i \over n} $$
 
+$$ \text{Log Geo Ort} = {log(84) + log(244) + log(246)\,+\,\,...\,+\,log(252) + log(254) + log(1486) \over 10} $$
+
+$$ \text{Log Geo Ort} = 2.43  $$
+
+$$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 267.14 \approx 267 $$
+
+Antilog alırken hesap makinemizde 10<sup>Log Geo Ort</sup> işlemini yapabiliriz. Diğer bir ifade ile 10 üzeri (Logaritmik Geometrik Ortalama) işlemini yapmaktayız. (10<sup>2.43</sup> = 267.14)
+
+Seri 84 ve 1486 olmak üzere iki aykırı değer (outlier) içermektedir. Aritmetik ortalama 356’dır ve geometrik ortalama 267 bulunmuştur. Verilerin çoğunluğu 244 ve 254 arasında dağılırken aritmetik ortalama (356) seriyi istatistiksel olarak anlamlı temsil etmemektedir. Geometrik ortalama nispeten daha anlamlıdır.
 
 
 
