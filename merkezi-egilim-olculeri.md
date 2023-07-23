@@ -1914,7 +1914,23 @@ Kartil indisi ondalıklı ise en yakın tamsayıya tamamlanır. Ondalık .5 ise 
 
 <br>
 
-<b>Uygulama</b>:
+<b>Uygulama</b>: X<sub>1</sub> = 12, 14, 14, 16, 18, 18, 18, 18, 18, 20, 24 serisinin kartil değerlerini bulunuz.
+
+<br>
+
+N: 11’dir. Gözlem sayısı tek sayı olduğu için
+
+$$ Q_1 = X_{ {N+2} \over 4} = X_{ {11+2} \over 4} = X_{3.25} \approx X_3 = 14 $$
+
+$$ Q_2 = \tilde X = X_{ {N+1} \over 2} = X_{ {11+1} \over 2} = X_6 = 18 $$
+
+$$ Q_3 = X_{ {3N+2} \over 4} = X_{ {3*11+2} \over 4} = X_{8.75} \approx X_9 = 18 $$
+
+$$ Q_4 = 24 $$
+
+<br>
+
+
 
 
 
