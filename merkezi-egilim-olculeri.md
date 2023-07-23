@@ -1841,7 +1841,6 @@ $$ Q_4 = \text{Serinin Son Elemanı} $$
 <div align="center">Gruplandırılmış Serilerde</div>
 
 $$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
-<ul>
 
 $$ \text{Q}_1 $$
 
