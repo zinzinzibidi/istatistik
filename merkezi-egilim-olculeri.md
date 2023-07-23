@@ -2218,6 +2218,10 @@ Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
 
 Quartiles (kartiller), Mean (aritmetik ortalama), Median (medyan) ve Mode (mod) seçimleri yapılır.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-04.png" style="width: 600px;"/>
+</p>
+
 Mod (mode), medyan (median) ve kartil (quartile) değerleri görseldeki gibi listelenir.
 
 Percentiles (25) Q1, Percentiles (50) Q2, Percentiles (75) ise Q3 kartilini belirtmektedir.
@@ -2229,19 +2233,19 @@ Percentiles (25) Q1, Percentiles (50) Q2, Percentiles (75) ise Q3 kartilini beli
 Mod, medyan ve kartil hesaplamasında kullandığımız serinin 8. desilini ve 75. persantilini hesaplamak isteyelim.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 600px;"/>
 </p>
 
 Analyze > Descriptive Statistics > Frequencies… yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 600px;"/>
 </p>
 
 Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-01.png" style="width: 600px;"/>
 </p>
 
 Açılan pencerede Cut points for alanına 10 yazılır. Bu şekilde tüm desil değerleri listelenecektir.
@@ -2249,7 +2253,7 @@ Açılan pencerede Cut points for alanına 10 yazılır. Bu şekilde tüm desil 
 Percentile(s) alanına 75 yazılır ve Add düğmesi ile kutucuğa eklenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-02.png" style="width: 600px;"/>
 </p>
 
 Percentiles alanında
