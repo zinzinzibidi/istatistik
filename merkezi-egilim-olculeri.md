@@ -1317,7 +1317,7 @@ $$ \tilde X = { { X_{N\over 2} } + { X_{ { N\over 2}+1 } } \over 2} $$
 
 <div align="center">Frekans Toplamının Tek Sayı Olduğu Frekans Serilerinde</div>
 
-$$ \tilde X = { X_{ {(\Sigma f_i) + 1 } \over 2 } }} $$
+$$ \tilde x = { x_{ {(\Sigma f_i) + 1 } \over 2 } } $$
 
 <div align="center">Frekans Toplamının Çift Sayı Olduğu Frekans Serilerinde</div>
 
