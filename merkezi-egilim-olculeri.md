@@ -1948,6 +1948,77 @@ $$ Q_4 = 52 $$
 
 <br>
 
+<b>Uygulama</b>: Boy uzunluklarının listelendiği tablo aşağıda verilmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy (cm)</th>
+    <th>Kişi Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+  </tr>
+</table>
+
+Boy uzunluklarının kartil değerlerini bulunuz.
+
+<br>
+
+$$ Q_1 = x_{ { {\Sigma f_i} + 2 } \over 4} = x_{ { 20 + 2 } \over 4} = x_{5.5} \approx x_5 =170 \text{ cm} $$
+
+Frekans toplamı çift sayı olduğu için (Σf<sub>i</sub> = 20)
+
+$$ Q_2 = \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } = { { x_{ 20 \over 2 } + x_{ { 20 \over 2 } + 1 } } \over 2 } = { { x_{10} + x_{11} } \over 2 } = { {175 + 180} \over 2 } = 177.5 \approx 178 \text{ cm} $$
+
+$$ Q_3 = x_{ { {3\Sigma f_i} + 1 } \over 4} = x_{ { {3*20} + 1 } \over 4} = x_{15.25} \approx x_{15} = 180 \text{ cm} $$
+
+$$ Q_4 = 185 \text{ cm} $$
+
+---
+
+### Desil ve Persantil
+
+Desil (Decile) seriyi 10, Persantil (Percentile) ise 100 eşit parçaya bölen değerlerdir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
