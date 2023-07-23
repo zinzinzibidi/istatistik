@@ -2378,14 +2378,16 @@ $$ Q_3  = 19 $$
 
 Serinin 3. dereceden kartili (Q<sub>3</sub>'ü) <strong>19</strong> bulunur.
 
-
-
-
-
-
-
-
-
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">Navigasyon</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/verilerin-derlenmesi-ve-duzenlenmesi.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+  </tr>
+</table>
 
 [^1]: Aykırı değer (outlier)
 
