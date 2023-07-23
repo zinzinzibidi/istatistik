@@ -52,7 +52,7 @@ $$ \mu = {\Sigma m_i f_i \over N} $$
 
 <div align="center">Basit Serilerde</div>
 
-$$ \bar x = {\Sigma x_i \over n}$$
+$$ \bar x = {\Sigma x_i \over n} $$
 
 <div align="center">Frekans Serilerinde</div>
 
@@ -2001,7 +2001,47 @@ $$ Q_4 = 185 \text{ cm} $$
 
 Desil (Decile) seriyi 10, Persantil (Percentile) ise 100 eşit parçaya bölen değerlerdir.
 
+#### Anakütle Desili
 
+<div align="center">Basit Serilerde</div>
+
+$$ D_i = X_{ { iN + 2 } \over 10 } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ D_i = X_{ { i\Sigma f_i + 2 } \over 10 } $$
+
+#### Örneklem Desili
+
+<div align="center">Basit Serilerde</div>
+
+$$ D_i = x_{ { in + 2 } \over 10 } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ D_i = x_{ { i\Sigma f_i + 2 } \over 10 } $$
+
+<br>
+
+#### Anakütle Persantili
+
+<div align="center">Basit Serilerde</div>
+
+$$  P_i = X_{ { iN + 2 } \over 100 } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ P_i = X_{ { i\Sigma f_i + 2 } \over 100 } $$
+
+#### Örneklem Persantili
+
+<div align="center">Basit Serilerde</div>
+
+$$ P_i = x_{ { in + 2 } \over 100 } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ P_i = x_{ { i\Sigma f_i + 2 } \over 100 } $$
 
 
 
