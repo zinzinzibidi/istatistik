@@ -1902,7 +1902,7 @@ $$ Q_2 = Low_Q + { { { 2\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt
 $$ Q_3 = Low_Q + { { { 3\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt $$
 
 <ul>
-    <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
+    <li>Low<sub>Q</sub>: Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı = 2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
     <li>f<sub>QPre</sub>: Kartil sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
     <li>f<sub>Q</sub>: Kartil sınıfının frekansı</li>
     <li>ClassInt (Class Interval): Sınıf aralığı</li>
