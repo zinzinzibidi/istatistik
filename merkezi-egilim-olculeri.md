@@ -1305,6 +1305,81 @@ Medyan (Median) ya da Ortanca küçükten büyüğe sıralanmış veri dizisinin
 
 <b>x̃</b> işareti (x üzeri tilde) medyanın istatistikteki sembolüdür.
 
+#### Anakütle Medyan Değeri
+
+<div align="center">Gözlem Sayısının Tek Olduğu Basit Serilerde</div>
+
+$$ \tilde X = {X_{N+1 \over 2}} $$
+
+<div align="center">Gözlem Sayısının Çift Olduğu Basit Serilerde</div>
+
+$$ \tilde X = { { X_{N\over 2} } + { X_{ { N\over 2}+1 } } \over 2} $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Frekans Serilerinde</div>
+
+$$ \tilde X = { X_{ {(\Sigma f_i) + 1 } \over 2 } }} $$
+
+<div align="center">Frekans Toplamının Çift Sayı Olduğu Frekans Serilerinde</div>
+
+$$ \tilde X = { { X_{ \Sigma f_i \over 2 } + X_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \tilde X = \text{Low}_\text{med} + { { { \Sigma f_i \over 2 } - { \text{f}_\text{medPre} } }\over \text{f}_\text{med} } * \text{ClassInt} $$
+
+<ul>
+    <li>Low<sub>med</sub>: Medyan sınıfının alt değeri. (Medyan sınıfı bulunurken toplam frekans (Σfi) 2’ye bölünür.)</li>
+    <li>f<sub>medPre</sub>: Medyan sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
+    <li>f<sub>med</sub>: Medyan sınıfının frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+#### Örneklem Medyan Değeri
+
+<div align="center">Gözlem Sayısının Tek Olduğu Basit Serilerde</div>
+
+$$ \tilde x = {x_{n+1 \over 2}} $$
+
+<div align="center">Gözlem Sayısının Çift Olduğu Basit Serilerde</div>
+
+$$ \tilde x = { { x_{n\over 2} } + { x_{ { n\over 2}+1 } } \over 2} $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Frekans Serilerinde</div>
+
+$$  \tilde x = { x_{ {(\Sigma f_i) + 1 } \over 2 } }} $$
+
+<div align="center">Frekans Toplamının Çift Sayı Olduğu Frekans Serilerinde</div>
+
+$$ \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \tilde x = \text{Low}_\text{med} + { { { \Sigma f_i \over 2 } - { \text{f}_\text{medPre} } }\over \text{f}_\text{med} } * \text{ClassInt} $$
+
+<ul>
+    <li>Low<sub>med</sub>: Medyan sınıfının alt değeri. (Medyan sınıfı bulunurken toplam frekans (Σfi) 2’ye bölünür.)</li>
+    <li>f<sub>medPre</sub>: Medyan sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
+    <li>f<sub>med</sub>: Medyan sınıfının frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+<strong>f</strong>: Frekans, <strong>N</strong> ve <strong>n</strong> Gözlem Sayısı
+
+> Excel’de medyan değerini bulmak için =ORTANCA() formülünü kullanabiliriz.
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
