@@ -1223,8 +1223,13 @@ Seri karşılaştırmalarında harmonik ortalama istatistiksel olarak daha anlam
 
 ### SPSS'te Duyarlı Ortalamalar
 
-#### Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.[^3]
+#### Aritmetik Ortalama
 
+Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.[^3]
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-01.png" style="width: 600px;"/>
+</p>
 
 
 
