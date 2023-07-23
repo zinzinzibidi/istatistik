@@ -1855,11 +1855,66 @@ $$ Q_3 = Low_Q + { { { 3\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt
 
 Kartil indisi ondalıklı ise en yakın tamsayıya tamamlanır. Ondalık .5 ise iki sayının ortalaması alınır.
 
+#### Örneklem Kartilleri
 
+<div align="center">Basit Serilerde</div>
 
+$$ Q_1 = x_{ {n+2} \over 4} $$ 
 
+<div align="center">Gözlem Sayısının Tek Olduğu Basit Serilerde</div>
 
+$$ Q_2 = \tilde x = x_{ {n+1} \over 2} $$
 
+<div align="center">Gözlem Sayısının Çift Olduğu Basit Serilerde</div>
+
+$$Q_2 = \tilde x ={ { x_{ {n} \over 2} } + { x_{ { {n} \over 2} + 1 } } \over 2 } $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Basit Serilerde</div>
+
+$$ \tilde x = { x_{ {(\Sigma f_i) + 1 } \over 2 } } $$
+
+$$ Q_3 = x_{ {3n+2} \over 4} $$
+
+$$ Q_4 = \text{Serinin Son Elemanı} $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ Q_1 = x_{ { {\Sigma f_i} + 2 } \over 4} $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Frekans Serilerinde</div>
+
+$$ Q_2 = \tilde x = { x_{ { \Sigma f_i} + 1 } \over 2 } $$
+
+<div align="center">Frekans Toplamının Çift Sayı Olduğu Frekans Serilerinde</div>
+
+$$ Q_2 = \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } $$
+
+$$ Q_3 = x_{ { {3\Sigma f_i} + 1 } \over 4} $$
+
+$$ Q_4 = \text{Serinin Son Elemanı} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ Q_1 = Low_Q + { { { \Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt $$
+
+$$ Q_2 = Low_Q + { { { 2\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt = \tilde X $$
+
+$$ Q_3 = Low_Q + { { { 3\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt $$
+
+<ul>
+    <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
+    <li>f<sub>QPre</sub>: Kartil sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
+    <li>f<sub>Q</sub>: Kartil sınıfının frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+Kartil indisi ondalıklı ise en yakın tamsayıya tamamlanır. Ondalık .5 ise iki sayının ortalaması alınır.
+
+> Excel’de kartil almak için =DÖRTTEBİRLİK() formülünü kullanabiliriz.
+
+<br>
+
+<b>Uygulama</b>:
 
 
 
