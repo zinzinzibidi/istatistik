@@ -127,6 +127,8 @@ $$ \bar x = {40 + 55 + 60 + 60 + 65 + 70 + 75 + 80 + 85 + 90 \over 10} = 68 $$
 
 Boy uzunluklarının aritmetik ortalamasını bulunuz.
 
+<br>
+
 <table align="center">
   <tr>
     <th>Boy Uzunluğu</th>
@@ -179,8 +181,6 @@ Boy uzunluklarının aritmetik ortalamasını bulunuz.
     <td>9510</td>
   </tr>
 </table>
-
-<br>
 
 $$ \mu = {\Sigma X_i f_i \over N} $$
 
@@ -342,6 +342,8 @@ Antilog alırken hesap makinemizde 10<sup>Log Geo Ort</sup> işlemini yapabiliri
 
 Seri 84 ve 1486 olmak üzere iki aykırı değer (outlier) içermektedir. Aritmetik ortalama 356’dır ve geometrik ortalama 267 bulunmuştur. Verilerin çoğunluğu 244 ve 254 arasında dağılırken aritmetik ortalama (356) seriyi istatistiksel olarak anlamlı temsil etmemektedir. Geometrik ortalama nispeten daha anlamlıdır.
 
+<br>
+
 <b>Uygulama</b>: Anket sorularına verilen cevapların puan tablosu aşağıdaki gibidir.
 
 <table align="center">
@@ -376,6 +378,8 @@ Seri 84 ve 1486 olmak üzere iki aykırı değer (outlier) içermektedir. Aritme
 </table>
 
 Puanların geometrik ortalamasını bulunuz.
+
+<br>
 
 <table align="center">
   <tr>
