@@ -2378,6 +2378,8 @@ $$ Q_3  = 19 $$
 
 Serinin 3. dereceden kartili (Q<sub>3</sub>'ü) <strong>19</strong> bulunur.
 
+<br>
+
 <table align="center">
   <tr>
     <td colspan="3" align="center">Navigasyon</td>
@@ -2400,4 +2402,3 @@ Serinin 3. dereceden kartili (Q<sub>3</sub>'ü) <strong>19</strong> bulunur.
 [^5]: Seçenekler
 
 [^6]: Ortalama
-
