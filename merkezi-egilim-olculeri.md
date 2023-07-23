@@ -1237,15 +1237,73 @@ Analyze > Descriptive Statistics > Descriptives… yolu izlenir.
   <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-02.png" style="width: 600px;"/>
 </p>
 
-İlgili değişken Variable(s) alanına taşınır.[^4] Options5’a tıklanır.[^5]
+İlgili değişken Variable(s)[^4] alanına taşınır. Options[^5]’a tıklanır.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-03.png" style="width: 600px;"/>
+</p>
 
+Açılan pencerede sadece Mean[^6] seçilir.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-04.png" style="width: 600px;"/>
+</p>
 
+OK'a tıklanır.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-05.png" style="width: 600px;"/>
+</p>
 
+x<sub>1</sub> = 10, 10, 11, 11, 12, 12, 480 serisine ait aritmetik ortalamanın 78 olduğu bulunur.
 
+<br>
 
+#### Aritmetik, Geometrik ve Harmonik Ortalama
+
+Aritmetik, geometrik ve harmonik ortalama birlikte bulunmak isteniyorsa aşağıdaki adımlar uygulanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-01.png" style="width: 600px;"/>
+</p>
+
+Analyze > Reports > Case Summaries… yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-02.png" style="width: 600px;"/>
+</p>
+
+Display cases seçimi kaldırılır. (Kaldırılmadığı takdirde tüm seri değerleri rapora eklenecektir.)
+
+Statistics…’e tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-03.png" style="width: 600px;"/>
+</p>
+
+Statistics listesinden Mean, Geometric Mean ve Harmonic Mean seçilir. Cell Statistics alanına aktarılır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-04.png" style="width: 600px;"/>
+</p>
+
+Summarize Cases penceresinde OK'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-05.png" style="width: 600px;"/>
+</p>
+
+Aritmetik, geometrik ve harmonik ortalamalar görseldeki gibi bulunur.
+
+Aritmetik ortalama ve harmonik ortalama arasındaki fark ne kadar büyükse seride aykırı değerlerin varlığından söz edilebilir. Aykırı değerleri tespit edebilmek için Summarize Cases penceresinde “Display cases” kutusu seçilmelidir.
+
+---
+
+### Medyan
+
+Medyan (Median) ya da Ortanca küçükten büyüğe sıralanmış veri dizisinin ortasındaki değeri ifade eden duyarlı olmayan ortalamadır. Aykırı değerlerin olduğu serilerde diğer ortalama türlerine göre daha güvenilirdir.
+
+<b>x̃</b> işareti (x üzeri tilde) medyanın istatistikteki sembolüdür.
 
 
 
@@ -1262,4 +1320,6 @@ Analyze > Descriptive Statistics > Descriptives… yolu izlenir.
 [^4]: Değişken(ler)
 
 [^5]: Seçenekler
+
+[^6]: Ortalama
 
