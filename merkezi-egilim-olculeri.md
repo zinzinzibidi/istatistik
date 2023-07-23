@@ -2051,15 +2051,106 @@ Gruplandırılmış serilerde desil ve persantil hesaplanamamaktadır.
 
 > Desilin formülü bulunmamaktadır.
 
+<strong>Uygulama</strong>: x<sub>d</sub>: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 serisinin 7. desilini ve 72. persantilini bulunuz.
 
+<br>
 
+Gözlem sayısı 10’dur. (n: 10)
 
+$$ D_7 = x_{ { in + 2 } \over 10 } = x_{ { 7*10 + 2 } \over 10 } = x_{72 \over 10} = x_{7.2} \approx x_7 = 70 $$
 
+$$ P_{72} = x_{ { in + 2 } \over 100 } = x_{ { 72*10 + 2 } \over 100 } = x_{722 \over 100 } = x_{7.22} \approx x_7 = 70 $$
 
+<br>
 
+<strong>Uygulama</strong>: Boy uzunluklarının listelendiği tablo aşağıda verilmiştir.
 
+<table align="center">
+  <tr>
+    <th>Boy (cm)</th>
+    <th>Kişi Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+  </tr>
+</table>
 
+Boy uzunluklarının 8. dereceden desilini ve 67. dereceden persantilini bulunuz.
 
+<table align="center">
+  <tr>
+    <th>Boy (x<sub>i</sub>)</th>
+    <th>f<sub>i</sub></th>
+    <th>Σf<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+    <td>10</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+    <td>17</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+    <td>20</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+    <td></td>
+  </tr>
+</table>
+
+$$ D_8 = x_{ { i\Sigma f_i + 2 } \over 10 } = x_{ { 8*20+2 } \over 10 } = x_{162 \over 10} = x_{16.2} \approx x_{16} = 180 \text{ cm} $$
+
+$$ P_{67} = x_{ { i\Sigma f_i + 2 } \over 100 } = x_{ { 67*20+2 } \over 100 } = x_{1342 \over 100} = x_{13.42} \approx x_{13} = 180 \text{ cm} $$
+
+---
+
+### Düzeltilmiş Ortalama
+
+Düzeltilmiş Ortalama serinin başındaki ve sonundaki aykırı değerlerin etkisini azaltan özel bir ortalama türüdür.
+
+#### Anakütle ve Örneklem Düzeltilmiş Ortalaması
+
+$$ \text{Duzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } $$
+
+<br>
 
 
 
