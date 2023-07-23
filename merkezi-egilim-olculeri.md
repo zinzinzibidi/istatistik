@@ -1664,16 +1664,196 @@ $$ \tilde X = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med
 
 $$ \tilde X = { 60 + { { { 100 \over 2 } - { 44 } }\over 43 } * 20 } = 62.79 \approx 63 \text{ puan} $$
 
+---
 
+### Mod
 
+Mod (Mode) seride en çok tekrar eden değerdir. Çift tepeli gruplandırılmış serilerde ve frekans serilerinde mod hesaplanamamaktadır. Gruplandırılmış serilerde gruplandırmanın daraltılması gerekmektedir.
 
+#### Anakütle ve Örneklem Modu
 
+<div align="center">Basit Serilerde</div>
 
+$$ \text{Mod} = \text{En Cok Tekrar Eden Deger} $$
 
+<div align="center">Frekans Serilerinde</div>
 
+$$ \text{Mod} = \text{En Cok Tekrar Eden Frekans Sınıfı} $$
 
+<div align="center">Gruplandırılmış Serilerde</div>
 
+$$ \text{Mod} = \text{Low}_\text{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * \text{ClassInt} $$
 
+<ul>
+    <li>Low<sub>mod</sub>: Mod sınıfının alt değeri (En çok frekansa sahip grup, mod sınıfıdır.)</li>
+    <li>Δ<sub>1</sub>: Mod Sınıfı Frekansı – Mod Sınıfından Bir Önceki Sınıfın Frekansı</li>
+    <li>Δ<sub>2</sub>: Mod Sınıfı Frekansı – Mod Sınıfından Bir Sonraki Sınıfın Frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+> Excel’de mod almak için =ENÇOK_OLAN.TEK() formülünü kullanabiliriz.
+
+<br>
+
+<strong>Uygulama</strong>: X<sub>1</sub> = 12, 14, 14, 16, 18, 18, 18, 18, 18, 20, 24 serisinin mod değerini bulunuz.
+
+<br>
+
+Seride en çok tekrar eden 18 olduğu için serinin modu 18’dir.
+
+<br>
+
+<strong>Uygulama</strong>: Boy uzunluklarının listelendiği tablo aşağıda verilmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy (cm)</th>
+    <th>Kişi Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+  </tr>
+</table>
+
+Boy uzunluklarının mod değerini bulunuz.
+
+<br>
+
+En çok tekrar eden frekansa sahip grup 180 cm boy uzunluğu sınıfı olduğu için mod değeri 180’dir.
+
+<br>
+
+<strong>Uygulama</strong>: Sınav notları aşağıdaki tabloda gruplandırılmıştır.
+
+<table align="center">
+  <tr>
+    <th>Sınav Notu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>00 - 20</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>20 - 40</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>40 - 60</td>
+    <td>24</td>
+  </tr>
+  <tr align="center">
+    <td>60 - 80</td>
+    <td>43</td>
+  </tr>
+  <tr align="center">
+    <td>80 - 100</td>
+    <td>13</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>100</td>
+  </tr>
+</table>
+
+Notların mod değerini bulunuz.
+
+<br>
+
+$$ \text{Mod} = \text{Low}_\text{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * \text{ClassInt} $$
+
+<ul>
+    <li>Low<sub>mod</sub>: Mod sınıfının alt değeri (En çok frekansa sahip grup, mod sınıfıdır.)</li>
+    <li>Δ<sub>1</sub>: Mod Sınıfı Frekansı – Mod Sınıfından Bir Önceki Sınıfın Frekansı</li>
+    <li>Δ<sub>2</sub>: Mod Sınıfı Frekansı – Mod Sınıfından Bir Sonraki Sınıfın Frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+En çok frekansa sahip grup 60 – 80 nota sahip aralıktır. Bu sebeple bu sınıf aynı zamanda mod sınıfıdır.
+
+$$ \text{Mod} = 60 + { {(43 - 24)} \over { (43 - 24) + (43 - 13) } } * (80 - 60) = 67.76 \approx 68 \text{ puan} $$
+
+--- 
+
+### Kartil
+
+Kartil (Quartile) ya da Dörttebirlik seriyi dört eşit parçaya ayıran değerlerdir.
+
+#### Anakütle Kartilleri
+
+<div align="center">Basit Serilerde</div>
+
+$$ Q_1 = X_{ {N+2} \over 4} $$ 
+
+<div align="center">Gözlem Sayısının Tek Olduğu Basit Serilerde</div>
+
+$$ Q_2 = \tilde X = X_{ {N+1} \over 2} $$
+
+<div align="center">Gözlem Sayısının Çift Olduğu Basit Serilerde</div>
+
+$$Q_2 = \tilde X ={ { X_{ {N} \over 2} } + { X_{ { {N} \over 2} + 1 } } \over 2 } $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Basit Serilerde</div>
+
+$$ \tilde X = { X_{ {(\Sigma f_i) + 1 } \over 2 } } $$
+
+$$ Q_3 = X_{ {3N+2} \over 4} $$
+
+$$ Q_4 = \text{Serinin Son Elemanı} $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ Q_1 = X_{ { {\Sigma f_i} + 2 } \over 4} $$
+
+<div align="center">Frekans Toplamının Tek Sayı Olduğu Frekans Serilerinde</div>
+
+$$ Q_2 = \tilde X = { X_{ { \Sigma f_i} + 1 } \over 2 } $$
+
+<div align="center">Frekans Toplamının Çift Sayı Olduğu Frekans Serilerinde</div>
+
+$$ Q_2 = \tilde X = { { X_{ \Sigma f_i \over 2 } + X_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } $$
+
+$$ Q_3 = X_{ { {3\Sigma f_i} + 1 } \over 4} $$
+
+$$ Q_4 = \text{Serinin Son Elemanı} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ Q_1 = \text{Low}_Q + { { { \Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} $$
+
+$$ Q_2 = \text{Low}_Q + { { { 2\Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} = \tilde X $$
+
+$$ Q_3 = \text{Low}_Q + { { { 3\Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} $$
+
+<ul>
+    <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
+    <li>f<sub>QPre</sub>: Kartil sınıfından bir önceki sınıfa kadar olan frekanslar toplamı</li>
+    <li>f<sub>Q</sub>: Kartil sınıfının frekansı</li>
+    <li>ClassInt (Class Interval): Sınıf aralığı</li>
+</ul>
+
+Kartil indisi ondalıklı ise en yakın tamsayıya tamamlanır. Ondalık .5 ise iki sayının ortalaması alınır.
 
 
 
