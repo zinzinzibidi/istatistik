@@ -941,11 +941,152 @@ Boy uzunluklarının kareli ortalamasını bulunuz.
 
 <br>
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+    <th>f<sub>i</sub>*X<sub>i</sub><sup>2</sup></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>1*155<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>2*160<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>7*165<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>16*170<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>18*175<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>6*180<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>4*185<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>1*190<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>1,646,850</td>
+  </tr>
+</table>
 
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{X_i}^2} \over \Sigma f_i } = \sqrt { 1646850 \over 55} = 173.04 \approx 173 \text{ cm} $$
 
+<br>
 
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
 
+Boy uzunluklarının kareli ortalamasını bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>*m<sub>i</sub><sup>2</sup></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>4*155<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>12*165<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175</td>
+    <td>36</td>
+    <td>36*165<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>8*185<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>2*195<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>1,875,150</td>
+  </tr>
+</table>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{m_i}^2} \over \Sigma f_i } = \sqrt { 1875150 \over 62} = 173.91 \approx 174 \text{ cm} $$
+
+---
+
+### Ağırlıklı Ortalama
+
+Ağırlıklı Ortalama (Weighted Mean) ya da Tartılı Aritmetik Ortalama finans alanında sıkça kullanılan duyarlı ortalamalardan biridir. Aralarındaki ilişkiden dolayı değişkenlerden biri ya da birkaçı ağırlıklandırılır, hesaplanmak istenen asıl değişkenin ortalaması bulunur. Özel durumlarda kullanılır ve diğer ortalama türlerine göre istatistiksel olarak daha anlamlıdır.
 
 
 
