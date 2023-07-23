@@ -1368,9 +1368,21 @@ $$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med
 
 <br>
 
+<b>Uygulama</b>: X = 24, 12, 17, 13, 8, 8, 8, 8, 46 serisinin medyan değerini bulunuz.
 
+<br>
 
+Medyan değeri hesaplanırken öncelikle seri küçükten büyüğe sıralanır.
 
+X = 8, 8, 8, 8, 12, 13, 17, 24, 46
+
+N: 9’dur. (9 adet gözlem sayısı vardır.) Gözlem sayısı tek sayı olduğu için
+
+$$ \tilde x = {x_{n+1 \over 2}} = {x_{9+1 \over 2}} = {x_5} = 12
+
+X<sub>5</sub>, serinin 5. değeri 12 medyan değeridir.
+
+<br>
 
 
 
