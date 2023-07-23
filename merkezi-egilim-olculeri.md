@@ -1325,7 +1325,7 @@ $$ \tilde X = { { X_{ \Sigma f_i \over 2 } + X_{ { \Sigma f_i \over 2 } + 1 } } 
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ \tilde X = Low_{med} + { { \Sigma f_i \over 2 - f_{medPre} } \over f_{med} } * ClassInt $$
+$$ \tilde X = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
 
 <ul>
     <li>Low<sub>med</sub>: Medyan sınıfının alt değeri. (Medyan sınıfı bulunurken toplam frekans (Σfi) 2’ye bölünür.)</li>
