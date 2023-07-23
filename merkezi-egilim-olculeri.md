@@ -1840,7 +1840,10 @@ $$ Q_4 = \text{Serinin Son Elemanı} $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ Q_1 = Low_Q + \Sigma f_i \over 4 - f_QPre \over f_Q * ClassInt $$
+$$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
+<ul>
+
+$$ Q_1 = Low_Q + { \Sigma f_i \over 4 } - f_{QPre} \over f_Q * ClassInt $$
 
 $$ Q_2 = \text{Low}_Q + { { { 2\Sigma f_i \over 4 } - f_ \text{QPre} \over f_Q } } * \text{ClassInt} = \tilde X $$
 
