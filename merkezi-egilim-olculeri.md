@@ -1930,6 +1930,23 @@ $$ Q_4 = 24 $$
 
 <br>
 
+<b>Uygulama</b>: x<sub>2</sub> = 8, 24, 46, 46, 46, 48, 50, 52 serisinin kartil değerlerini bulunuz.
+
+<br>
+
+n: 8’dir.
+
+$$ Q_1 = x_{ {n+2} \over 4 } = x_{ {8+2} \over 4 } = x_{2.50} \approx { {x_2 + x_3} \over 2 } = { {24 + 46} \over 2 } = 35 $$
+
+Gözlem sayısı çift sayı olduğu için
+
+$$ Q_2 = \tilde x ={ { x_{ {n} \over 2} } + { x_{ { {n} \over 2} + 1 } } \over 2 } ={ { x_{ {8} \over 2} } + { x_{ { {8} \over 2} + 1 } } \over 2 } = { { x_4 + x_5 } \over 2} = { {46 + 46} \over 2 } = 46 $$
+
+$$ Q_3 = x_{ {3n+2} \over 4} = x_{ {3*11+2} \over 4} = x_{8.75} \approx x_9 = 18 $$
+
+$$ Q_4 = 52 $$
+
+<br>
 
 
 
