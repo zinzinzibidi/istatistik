@@ -548,19 +548,19 @@ Bileşik faiz formülünün temeli geometrik ortalamaya dayanmaktadır.
   </tr>
   <tr align="center">
     <td>1</td>
-    <td>1000/td>
+    <td>1000</td>
     <td>%10</td>
     <td>100</td>
   </tr>
   <tr align="center">
     <td>2</td>
-    <td>1100/td>
+    <td>1100</td>
     <td>%20</td>
     <td>220</td>
   </tr>
   <tr align="center">
     <td>3</td>
-    <td>1320/td>
+    <td>1320</td>
     <td>%15</td>
     <td>198</td>
   </tr>
