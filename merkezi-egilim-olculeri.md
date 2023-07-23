@@ -2285,7 +2285,7 @@ $$ \bar x = {55 + 60 + 70 + 75 + 80 + 85 + 85 + 90 \over 8} = 75 $$
 
 Sınav notlarının aritmetik ortalaması <strong>75</strong> bulunur.
 
-<br>
+<br><br>
 
 <strong>Uygulama</strong>: Bir sınıftan seçilen 6 öğrencinin sınav notları aşağıda verilmiştir.
 
@@ -2304,7 +2304,7 @@ $$ \text{AntiLog Geo Ort} = \text{Geo Ort} = 45.78 \approx 46 $$
 
 Sınav notlarının geometrik ortalaması <strong>46</strong> bulunur.
 
-<br>
+<br><br>
 
 <strong>Uygulama</strong>: Aşağıda 7 birimden oluşan örneklem listelenmiştir.
 
@@ -2322,7 +2322,7 @@ $$ \text{Hrm Ort} = 7/0.1344 = 52.13 \approx 52 $$
 
 Örneklemin harmonik ortalaması <strong>52</strong> bulunur.
 
-<br>
+<br><br>
 
 <strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
 
@@ -2343,7 +2343,7 @@ $$ \tilde x = { 12 } $$
 
 Serinin medyan değeri <strong>12</strong> bulunur.
 
-<br>
+<br><br>
 
 <strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
 
@@ -2355,7 +2355,7 @@ Serinin mod'unu (tepe değerini) bulunuz.
 
 <strong>Yanıt</strong>: Seride en çok tekrar eden değer 12 olduğu için serinin modu <strong>12</strong>'dir.
 
-<br>
+<br><br>
 
 <strong>Uygulama</strong>: Aşağıda 12 birimden oluşan örneklem serisi listelenmiştir.
 
