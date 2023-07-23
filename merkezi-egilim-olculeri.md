@@ -1489,6 +1489,193 @@ Ağırlıkların medyan değerini bulunuz.
   </tr>
 </table>
 
+$$ \tilde X = { X_{ {(\Sigma f_i) + 1 } \over 2 } } = { X_{ { 49 + 1 } \over 2 } } = X_{25} = 75 $$
+
+Medyan frekansının (X<sub>25</sub>) içinde bulunduğu birikimli frekans grubuna denk gelen gözlem değeri aynı zamanda frekans serisinin medyanıdır.
+
+<br>
+
+<strong>Uygulama</strong>: Boy uzunluklarının listelendiği tablo aşağıda verilmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy (cm)</th>
+    <th>Kişi Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+  </tr>
+</table>
+
+Boy uzunluklarının medyan değerini bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Boy (x<sub>i</sub>)</th>
+    <th>f<sub>i</sub></th>
+    <th>Σf<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>165</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>170</td>
+    <td>4</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>175</td>
+    <td>4</td>
+    <td>10</td>
+  </tr>
+  <tr align="center">
+    <td>180</td>
+    <td>7</td>
+    <td>17</td>
+  </tr>
+  <tr align="center">
+    <td>185</td>
+    <td>3</td>
+    <td>20</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>20</td>
+    <td></td>
+  </tr>
+</table>
+
+Frekans toplamı çift sayı olduğu için
+
+$$ \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } \over 2 } = { { x_{ 20 \over 2 } + x_{ { 20 \over 2 } + 1 } } \over 2 } = { { x_{10} + x_{11} } \over 2 } = { { 175 + 180 } \over 2 } = 177.5 \approx 178 \text{ cm} $$
+
+Birikimli frekans içerisinde 10. ve 11. sıraya karşılık gelen boy uzunlukları toplanır ve 2’ye bölünür. Elde edilen değer frekans serisinin medyan değeridir.
+
+<br>
+
+<strong>Uygulama</strong>: Sınav notları aşağıdaki tabloda gruplandırılmıştır.
+
+<table align="center">
+  <tr>
+    <th>Sınav Notu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>00 - 20</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>20 - 40</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>40 - 60</td>
+    <td>24</td>
+  </tr>
+  <tr align="center">
+    <td>60 - 80</td>
+    <td>43</td>
+  </tr>
+  <tr align="center">
+    <td>80 - 100</td>
+    <td>13</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>100</td>
+  </tr>
+</table>
+
+Notların medyan değerini bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Sınav Notu (X<sub>i</sub>)</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>Σf<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>00 - 20</td>
+    <td>4</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>20 - 40</td>
+    <td>16</td>
+    <td>20</td>
+  </tr>
+  <tr align="center">
+    <td>40 - 60</td>
+    <td>24</td>
+    <td>44</td>
+  </tr>
+  <tr align="center">
+    <td>60 - 80</td>
+    <td>43</td>
+    <td>87</td>
+  </tr>
+  <tr align="center">
+    <td>80 - 100</td>
+    <td>13</td>
+    <td>100</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>100</td>
+    <td></td>
+  </tr>
+</table>
+
+$$ \tilde X = \text{Low}_\text{med} + { { { \Sigma f_i \over 2 } - { \text{f}_\text{medPre} } }\over \text{f}_\text{med} } * \text{ClassInt} $$
+
+<ul>
+    <li>Low<sub>med</sub>: Birikimli frekanslar içerisinde (Σfi)/2 = 100/2 = 50. sıraya denk gelen 60 – 80 aralığının alt değeri 60’dır.</li>
+    <li>f<sub>medPre</sub>: Medyan sınıfından bir önceki sınıfa kadar olan frekanslar toplamı (44)</li>
+    <li>f<sub>med</sub>: Medyan sınıfının frekans değeri (43)</li>
+    <li>ClassInt: Sınıf aralığı (80 – 60 = 20)</li>
+</ul>
+
+$$ \tilde X = { 60 + { { { 100 \over 2 } - { 44 } }\over 43 } * 20 } = 62.79 \approx 63 \text{ puan} $$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
