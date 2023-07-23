@@ -1386,7 +1386,108 @@ x<sub>5</sub>, serinin 5. değeri 12 medyan değeridir.
 
 <b>Uygulama</b>: x = 48, 50, 50, 52, 54, 54, 54, 56 serisinin medyan değerini bulunuz.
 
+<br>
 
+n: 8’dir. Gözlem sayısı çift sayı olduğu için
+
+$$ \tilde x = { { x_{n\over 2} } + { x_{ { n\over 2}+1 } } \over 2 } = { { x_{8\over 2} } + { x_{ { 8\over 2}+1 } } \over 2 } = { { x_4 + x_5 } \over 2 } = { { 52 + 54 } \over 2 } = 53 $$
+
+4. ve 5. değerler toplamı 2’ye bölünür ve medyan değeri 53 bulunur.
+
+<br>
+
+<b>Uygulama</b>: Ağırlıkların listelendiği tablo aşağıda verilmiştir.
+
+<table align="center">
+  <tr>
+    <th>Ağırlık (kg)</th>
+    <th>Kişi Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>60</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>65</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>70</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>75</td>
+    <td>14</td>
+  </tr>
+  <tr align="center">
+    <td>80</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>85</td>
+    <td>3</td>
+  </tr>
+  <tr align="center">
+    <td>90</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>49</td>
+  </tr>
+</table>
+
+Ağırlıkların medyan değerini bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Ağırlık (X<sub>i</sub>)</th>
+    <th>f<sub>i</sub></th>
+    <th>Σf<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>60</td>
+    <td>4</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>65</td>
+    <td>8</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>70</td>
+    <td>12</td>
+    <td>24</td>
+  </tr>
+  <tr align="center">
+    <td>75</td>
+    <td>14</td>
+    <td>38</td>
+  </tr>
+  <tr align="center">
+    <td>80</td>
+    <td>6</td>
+    <td>44</td>
+  </tr>
+  <tr align="center">
+    <td>85</td>
+    <td>3</td>
+    <td>47</td>
+  </tr>
+  <tr align="center">
+    <td>90</td>
+    <td>2</td>
+    <td>49</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>49</td>
+    <td></td>
+  </tr>
+</table>
 
 
 
