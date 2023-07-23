@@ -2168,7 +2168,7 @@ $$ Q_2 = \tilde x ={ { x_{ {n} \over 2} } + { x_{ { {n} \over 2} + 1 } } \over 2
 
 $$ Q_3 = x_{ {3n+2} \over 4} = x_{ {3*16+2} \over 4} = x_{12.5} \approx x_{13} = 28 $$
 
-$$ \text{Duzeltilmis Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } = { {23 + 2*25 + 28} \over 4 } = { 101 \over 4 } = 25.25 \approx 25 $$
+$$ \text{Düzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } = { {23 + 2*25 + 28} \over 4 } = { 101 \over 4 } = 25.25 \approx 25 $$
 
 ---
 
