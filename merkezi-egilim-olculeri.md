@@ -2043,9 +2043,11 @@ $$ P_i = x_{ { in + 2 } \over 100 } $$
 
 $$ P_i = x_{ { i\Sigma f_i + 2 } \over 100 } $$
 
+Gruplandırılmış serilerde desil ve persantil hesaplanamamaktadır.
 
-
-
+> Excel’de persantil almak için =YÜZDEBİRLİK(dizi;yüzde) formülünü kullanabiliriz.
+> Yüzde parametresi 0 ve 1 arasında değer alır. Örneğin %12. persantili bulmak için 0,12 yazmalıyız.
+> Desilin formülü bulunmamaktadır.
 
 
 
