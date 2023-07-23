@@ -1682,7 +1682,7 @@ $$ \text{Mod} = \text{En Cok Tekrar Eden Frekans Sınıfı} $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ \text{Mod} = \text{Low}_\text{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * \text{ClassInt} $$
+$$ Mod = Low_{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * ClassInt $$
 
 <ul>
     <li>Low<sub>mod</sub>: Mod sınıfının alt değeri (En çok frekansa sahip grup, mod sınıfıdır.)</li>
