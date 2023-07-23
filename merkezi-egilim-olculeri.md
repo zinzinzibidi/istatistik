@@ -1104,11 +1104,102 @@ $$ \text{Agırlıklı Ort} = { {\Sigma w_ix_i} \over \Sigma x_i } $$
 
 <br>
 
-<b>Uygulama</b>:
+<b>Uygulama</b>: Aşağıda beş farklı mevduat hesabının tutarları ve faiz oranları verilmiştir.
 
+<table align="center">
+  <tr>
+    <th>Hesap Numarası</th>
+    <th>Tutar</th>
+    <th>Faiz Oranı</th>
+  </tr>
+  <tr align="center">
+    <td>A000001</td>
+    <td>2,000,000</td>
+    <td>10.20</td>
+  </tr>
+  <tr align="center">
+    <td>A000002</td>
+    <td>5,000,000</td>
+    <td>10.40</td>
+  </tr>
+  <tr align="center">
+    <td>A000003</td>
+    <td>1,000,000</td>
+    <td>10.10</td>
+  </tr>
+  <tr align="center">
+    <td>A000004</td>
+    <td>4,000,000</td>
+    <td>10.30</td>
+  </tr>
+  <tr align="center">
+    <td>A000005</td>
+    <td>120,000,000</td>
+    <td>11.10</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>132,000,000 TL</td>
+    <td></td>
+  </tr>
+</table>
 
+Faiz oranlarının ağırlıklı ortalamasını bulunuz.
 
+<br>
 
+<table align="center">
+  <tr>
+    <th>Hesap Numarası</th>
+    <th>Tutar (x<sub>i</sub>)</th>
+    <th>Faiz Oranı (w<sub>i</sub>)</th>
+    <th>Faiz Oranı (w<sub>i</sub>)*Tutar (x<sub>i</sub>)</th>
+  </tr>
+  <tr align="center">
+    <td>A000001</td>
+    <td>2,000,000</td>
+    <td>10.20</td>
+    <td>10.20*(2,000,000)</td>
+  </tr>
+  <tr align="center">
+    <td>A000002</td>
+    <td>5,000,000</td>
+    <td>10.40</td>
+    <td>10.40*(5,000,000)</td>
+  </tr>
+  <tr align="center">
+    <td>A000003</td>
+    <td>1,000,000</td>
+    <td>10.10</td>
+    <td>10.10*(1,000,000)</td>
+  </tr>
+  <tr align="center">
+    <td>A000004</td>
+    <td>4,000,000</td>
+    <td>10.30</td>
+    <td>10.30*(4,000,000)</td>
+  </tr>
+  <tr align="center">
+    <td>A000005</td>
+    <td>120,000,000</td>
+    <td>11.10</td>
+    <td>11.10*(120,000,000)</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>132,000,000 TL</td>
+    <td></td>
+    <td>1,455,700,000 TL</td>
+  </tr>
+</table>
+
+$$ \text{Agırlıklı Ort} = { {\Sigma w_ix_i} \over \Sigma x_i } = { 1,455,700,000 \over 132,000,000 } = 11.03 $$
+
+Faiz oranlarının aritmetik ortalaması 10.42’dir ve istatistiksel olarak anlamlı değildir. İşlem tutarlarının büyük çoğunluğu (%91’lik kısmı oluşturan 132 milyon TL’lik hesap) 11.10 faiz oranı ile fiyatlanmıştır. Ortalamanın 11.10’a yakın olması beklenir. Bu sebeple 11.03 ağırlıklı ortalama faiz oranı, 10.42 aritmetik ortalamasına göre istatistiksel olarak daha anlamlıdır.
+
+Finans dünyasında ağırlıklı ortalama TLREF (Türk Lirası Gecelik Referans Faiz Oranı) hesaplamasında kullanılmakta ve ticari kredilerin faiz oranını belirlemektedir.
+
+---
 
 
 
