@@ -1231,8 +1231,13 @@ Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.
   <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-01.png" style="width: 600px;"/>
 </p>
 
+Analyze > Descriptive Statistics > Descriptives… yolu izlenir.
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-02.png" style="width: 600px;"/>
+</p>
 
+İlgili değişken Variable(s) alanına taşınır.[^4] Options5’a tıklanır.[^5]
 
 
 
@@ -1253,4 +1258,8 @@ Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.
 [^2]: Ortalama Gelir, Medyan Gelir ve Gini Katsayısı örneği için <a href="https://www.givingwhatwecan.org/blog/measuring-global-inequality-median-income-gdp-per-capita-and-the-gini-index#countries-by-gdp-per-capita-ppp-mean-income-ppp-median-income-ppp-gini-index-and--below-poverty-line3" target="_blank">tıklayınız</a>.
 
 [^3]: IBM SPSS Statistics | version 26.0.0.0
+
+[^4]: Değişken(ler)
+
+[^5]: Seçenekler
 
