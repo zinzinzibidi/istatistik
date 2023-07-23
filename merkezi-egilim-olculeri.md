@@ -2174,6 +2174,101 @@ $$ \text{Düzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } = { {23 + 2*25 + 28
 
 ### Kırpılmış Ortalama
 
+Kırpılmış Ortalama (trimmed mean, trimmean, truncated mean) serinin başındaki ve sonundaki belirli bir yüzdenin seriden atılarak hesaplanması ile elde edilen ortalamadır.
+
+<strong>Uygulama</strong>: x<sub>b</sub> = 1, 1, 2, 4, 4, 22, 23, 24, 24, 24, 26, 26, 26, 28, 28, 112, 114, 118, 120, 120 serisinin %50 düzeyinde düzeltilmiş ortalamasını bulunuz. (n: 20)
+
+<br>
+
+Seride 20 gözlem değeri vardır. %50’si (20 x %50) 10 etmektedir. Serinin başından 5 ve sonundan 5 olmak üzere toplam 10 değer atılır ve kırpılmış seri oluşturulur.
+
+x<sub>b</sub> = <strong>1, 1, 2, 4, 4,</strong> 22, 23, 24, 24, 24, 26, 26, 26, 28, 28, <strong>112, 114, 118, 120, 120</strong>
+
+x<sub>(trimmed)b</sub> = 22, 23, 24, 24, 24, 26, 26, 26, 28, 28
+
+$$ \bar x_{(trimmed)b} = {\Sigma x_i \over n} = {251 \over 10 } = 25.1 \approx 25 $$
+
+> Excel’de kırpılmış ortalama almak için =KIRPORTALAMA(dizi;yüzde) formülünü kullanabiliriz.
+
+> Yüzde parametresi 0 ve 1 arasında değer alır. Örneğin %50 düzeyinde kırpılmış ortalama hesaplamak için yüzde parametresine 0,50 yazmalıyız.
+
+---
+
+### SPSS'te Duyarlı Olmayan Ortalamalar
+
+#### Mod, Medyan, Kartil
+
+Elimizde 5’ten 76’ya kadar olan basit bir seri olduğunu varsayalım.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 600px;"/>
+</p>
+
+Analyze > Descriptive Statistics > Frequencies… yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 600px;"/>
+</p>
+
+Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-03.png" style="width: 600px;"/>
+</p>
+
+Quartiles (kartiller), Mean (aritmetik ortalama), Median (medyan) ve Mode (mod) seçimleri yapılır.
+
+Mod (mode), medyan (median) ve kartil (quartile) değerleri görseldeki gibi listelenir.
+
+Percentiles (25) Q1, Percentiles (50) Q2, Percentiles (75) ise Q3 kartilini belirtmektedir.
+
+<br>
+
+#### Desil ve Persantil
+
+Mod, medyan ve kartil hesaplamasında kullandığımız serinin 8. desilini ve 75. persantilini hesaplamak isteyelim.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-01.png" style="width: 600px;"/>
+</p>
+
+Analyze > Descriptive Statistics > Frequencies… yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-02.png" style="width: 600px;"/>
+</p>
+
+Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-03.png" style="width: 600px;"/>
+</p>
+
+Açılan pencerede Cut points for alanına 10 yazılır. Bu şekilde tüm desil değerleri listelenecektir.
+
+Percentile(s) alanına 75 yazılır ve Add düğmesi ile kutucuğa eklenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-04.png" style="width: 600px;"/>
+</p>
+
+Percentiles alanında
+
+<ul>
+    <li>75’e denk gelen değer 75. persantili (P<sub>75</sub>)</li>
+    <li>80’e denk gelen değer ise 8. desili (D<sub>8</sub>)</li>
+</ul>
+
+belirtmektedir.
+
+---
+
+### Sıra Sizde
+
+
+
+
+
 
 
 
