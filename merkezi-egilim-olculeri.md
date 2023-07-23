@@ -1840,9 +1840,11 @@ $$ Q_4 = \text{Serinin Son Elemanı} $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ \tilde x = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med} } * ClassInt $$
-
 $$ Q_1 = Low_Q + { { { \Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt $$
+
+$$ Q_2 = Low_Q + { { { 2\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt = \tilde X $$
+
+$$ Q_3 = Low_Q + { { { 3\Sigma f_i \over 4 } - f_{QPre} \over f_Q } } * ClassInt $$
 
 <ul>
     <li>Low<sub>Q</sub>:Kartil sınıfının alt değeri. (Q<sub>1</sub> Kartil Sınıfı=  Σf<sub>i</sub>/4, Q<sub>2</sub> Kartil Sınıfı=  2Σf<sub>i</sub>/4, Q<sub>3</sub> Kartil Sınıfı=  3Σf<sub>i</sub>/4)</li>
