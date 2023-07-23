@@ -229,7 +229,7 @@ Boy uzunluklarının aritmetik ortalamasını bulunuz.
   <tr>
     <th>Boy Uzunluğu</th>
     <th>m<sub>i</sub></th>
-    <th>Öğrenci Sayısı</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
     <th>m<sub>i</sub>f<sub>i</sub></th>
   </tr>
   <tr align="center">
@@ -288,7 +288,7 @@ Geometrik Ortalama (Geometric Mean), serinin gözlem değerlerine eşit derecede
 
 <div align="center">Basit Serilerde</div>
 
-$$ \text{Geo Ort} = \sqrt[N]{X_1X_2...X_N} \] $$
+$$ \text{Geo Ort} = \sqrt[N]{X_1X_2...X_N} $$
 
 $$ \text{Log Geo Ort} = {\Sigma logX_i \over N} $$
 
@@ -310,7 +310,7 @@ $$ \text{Log Geo Ort} = {\Sigma logx_i \over n} $$
 
 <div align="center">Frekans Serilerinde</div>
 
-$$ \text{Log Geo Ort} = {\Sigma f_ilogx_i \over \Sigma f_i}  $$
+$$ \text{Log Geo Ort} = {\Sigma f_ilogx_i \over \Sigma f_i} $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
@@ -600,6 +600,346 @@ Yatırımcı 1000 TL anaparasını 3 yıl boyunca sırasıyla %10, %15 ve %20 fa
 
 Harmonik Ortalama (Harmonic Mean), değişkenlerden birinin sabit, diğerinin sabit olmadığı durumlarda kullanılan, genellikle hız, fiyat ve verimlilik hesaplamalarında tercih edilen ortalama türüdür. Aykırı değerlerden en az etkilenen duyarlı ortalamadır. Hesaplanabilmesi için seride sıfır ve negatif değer olmamalıdır.
 
+#### Anakütle Harmonik Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Hrm Ort} = {N \over \Sigma {1 \over X_i}} $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over X_i}} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over m_i}} $$
+
+#### Örneklem Harmonik Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Hrm Ort} = {n \over \Sigma {1 \over x_i}} $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over x_i}} $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over m_i}} $$
+
+<b>m</b>: Sınıf Orta Sayısı, <b>f</b>: Frekans
+
+> Excel’de harmonik ortalama almak için =HARORT() formülünü kullanabiliriz.
+
+<br>
+
+<b>Uygulama</b>: Bir araç A noktasından B noktasına sırasıyla 40, 60 ve 80 km/saat hızla gitmektedir. Aracın ortalama hızını bulunuz.
+
+$$ \text{Hrm Ort} = {n \over \Sigma {1 \over x_i}} = {3 \over {1 \over 40} + {1 \over 60} + {1 \over 80}} = 55.38 \text{ km/saat}  $$
+
+Diyelim ki A ve B noktası arasındaki mesafe 240 km olsun. Araç A ve B noktasına toplamda 3 kere gitmekte ve 240 * 3 = 720 km yol yapmaktadır. Toplam mesafeyi 720/55.38 = <b>13 saat</b>te tamamlamaktadır.
+
+Yolda geçen süreyi tek tek hesapladığımızda 240/40 = 6 saat, 240/60 = 4 saat, 240/80 = 3 saat
+
+6 + 4 + 3 = <b>13 saat</b> sonucuna varırız. Bu şekilde harmonik ortalamanın sağlamasını yapabiliriz.
+
+Yorumlaması ise şu şekildedir:
+
+Araç aynı yolu 40, 60 ve 80 km/saat hızlarla gitmek yerine 55.38 km/saat gibi sabit bir hızla giderse aynı sürede tamamlar.
+
+<br>
+
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+  </tr>
+</table>
+
+Boy uzunluklarının harmonik ortalamasını bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+    <th>f<sub>i</sub>/X<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>1/155</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>2/160</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>7/165</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>16/170</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>18/175</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>6/180</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>4/185</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>1/190</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>0.32</td>
+  </tr>
+</table>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over X_i}} = { 55 \over 0.32} = 172.65 \approx 173 \text{ cm} $$
+
+<br>
+
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
+
+Boy uzunluklarının harmonik ortalamasını bulunuz.
+
+<br>
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>/m<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>4/155</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>12/165</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175</td>
+    <td>36</td>
+    <td>36/165</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>8/185</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>2/195</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>0.36</td>
+  </tr>
+</table>
+
+$$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over m_i}} = {62 \over 0.36} = 173.31 \approx 173 \text{ cm} $$
+
+---
+
+### Kareli Ortalama
+
+Kareli Ortalama (Root Mean Square, RMS, Quadratic Mean), aritmetik ortalamaya benzemekle birlikte serideki 0 ve negatif değerleri nötralize etmek için kullanılan ortalama türüdür. Diğer bir ifade ile seride 0 veya negatif değerler göz ardı edilmek isteniyorsa kareli ortalama kullanılmalıdır.
+
+#### Anakütle Kareli Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma {X_i}^2} \over N } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{X_i}^2} \over \Sigma f_i }  $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{m_i}^2} \over \Sigma f_i } $$
+
+#### Örneklem Kareli Ortalaması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma {x_i}^2} \over n } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{x_i}^2} \over \Sigma f_i } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{m_i}^2} \over \Sigma f_i } $$
+
+<b>m</b>: Sınıf Orta Sayısı, <b>f</b>: Frekans
+
+> Excel’de kareli ortalamanın formülü bulunmamaktadır. =KAREKÖK(TOPKARE()/BAĞ_DEĞ_SAY()) formül kombinasyonu kullanılabilir.
+
+<br>
+
+<b>Uygulama</b>: Yedi günlük hava sıcaklığı değerleri aşağıda verilmiştir.
+
+$$ x = -4, -2, 0, 4, 8, 13, 13 \text{ } ^{\circ}C $$
+
+Sıcaklık değerlerinin kareli ortalamasını bulunuz.
+
+<br>
+
+$$ \text{Kareli Ort} = \sqrt { {\Sigma {x_i}^2} \over n } = \sqrt { { {-4}^2 + {-2}^2 \,+\,\,...\,+\, 13^2 + 13^2 } \over 7 } = \sqrt { 438 \over 7 } = 7.91 \approx 8^{\circ}C $$
+
+<br>
+
+<b>Uygulama</b>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+  </tr>
+</table>
+
+Boy uzunluklarının kareli ortalamasını bulunuz.
+
+<br>
 
 
 
