@@ -310,7 +310,7 @@ Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
   <tr align="center">
     <td>190 cm</td>
     <td>1</td>
-    <td>1|190-173</td>
+    <td>1|190-173|</td>
   </tr>
   <tr align="center">
     <td>Toplam (Σ)</td>
@@ -532,9 +532,222 @@ $$ s = \sqrt{ { \Sigma (x_i - { {\Sigma x_i f_i } \over n })^2 } \over n }  $$
 
 $$ s = \sqrt{ { \Sigma (x_i - { {\Sigma m_i f_i } \over n })^2 } \over n }  $$
 
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/normal-dagilim.png" style="width: 480px;"/>
+</p>
 
+Normal dağılım grafikleri[^5] standart sapma ile hesaplanmaktadır. Ortalamanın 0 (sıfır) alınması durumunda “standart normal dağılım” olarak adlandırılmaktadır. Normal dağılımda 68-95-99.7 Kuralı adlı verilen özel bir kural geçerlidir. Bu kurala göre ortalamadan ±1σ (artı eksi 1 standart sapma) uzaklığa kadar olan alan, tüm olasılıkların %68.2’sini, ±2σ uzaklığa kadar olan alan %95.4’ünü, ±3σ uzaklığa kadar olan alan ise %99.6’sını kapsamaktadır. İlerleyen konularda normal dağılım detaylıca anlatılacak olup standart sapmanın tüm dağılım ölçüleri içerisinde neden en önemli ölçü olduğu dağılımı grafiklerinden de anlaşılabilir.
 
+Varyans, standart sapmanın karesi olmakla birlikte anakütle için σ<sup>2</sup>, örneklem içinse s<sup>2</sup> notasyonu ile gösterilir. Basit serilerde varyansı formülize etmek istersek
 
+#### Anakütle için
+
+$$ \sigma^2 = { { \Sigma(X_i - \mu)^2 } \over N } $$
+
+#### Örneklem için
+
+$$ s^2 = { { \Sigma(x_i - \bar x)^2 } \over n } $$
+
+şeklinde gösterebiliriz. Örneklem hacminin 40’tan küçük olduğu serilerde n yerine (n-1) kullanılmalıdır.[^6]
+
+<strong>n ≤ 40</strong> ise standart sapmanın formülü şu şekilde olmaktadır:
+
+$$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } $$
+
+> Excel’de anakütle standart sapmasını hesaplamak için =STDSAPMA.P(), örneklem standart sapmasını hesaplamak içinse =STDSAPMA.S() formüllerini kullanabiliriz.
+
+<br>
+
+<strong>Uygulama</strong>: Bir sınıftan seçilen 10 öğrencinin sınav notları aşağıda verilmiştir.
+
+$$ x = 40, 55, 60, 60, 65, 70, 75, 80, 85, 90 $$
+
+Notların standart sapmasını bulunuz.
+
+<br>
+
+Standart sapmayı bulmak için öncelikle ortalamayı bulmalıyız.
+
+$$ \bar x = {\Sigma x_i \over n} $$
+
+$$ \bar x = {40 + 55 + 60 + 60 + 65 + 70 + 75 + 80 + 85 + 90 \over 10} = 68 $$
+
+Standart sapmayı hesapladığımızda
+
+$$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } $$
+
+$$ s = \sqrt{ { (40-68)^2 + (55-68)^2\,+\,...\,+\,(85-68)^2+(90-68)^2 } \over 10 - 1 } $$
+
+$$ s = \sqrt{ 2090 \over 9 } = \sqrt{228.89} = 15.13 \approx 15 \text{ puan} $$
+
+sonucunu elde ederiz. Dikkat ederseniz gözlem değerlerimiz 40’tan küçüktür. n ≤ 40 olduğu için payda kısmını n yerine n – 1 aldık.
+
+<br>
+
+<strong>Uygulama</strong>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+  </tr>
+</table>
+
+Boy uzunluklarının standart sapmasını bulunuz.
+
+Öncelikle aritmetik ortalamayı buluruz.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu (X<sub>i</sub>)</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>X<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>155</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>320</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>1155</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>2720</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>3150</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>1080</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>740</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>190</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>9510</td>
+  </tr>
+</table>
+
+$$ \mu = {\Sigma X_i f_i \over N} $$
+
+$$ \mu = {155 + 320 + 1155 + 2720 + 3150 + 180 + 740 + 190 \over 55} = 172.91 \approx 173 \text{ cm} $$
+
+Ardından standart sapmayı hesaplarız.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu (X<sub>i</sub>)</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>(X<sub>i</sub>-µ)<sup>2</sup></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>1(155-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>2(160-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>7(165-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>16(170-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>18(175-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>6(180-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>4(185-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>1(190-173)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>2485</td>
+  </tr>
+</table>
+
+$$ \sigma = \sqrt{ { \Sigma f_i(X_i - \mu)^2 } \over N } = \sqrt{2485 \over 55} = \sqrt{45.15} = 6.72 \approx 7 \text{ cm} $$
+
+<br>
 
 
 
@@ -550,3 +763,7 @@ $$ s = \sqrt{ { \Sigma (x_i - { {\Sigma m_i f_i } \over n })^2 } \over n }  $$
 [^3]: IQR için yabancı kaynaklarda midspread, middle 50%, H‑spread terimleri de kullanılmaktadır.
 
 [^4]: Boxplot
+
+[^5]: Normal distribution diagram
+
+[^6]: Kimi kaynaklarda 30’dan küçük olması şartı aranmaktadır.
