@@ -1337,15 +1337,18 @@ $$ CV_B = { \sigma \over \mu } * 100 = { 25 \over 70 } * 100 \approx 35.71 $$
 
 A sınıfının Değişim Katsayısı (CV'si) sıfıra daha yakın olduğu için A sınıfındaki notlar B sınıfına göre daha homojen dağılmıştır diyebiliriz.
 
+<br>
 
-
-
-
-
-
-
-
-
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">Navigasyon</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/merkezi-egilim-olculeri.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+  </tr>
+</table>
 
 [^1]: <a href="https://www.wikiwand.com/en/Statistical_dispersion" target="_blank">Statistical Dispersion</a> olarak da bilinir.
 
