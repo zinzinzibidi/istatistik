@@ -665,6 +665,8 @@ sonucunu elde ederiz. Dikkat ederseniz gözlem değerlerimiz 40’tan küçükt�
 
 Boy uzunluklarının standart sapmasını bulunuz.
 
+<br>
+
 Öncelikle aritmetik ortalamayı buluruz.
 
 <table align="center">
@@ -819,8 +821,6 @@ $$ \sigma = \sqrt{ { \Sigma f_i(X_i - \mu)^2 } \over N } = \sqrt{2485 \over 55} 
 Boy uzunluklarının standart sapmasını bulunuz.
 
 <br>
-
-Öncelikle ortalamayı buluruz.
 
 Öncelikle ortalamayı buluruz.
 
