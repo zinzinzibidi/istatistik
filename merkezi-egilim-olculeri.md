@@ -32,23 +32,31 @@ Duyarlı ortalamalar serideki aykırı değerlerden etkilenirken duyarlı olmaya
   </tr>
 </table>
 
-* Aritmetik Ortalama
-* Geometrik Ortalama
-* Harmonik Ortalama
-* Kareli Ortalama
-* Ağırlıklı Ortalama
-* Duyarlı Ortalamaların Karşılaştırılması
-* SPSS'te Duyarlı Ortalamalar
-
 ## Duyarlı Olmayan Ortalamalar
 
-* Medyan
-* Mod
-* Kartil
-* Desil ve Persantil
-* Düzeltilmiş Ortalama
-* Kırpılmış Ortalama
-* SPSS'te Duyarlı Olmayan Ortalamalar
+<table align="center">
+  <tr align="center">
+    <td><a href="#medyan">Medyan</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#mod">Mod</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#kartil">Kartil</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#desil-ve-persantil">Desil ve Persantil</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#duzeltilmis-ortalama">Düzeltilmiş Ortalama</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#kirpilmis-ortalama">Kırpılmış Ortalama</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#spsste-duyarli-olmayan-ortalamalar">SPSS'te Duyarlı Olmayan Ortalamalar</a></td>
+  </tr>
+</table>
 
 <span id="aritmetik-ortalama"></span>
 
@@ -1347,6 +1355,10 @@ Aritmetik, geometrik ve harmonik ortalamalar görseldeki gibi bulunur.
 
 Aritmetik ortalama ve harmonik ortalama arasındaki fark ne kadar büyükse seride aykırı değerlerin varlığından söz edilebilir. Aykırı değerleri tespit edebilmek için Summarize Cases penceresinde “Display cases” kutusu seçilmelidir.
 
+<br>
+
+<span id="medyan"></span>
+
 ---
 
 ### Medyan
@@ -1715,6 +1727,10 @@ $$ \tilde X = Low_{med} + { { { \Sigma f_i \over 2 } - f_{medPre} } \over f_{med
 
 $$ \tilde X = { 60 + { { { 100 \over 2 } - { 44 } }\over 43 } * 20 } = 62.79 \approx 63 \text{ puan} $$
 
+<br>
+
+<span id="mod"></span>
+
 ---
 
 ### Mod
@@ -1844,6 +1860,10 @@ $$ Mod = Low_{mod} + { \Delta_{1} \over { \Delta_{1} + \Delta_{2} } } * ClassInt
 En çok frekansa sahip grup 60 – 80 nota sahip aralıktır. Bu sebeple bu sınıf aynı zamanda mod sınıfıdır.
 
 $$ \text{Mod} = 60 + { {(43 - 24)} \over { (43 - 24) + (43 - 13) } } * (80 - 60) = 67.76 \approx 68 \text{ puan} $$
+
+<br>
+
+<span id="kartil"></span>
 
 --- 
 
@@ -2046,6 +2066,10 @@ $$ Q_3 = x_{ { {3\Sigma f_i} + 1 } \over 4} = x_{ { {3*20} + 1 } \over 4} = x_{1
 
 $$ Q_4 = 185 \text{ cm} $$
 
+<br>
+
+<span id="desil-ve-persantil"></span>
+
 ---
 
 ### Desil ve Persantil
@@ -2191,6 +2215,10 @@ $$ D_8 = x_{ { i\Sigma f_i + 2 } \over 10 } = x_{ { 8*20+2 } \over 10 } = x_{162
 
 $$ P_{67} = x_{ { i\Sigma f_i + 2 } \over 100 } = x_{ { 67*20+2 } \over 100 } = x_{1342 \over 100} = x_{13.42} \approx x_{13} = 180 \text{ cm} $$
 
+<br>
+
+<span id="duzeltilmis-ortalama"></span>
+
 ---
 
 ### Düzeltilmiş Ortalama
@@ -2221,6 +2249,10 @@ $$ Q_3 = x_{ {3n+2} \over 4} = x_{ {3*16+2} \over 4} = x_{12.5} \approx x_{13} =
 
 $$ \text{Düzeltilmiş Ort} = { {Q_1 + 2Q_2 + Q_3} \over 4 } = { {23 + 2*25 + 28} \over 4 } = { 101 \over 4 } = 25.25 \approx 25 $$
 
+<br>
+
+<span id="kirpilmis-ortalama"></span>
+
 ---
 
 ### Kırpılmış Ortalama
@@ -2242,6 +2274,10 @@ $$ \bar x_{(trimmed)b} = {\Sigma x_i \over n} = {251 \over 10 } = 25.1 \approx 2
 > Excel’de kırpılmış ortalama almak için =KIRPORTALAMA(dizi;yüzde) formülünü kullanabiliriz.
 
 > Yüzde parametresi 0 ve 1 arasında değer alır. Örneğin %50 düzeyinde kırpılmış ortalama hesaplamak için yüzde parametresine 0,50 yazmalıyız.
+
+<br>
+
+<span id="spsste-duyarli-olmayan-ortalamalar"></span>
 
 ---
 
