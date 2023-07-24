@@ -1081,6 +1081,266 @@ hesaplanacaktır. Bu şekilde B semtinde ortalama kiraların (3200) A semtine g�
 
 ### SPSS'te Dağılım Ölçüleri
 
+#### Değişim Aralığı, Standart Sapma, Varyans ve Standart Hata
+
+SPSS'te çok hızlı bir şekilde değişim aralığı, standart sapma, varyans ve standart hata değerleri hesaplanabilir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-01.png" style="width: 600px;"/>
+</p>
+
+Analyze > Descrpitive Statistics > Descriptives... yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-02.png" style="width: 600px;"/>
+</p>
+
+Descriptives penceresinde ilgili değişken Variable(s) alanına aktarılır ve ardından Options...'a tıklanır.
+
+Açılan Descrpitives: Options penceresinde ilgili dağılım ölçüleri seçilir ve Continue'ya tıklanıldıktan sonra Descriptives penceresinde OK'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-03.png" style="width: 600px;"/>
+</p>
+
+Sonuçlar Output (Çıktı) penceresinde görseldeki gibi listelenecektir.
+
+<br>
+
+#### Değişim Aralığı, Standart Sapma, Varyans ve Kartiller Arası Fark
+
+SPSS'te değişim aralığı, standart sapma, varyans ve kartilleri arası farkı hesaplamak için aşağıdaki adımlar uygulanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-04.png" style="width: 600px;"/>
+</p>
+
+Analyze > Descrpitive Statistics > Explore... yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-05.png" style="width: 600px;"/>
+</p>
+
+Açılan Explore penceresinde x değişkeni Dependent List alanına aktarılır ve herhangi bir değişiklik yapılmadan OK'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-06.png" style="width: 600px;"/>
+</p>
+
+Output penceresinde ilgili dağılım ölçüleri görülebilir. Interquartile Range (IQR) kartiller arası farkı belirtmektedir.
+
+<br>
+
+<span id="boxplot"></span>
+
+---
+
+### Kutu Diyagramı (Box-Plot)
+
+Kutu Diyagramı (Box Plot yada Boxplot) seri karşılaştırmalarında en sık kullanılan istatistik göstergelerinden biridir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami.png" style="width: 480px;"/>
+</p>
+
+Öncelikle Q<sub>1</sub>, Q<sub>2</sub> (medyan) ve Q<sub>3</sub> kartilleri bulunur. IQR (Kartiller Arası Fark) Q<sub>3</sub> ve Q<sub>1</sub> kartillerinin farkı ile hesaplanır. Serinin minimum değeri Q<sub>1</sub> kartilinden 1.5 IQR'ın çıkarılmasıyla, maksimum değeri ise Q<sub>3</sub> kartiline 1.5 IQR eklenmesiyle bulunur. Minimum ve maksimum dışında kalan tüm değerler aykırı değer (outlier) olarak adlandırılır.
+
+<br>
+
+<strong>Uygulama</strong>: x = 2, 22, 24, 24, 26, 28, 28, 28, 30, 98, 122 serisinin kutu diyagramını çiziniz.
+
+<br>
+
+Kutu diyagramını çizebilmek için Q<sub>1</sub>, Q<sub>2</sub> ve Q<sub>3</sub> değerlerini bulmamız yeterlidir.
+
+n: 11’dir. Gözlem sayısı tek sayı olduğu için
+
+$$ Q_1 = { x_{ { n+2 } \over 4 } } = { x_{ { 11+2 } \over 4 } } = x_{3.25} \approx x_3 = 24 $$
+
+$$ Q_2 = \tilde x = x_{ {n+1} \over 2} = { x_{ {11+1} \over 2} } = x_6 = 28 $$
+
+$$ Q_3 = { x_{ { 3n+2 } \over 4 } } = { x_{ { 3(11)+2 } \over 4 } } = x_{8.75} \approx x_9 = 30 $$
+
+Q<sub>1</sub> ve Q<sub>3</sub> kartilleri bulunduktan sonra IQR (Kartiller Arası Fark) hesaplanır.
+
+$$ IQR = Q_3 - Q_1 = 30 - 24 = 6 $$
+
+Son olarak Min ve Max değerlerinin hesaplanması yeterlidir.
+
+$$ Min = Q_1 - 1.5(IQR) = 24 - 1.5(6) = 24 - 9 = 15 $$
+
+$$ Max = Q_3 + 1.5(IQR) = 30 - 1.5(6) = 30 + 9 = 39 $$
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami-uygulama.png" style="width: 480px;"/>
+</p>
+
+Bulunan değerler diyagramın üzerine yerleştirilirse kutu diyagramı (boxplot) oluşacaktır. Diyagramdan da görüleceği üzere 2, 98 ve 122 değerleri aykırı değerlerdir. Bu değerler aynı zamanda seride yaklaşık %99 oranda normal dağılan değerlerin dışında yer almaktadır. Bu yüzden aykırı değer olarak adlandırılır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/box-plot-ornek.png" style="width: 600px;"/>
+</p>
+
+Kutu diyagramları çoğunlukla seri karşılaştırmalarında kullanılır. Serilerin birbirlerinden farkını ayırt etmek için kullanılabilecek en iyi veri görselleştirme uygulamalarından biridir. Diyagramlar yatay çizilebileceği gibi yukarıdaki örnekte olduğu gibi dikey de çizilebilmektedir.
+
+<br>
+
+<span id="spss-boxplot"></span>
+
+---
+
+### SPSS'te Kutu Diyagramı
+
+SPSS'te kutu diyagramı (boxplot) çizmek oldukça basittir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-01.png" style="width: 600px;"/>
+</p>
+
+Seri değerleri girildikten sonra menüden Graphs > Legacy Dialogs > Boxplot... yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-02.png" style="width: 600px;"/>
+</p>
+
+Simple seçilir. Tek bir serinin kutu diyagramı çizilmek isteniyorsa "Summaries of seperate variables" seçimi yapılır ve Define'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-03.png" style="width: 600px;"/>
+</p>
+
+Değişken Boxes Represent alanına aktarılır ve OK'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-04.png" style="width: 600px;"/>
+</p>
+
+Kutu diyagramı görseldeki gibi oluşturulacaktır.
+
+<br>
+
+---
+
+## Sıra Sizde
+
+<strong>Uygulama</strong>: Bir sınıftan seçilen 8 öğrencinin sınav notları aşağıda verilmiştir.
+
+$$ x = 55, 60, 70, 75, 80, 85, 85, 90 $$
+
+Serinin Değişim Aralığı'nı (Range'ini) bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Değişim aralığını bulmak için seriden maksimum ve minimum değerleri çıkarmak yeterlidir.
+
+$$ R = x_{max} - x_{min} $$
+
+$$ R = 90 - 55 $$
+
+$$ R = 35 $$
+
+Değişim Aralığı (Range) <strong>35</strong> bulunur.
+
+<br><br>
+
+<strong>Uygulama</strong>: Aşağıda 9 birimden oluşan seri verilmiştir.
+
+$$ x = 24, 26, 26, 28, 30, 32, 36, 38, 40 $$
+
+Serinin Kartiller Arası Fark'ını (IQR'ını) bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Kartiller Arası Farkı bulabilmek için Q<sub>1</sub> ve Q<sub>3</sub> kartillerini bulmamız yeterlidir.
+
+$$ Q_1 = { x_{ { n+2 } \over 4 } } = { x_{ { 9+2 } \over 4 } } = x_{2.75} \approx x_3 = 26 $$
+
+$$ Q_3 = { x_{ { 3n+2 } \over 4 } } = { x_{ { 3(9)+2 } \over 4 } } = x_{7.25} \approx x_8 = 38 $$
+
+Q<sub>3</sub> ve Q<sub>1</sub> arasındaki fark Kartiller Arası Fark'ı verecektir.
+
+$$ IQR = Q_3 - Q_1 = 38 - 26 = 12 $$
+
+Kartiller Arası Fark <strong>12</strong> bulunur.
+
+<br><br>
+
+<strong>Uygulama</strong>: Aşağıda 5 değerden oluşan bir seri verilmiştir.
+
+$$ x = 4, 8, 12, 16, 20 $$
+
+Serinin standart sapmasını bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Standart sapmayı bulmak için öncelikle ortalamayı bulmalıyız.
+
+$$ \bar x = {\Sigma x_i \over n} $$
+
+$$ \bar x = {4 + 8 + 12 + 16 + 20 \over 5} = 12 $$
+
+Standart sapmayı hesapladığımızda
+
+$$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } $$
+
+$$ s = \sqrt{ { (4-12)^2 + (8-12)^2 + (12-12)^2 + (16-12)^2 + (20-12)^2 } \over 5 - 1 } $$
+
+$$ s = \sqrt{ 160 \over 4 } = \sqrt{40} = 6.32 \approx 6 $$
+
+6 olarak buluruz. Dikkat ederseniz gözlem değerlerimiz 40’tan küçüktür. n ≤ 40 olduğu için payda kısmını n yerine n – 1 aldık.
+
+<br><br>
+
+<strong>Uygulama</strong>: Aşağıda 5 değerden oluşan bir seri verilmiştir.
+
+$$ x = 12, 12, 12, 12, 12 $$
+
+Serinin standart sapmasını bulunuz.
+
+<br>
+
+<strong>Yanıt</strong>: Aslında bu soruda hesap yapmamıza bile gerek yok. Serideki tüm değerler birbirine eşitse serinin standart sapması daima 0 (sıfırdır).
+
+Yine de bunu kanıtlamak istersek öncelikle ortalamayı bulmakla işe başlamalıyız.
+
+$$ \bar x = {\Sigma x_i \over n} $$
+
+$$ \bar x = {12 + 12 + 12 + 12 + 12 \over 5} = 12 $$
+
+Standart sapmayı hesapladığımızda
+
+$$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } $$
+
+$$ s = \sqrt{ { (12-12)^2 + (12-12)^2 + (12-12)^2 + (12-12)^2 + (12-12)^2 } \over 5 - 1 } $$
+
+$$ s = \sqrt{ 0 \over 4 } = \sqrt{0} = 0 $$
+
+Görüleceği üzere standart sapma sıfırdır. Standart sapma değerlerin ortalamadan uzaklıklarının ölçüsüdür. Serideki hiçbir değer ortalamadan uzaklaşmamıştır. Bu sebeple standart sapma 0 bulunmuştur.
+
+<br><br>
+
+<strong>Uygulama</strong>: Aynı sayıda öğrenciden oluşan iki farklı sınıfın sınav puanlarına ait ortalama ve standart sapma değerleri aşağıda listelenmiştir.
+
+$$ A\,Sınıfı: { \mu = 65, \sigma = 10 } $$
+
+$$ B\,Sınıfı: { \mu = 70, \sigma = 25 } $$
+
+Hangi sınıftaki notlar daha homojen dağılmıştır?
+
+<br>
+
+<strong>Yanıt</strong>: İki seri arasında homojenlik karşılaştırması yapılmak isteniyorsa daima Değişim Katsayısından (Varyasyon Katsayısından) faydalanırız.
+
+$$ CV_A = { \sigma \over \mu } * 100 = { 10 \over 65 } * 100 \approx 15.38 $$
+
+$$ CV_B = { \sigma \over \mu } * 100 = { 25 \over 70 } * 100 \approx 35.71 $$
+
+A sınıfının Değişim Katsayısı (CV'si) sıfıra daha yakın olduğu için A sınıfındaki notlar B sınıfına göre daha homojen dağılmıştır diyebiliriz.
+
+
+
+
+
 
 
 
