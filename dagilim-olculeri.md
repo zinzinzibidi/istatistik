@@ -14,7 +14,7 @@ Yukarıdaki grafikte kişi başına günlük harcama tutarlarını gösteren iki
 * Kartiller Arası Fark (IQR)
 * Ortalama Mutlak Sapma (MAD)
 * Standart Sapma (SD) ve Varyans
-* <a href="#kartiller-arasi-fark">Sheppard Düzeltmesi</a>
+* <a href="#sheppard-duzeltmesi">Sheppard Düzeltmesi</a>
 * Standart Hata
 * Değişim Katsayısı (CV)
 * Kutu Diyagramı (Box-Plot)
