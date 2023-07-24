@@ -953,7 +953,7 @@ Sheppard düzeltmesi yapılabilmesi için serinin normal ya da normale yakın da
 <br>
 
 <span id="se"></span>
-d
+
 ---
 
 ### Standart Hata (SE)
@@ -976,7 +976,7 @@ $$ SE = { s \over \sqrt n } $$
 
 <div align="center">Anakütle için Standart Hata</div>
 
-$$ \sigma \over \sqrt N } = { 8.42 \over \sqrt {4000} } = 0.1331 $$
+$$ SE = { \sigma \over \sqrt N } = { 8.42 \over \sqrt {4000} } = 0.1331 $$
 
 <div align="center">Örneklem için Standart Hata</div>
 
