@@ -1206,7 +1206,7 @@ Seri değerleri girildikten sonra menüden Graphs > Legacy Dialogs > Boxplot... 
 Simple seçilir. Tek bir serinin kutu diyagramı çizilmek isteniyorsa "Summaries of seperate variables" seçimi yapılır ve Define'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-03.png" style="width: 480px;"/>
 </p>
 
 Değişken Boxes Represent alanına aktarılır ve OK'a tıklanır.
