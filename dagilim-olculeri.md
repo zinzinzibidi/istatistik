@@ -27,7 +27,7 @@ Yukarıdaki grafikte kişi başına günlük harcama tutarlarını gösteren iki
     <td><a href="#sheppard-duzeltmesi">Sheppard Düzeltmesi</a></td>
   </tr>
   <tr align="center">
-    <td><a href="#standart-hata">Standart Hata</a></td>
+    <td><a href="#se">Standart Hata (SE)</a></td>
   </tr>
   <tr align="center">
     <td><a href="#cv">Değişim Katsayısı (CV)</a></td>
@@ -950,17 +950,132 @@ $$ = \sqrt{69.3871 - 8.33} = \sqrt{61.0538} = 7.81 \approx 8 \text{ cm} $$
 
 Sheppard düzeltmesi yapılabilmesi için serinin normal ya da normale yakın dağılması, frekansların büyük ve serinin iki ucunun da asimptotik sıfıra yaklaşması gerekmektedir.
 
+<br>
 
+<span id="se"></span>
 
+---
 
+### Standart Hata (SE)
 
+Standart sapmadan farklı olarak Standart Hata (Standart Error, SE)[^8] aynı anakütleden seçilen örneklemlerin standart sapmalarını karşılaştıran ölçü birimidir. Standart hata ne kadar küçükse anakütleye ait tahmin değerlerinin o kadar isabetli olduğu söylenebilir.
 
+#### Anakütle için Standart Hata
 
+$$ SE = { \sigma \over \sqrt N } $$
 
+#### Örneklem için Standart Hata
 
+$$ SE = { s \over \sqrt n } $$
 
+<br>
 
+<strong>Uygulama</strong>: 4000 birimlik anakütlenin standart sapması 8.42, bu anakütleden seçilen 40 birimlik örneklemin standart sapması ise 6.43’tür. Anakütle ve örneklem standart hatalarını karşılaştırınız.
 
+<br>
+
+<div align="center">Anakütle için Standart Hata</div>
+
+$$ \sigma \over \sqrt N } = { 8.42 \over \sqrt {4000} } = 0.1331 $$
+
+<div align="center">Örneklem için Standart Hata</div>
+
+$$ SE = { s \over \sqrt n } = { 6.43 \over \sqrt {40} } = 1.0167 $$
+
+Örneklem standart hatası (1.02), anakütle standart hatasından (0.13) çok büyük olduğu için seçilen örneklem uygun bir örneklem değildir.
+
+<br>
+
+<span id="cv"></span>
+
+---
+
+### Değişim Katsayısı (CV)
+
+Değişim Katsayısı ya da Varyasyon Katsayısı (Coefficient of Variation, CV) bir serinin standart sapmasının aritmetik ortalamasına bölünüp 100 ile çarpılmasıyla elde edilir.
+
+<div align="center">Anakütle için Değişim Katsayısı</div>
+
+$$ CV = { \sigma \over \mu } * 100 $$
+
+<div align="center">Örneklem için Değişim Katsayısı</div>
+
+$$ CV = { s \over \bar x } * 100 $$
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda iki farklı semtin kira fiyatları listelenmiştir. Hangi semtin kira fiyatları daha ucuzdur?
+
+<table align="center">
+  <tr>
+    <th>A Semti</th>
+    <th>B Semti</th>
+  </tr>
+  <tr align="center">
+    <td>4000</td>
+    <td>2600</td>
+  </tr>
+  <tr align="center">
+    <td>4000</td>
+    <td>2800</td>
+  </tr>
+  <tr align="center">
+    <td>4200</td>
+    <td>3000</td>
+  </tr>
+  <tr align="center">
+    <td>4400</td>
+    <td>3200</td>
+  </tr>
+  <tr align="center">
+    <td>4400</td>
+    <td>3200</td>
+  </tr>
+  <tr align="center">
+    <td>4500</td>
+    <td>3400</td>
+  </tr>
+  <tr align="center">
+    <td>4500</td>
+    <td>3500</td>
+  </tr>
+  <tr align="center">
+    <td>4500</td>
+    <td>3500</td>
+  </tr>
+  <tr align="center">
+    <td>4800</td>
+    <td>3600</td>
+  </tr>
+  <tr align="center">
+    <td>5000</td>
+    <td>24000</td>
+  </tr>
+</table>
+
+A Semti Ort=4430 | s=316.40
+
+B Semti Ort=5280 | s=6585.47
+
+İki semtin kira fiyatı ortalamaları ve standart sapmaları tabloda verilmiştir. Verilere baktığımızda A semtinde kiraların B semtine göre daha yüksek olduğu görülmesine rağmen ortalamalar yanıltıcıdır. Bunun sebebi B semtinde 24000 TL gibi aykırı değere sahip bir kiranın olmasıdır. Bu sebeple değişim katsayılarını kullanmalıyız.
+
+$$ CV_A = { s \over \bar x } * 100 = { 316.40 \over 4430 } * 100 = 7.14 $$
+
+$$ CV_B = { s \over \bar x } * 100 = { 6585.47 \over 5280 } * 100 = 124.72 $$
+
+A semtinin değişim katsayısı (7.14), B semtine göre (124.72) daha düşük olduğu için A semtinde kira fiyatları daha homojen dağılmıştır sonucuna varılabilir. B semtindeki aykırı değer, seriden çıkarıldığında B semtinin varyasyon katsayısı
+
+$$ CV_B^* = { s \over \bar x } * 100 = { 342.78 \over 3200 } * 100 = 10.71 $$
+
+hesaplanacaktır. Bu şekilde B semtinde ortalama kiraların (3200) A semtine göre (4430) daha ucuz olduğu sonucuna varılabilir.
+
+<br>
+
+<span id="spss-dagilim-olculeri"></span>
+
+---
+
+### SPSS'te Dağılım Ölçüleri
 
 
 
@@ -981,3 +1096,5 @@ Sheppard düzeltmesi yapılabilmesi için serinin normal ya da normale yakın da
 [^6]: Kimi kaynaklarda 30’dan küçük olması şartı aranmaktadır.
 
 [^7]: 20 Kasım 1863 – 12 Ekim 1936 tarihleri arasında yaşayan Avustralyalı – İngiliz istatistikçi
+
+[^8]: IBM SPSS Statistics’te standart sapma ile karışmaması için “Standart Error of The Mean” (SEM) terimi kullanılmaktadır.
