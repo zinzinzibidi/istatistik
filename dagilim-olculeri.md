@@ -66,7 +66,7 @@ Kartiller Arası Fark (Interquartile Range, IQR)[^3] ya da Çeyrekler Arası Aç
 $$ IQR = Q_3 - Q_1 $$
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/kartiller-arasi-fark.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/kartiller-arasi-fark.png" style="width: 480px;"/>
 </p>
 
 Kartiller Arası Fark (IQR) çoğunlukla kutu grafiklerinde[^4] yoğun olarak kullanılmakla birlikte olasılık yoğunluk fonkisyonu ve standart normal dağılım grafiklerinde dağılımın %50’sini oluşturmaktadır.
