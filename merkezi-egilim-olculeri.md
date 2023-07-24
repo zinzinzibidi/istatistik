@@ -15,14 +15,28 @@ Duyarlı ortalamalar serideki aykırı değerlerden etkilenirken duyarlı olmaya
   <tr align="center">
     <td><a href="#geometrik-ortalama">Geometrik Ortalama</a></td>
   </tr>
-  
+  <tr align="center">
+    <td><a href="#harmonik-ortalama">Harmonik Ortalama</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#kareli-ortalama">Kareli Ortalama</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#agirlikli-ortalama">Ağırlıklı Ortalama</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#duyarli-ortalamalarin-karsilastirilmasi">Duyarlı Ortalamaların Karşılaştırılması</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#spsste-duyarli-ortalamalar">SPSS'te Duyarlı Ortalamalar</a></td>
+  </tr>
 </table>
 
 * Aritmetik Ortalama
 * Geometrik Ortalama
 * Harmonik Ortalama
 * Kareli Ortalama
-* Ağırlıklık Ortalama
+* Ağırlıklı Ortalama
 * Duyarlı Ortalamaların Karşılaştırılması
 * SPSS'te Duyarlı Ortalamalar
 
@@ -610,6 +624,10 @@ Yorumlanması şu şekildedir:
 
 Yatırımcı 1000 TL anaparasını 3 yıl boyunca sırasıyla %10, %15 ve %20 faiz oranlarından bileşik faize yatırmak yerine %14.93 sabit oranı ile bileşik faize yatırırsa vade sonunda aynı getiriyi elde edecektir. (%51.8)
 
+<br>
+
+<span id="harmonik-ortalama"></span>
+
 ---
 
 ### Harmonik Ortalama
@@ -856,6 +874,10 @@ Boy uzunluklarının harmonik ortalamasını bulunuz.
 
 $$ \text{Hrm Ort} = {\Sigma f_i \over \Sigma {f_i \over m_i}} = {62 \over 0.36} = 173.31 \approx 173 \text{ cm} $$
 
+<br>
+
+<span id="kareli-ortalama"></span>
+
 ---
 
 ### Kareli Ortalama
@@ -1098,6 +1120,10 @@ Boy uzunluklarının kareli ortalamasını bulunuz.
 
 $$ \text{Kareli Ort} = \sqrt { {\Sigma f_i{m_i}^2} \over \Sigma f_i } = \sqrt { 1875150 \over 62} = 173.91 \approx 174 \text{ cm} $$
 
+<br>
+
+<span id="agirlikli-ortalama"></span>
+
 ---
 
 ### Ağırlıklı Ortalama
@@ -1215,6 +1241,10 @@ Faiz oranlarının aritmetik ortalaması 10.42’dir ve istatistiksel olarak anl
 
 Finans dünyasında ağırlıklı ortalama TLREF (Türk Lirası Gecelik Referans Faiz Oranı) hesaplamasında kullanılmakta ve ticari kredilerin faiz oranını belirlemektedir.
 
+<br>
+
+<span id="duyarli-ortalamalarin-karsilastirilmasi"></span>
+
 ---
 
 ### Duyarlı Ortalamaların Karşılaştırılması
@@ -1234,6 +1264,10 @@ $$ 182 \geq 78 \geq 19 \geq 13 $$
 ortalamaları bulunur. 480 aykırı değeri seriden çıkarıldığında serinin aritmetik ortalaması 11 olmaktadır. Bu sebeple aykırı değerin varlığı durumunda harmonik ortalama (13) seri ortalamasını istatistiksel olarak daha anlamlı ifade ettiği sonucuna varılabilir.
 
 Seri karşılaştırmalarında harmonik ortalama istatistiksel olarak daha anlamlı iken aykırı değerlerin varlığı kabul edildiği durumlarda aritmetik ortalamanın kullanılmasında sakınca bulunmamaktadır. Bununla birlikte aykırı değerlerin yoğun olduğu serilerde medyan gibi duyarlı olmayan ortalamalar tercih edilmektedir. Günümüzde gini katsayısının yüksek olduğu ülkelerde medyan değerleri, kişi başına milli gelir karşılaştırmalarında aritmetik ortalamaya göre daha gerçekçi sonuçlar vermektedir.[^2]
+
+<br>
+
+<span id="spsste-duyarli-ortalamalar"></span>
 
 ---
 
