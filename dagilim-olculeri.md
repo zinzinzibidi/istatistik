@@ -10,14 +10,42 @@ Yukarıdaki grafikte kişi başına günlük harcama tutarlarını gösteren iki
 
 ## Dağılım Ölçüleri
 
-* Değişim Aralığı (Range)
-* Kartiller Arası Fark (IQR)
-* Ortalama Mutlak Sapma (MAD)
-* Standart Sapma (SD) ve Varyans
-* <a href="#sheppard-duzeltmesi">Sheppard Düzeltmesi</a>
-* Standart Hata
-* Değişim Katsayısı (CV)
-* Kutu Diyagramı (Box-Plot)
+<table align="center">
+  <tr align="center">
+    <td><a href="#range">Değişim Aralığı (Range)</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#iqr">Kartiller Arası Fark (IQR)</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#mad">Ortalama Mutlak Sapma (MAD)</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#sd">Standart Sapma (SD) ve Varyans</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#sheppard-duzeltmesi">Sheppard Düzeltmesi</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#standart-hata">Standart Hata</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#cv">Değişim Katsayısı (CV)</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#spss-dagilim-olculeri">SPSS'te Dağılım Ölçüleri</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#boxplot">Kutu Diyagramı (Box-Plot)</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#spss-boxplot">SPSS'te Kutu Diyagramı</a></td>
+  </tr>
+</table>
+
+<br>
+
+<span id="range"></span>
 
 ### Değişim Aralığı
 
@@ -55,6 +83,8 @@ Serinin en büyük değeri 90, en küçük değeri 40’tır. İki değer arası
 
 <br>
 
+<span id="iqr"></span>
+
 ---
 
 ### Kartiller Arası Fark (IQR)
@@ -90,6 +120,8 @@ $$ Q_3 = { X_{ { 3N+2 } \over 4 } } = { X_{ { 3(11)+2 } \over 4 } } = X_{8.75} \
 $$ IQR = Q_3 - Q_1 = 18 - 14 = 4 $$
 
 <br>
+
+<span id="mad"></span>
 
 ---
 
@@ -461,6 +493,8 @@ Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
 $$ MAD = { { \Sigma f_i|m_i - \mu| } \over \Sigma f_i } = { 350 \over 62 } = 5.65 \approx 6 \text{ cm} $$
 
 <br>
+
+<span id="sd"></span>
 
 ---
 
