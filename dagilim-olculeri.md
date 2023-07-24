@@ -43,6 +43,8 @@ X<sub>min</sub>: Serinin en küçük değeri
 
 > Excel’de değişim aralığını bulmak için =MAK()-MİN() formülünü kullanabiliriz.
 
+<br>
+
 <strong>Uygulama</strong>: Bir sınıftan seçilen 10 öğrencinin sınav notları aşağıda verilmiştir.
 
 $$ x = 40, 55, 60, 60, 65, 70, 75, 80, 85, 90 $$
