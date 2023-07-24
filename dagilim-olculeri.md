@@ -35,7 +35,7 @@ $$ R = X_{max} - X_{min} $$
 
 $$ R = x_{max} - x_{min} $$
 
-<strong>R</strong>: Range, Değişim Aralığı <strong>X<sub>max</sub></strong>: Serinin en büyük değeri <strong>X<sub>min</sub></strong>: Serinin en küçük değeri
+<strong>R</strong>: Range, Değişim Aralığı, <strong>X<sub>max</sub></strong>: Serinin en büyük değeri, <strong>X<sub>min</sub></strong>: Serinin en küçük değeri
 
 > Excel’de değişim aralığını bulmak için =MAK()-MİN() formülünü kullanabiliriz.
 
