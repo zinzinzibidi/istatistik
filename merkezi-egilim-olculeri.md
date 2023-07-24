@@ -10,10 +10,10 @@ Duyarlı ortalamalar serideki aykırı değerlerden etkilenirken duyarlı olmaya
 
 <table align="center">
   <tr align="center">
-    <td><a href="#aritmetik-ortalama"></a></td>
+    <td><a href="#aritmetik-ortalama">Aritmetik Ortalama</a></td>
   </tr>
   <tr align="center">
-    <td><a href="#geometrik-ortalama"></a></td>
+    <td><a href="#geometrik-ortalama">Geometrik Ortalama</a></td>
   </tr>
   
 </table>
