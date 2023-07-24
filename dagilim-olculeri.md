@@ -953,7 +953,7 @@ Sheppard düzeltmesi yapılabilmesi için serinin normal ya da normale yakın da
 <br>
 
 <span id="se"></span>
-
+d
 ---
 
 ### Standart Hata (SE)
