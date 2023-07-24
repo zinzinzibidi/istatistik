@@ -1053,11 +1053,15 @@ $$ CV = { s \over \bar x } * 100 $$
   </tr>
 </table>
 
+<br>
+
+İki semtin kira fiyatı ortalamaları ve standart sapmaları aşağıdaki gibidir:
+
 A Semti Ort=4430 | s=316.40
 
 B Semti Ort=5280 | s=6585.47
 
-İki semtin kira fiyatı ortalamaları ve standart sapmaları tabloda verilmiştir. Verilere baktığımızda A semtinde kiraların B semtine göre daha yüksek olduğu görülmesine rağmen ortalamalar yanıltıcıdır. Bunun sebebi B semtinde 24000 TL gibi aykırı değere sahip bir kiranın olmasıdır. Bu sebeple değişim katsayılarını kullanmalıyız.
+Verilere baktığımızda A semtinde kiraların B semtine göre daha yüksek olduğu görülmesine rağmen ortalamalar yanıltıcıdır. Bunun sebebi B semtinde 24000 TL gibi aykırı değere sahip bir kiranın olmasıdır. Bu sebeple değişim katsayılarını kullanmalıyız.
 
 $$ CV_A = { s \over \bar x } * 100 = { 316.40 \over 4430 } * 100 = 7.14 $$
 
