@@ -12,4 +12,4 @@ Derslere başlamak için aşağıdaki bağlantıları kullanabilirsiniz.
 2. [Temel Kavramlar](https://github.com/zinzinzibidi/istatistik/blob/main/temel-kavramlar.md)
 3. [Verilerin Derlenmesi ve Düzenlenmesi](https://github.com/zinzinzibidi/istatistik/blob/main/verilerin-derlenmesi-ve-duzenlenmesi.md)
 4. [Merkezî Eğilim Ölçüleri](https://github.com/zinzinzibidi/istatistik/blob/main/merkezi-egilim-olculeri.md)
-5. [Merkezî Eğilim Ölçüleri](https://github.com/zinzinzibidi/istatistik/blob/main/dagilim-olculeri.md)
+5. [Dağılım Ölçüleri](https://github.com/zinzinzibidi/istatistik/blob/main/dagilim-olculeri.md)
