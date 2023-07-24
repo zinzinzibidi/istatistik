@@ -14,7 +14,7 @@ Yukarıdaki grafikte kişi başına günlük harcama tutarlarını gösteren iki
 * Kartiller Arası Fark (IQR)
 * Ortalama Mutlak Sapma (MAD)
 * Standart Sapma (SD) ve Varyans
-* Sheppard Düzeltmesi
+* <a href="#kartiller-arasi-fark">Sheppard Düzeltmesi</a>
 * Standart Hata
 * Değişim Katsayısı (CV)
 * Kutu Diyagramı (Box-Plot)
@@ -749,6 +749,184 @@ $$ \sigma = \sqrt{ { \Sigma f_i(X_i - \mu)^2 } \over N } = \sqrt{2485 \over 55} 
 
 <br>
 
+<strong>Uygulama</strong>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
+
+Boy uzunluklarının standart sapmasını bulunuz.
+
+<br>
+
+Öncelikle ortalamayı buluruz.
+
+Öncelikle ortalamayı buluruz.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>m<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>620</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>1980</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175 cm</td>
+    <td>36</td>
+    <td>6300</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>1480</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>390</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>10770</td>
+  </tr>
+</table>
+
+m<sub>i</sub> sınıf orta sayısını belirtmektedir. (150 + 160) / 2 = 155 cm
+
+$$ \mu = {\Sigma m_i f_i \over N} $$
+
+$$ \mu = {(155 \times 4) + (165 \times 2) + (175 \times 36) + (185 \times 8) + (195 \times 2) \over 62} = 173.71 \approx 174 cm $$
+
+Ardından standart sapmayı hesaplarız.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>(m<sub>i</sub>-µ)<sup>2</sup></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>4(155 – 174)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>12(165 – 174)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175</td>
+    <td>36</td>
+    <td>36(175 – 174)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>8(185 – 174)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>2(195 – 174)<sup>2</sup></td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>4302</td>
+  </tr>
+</table>
+
+$$ \sigma = \sqrt{ { \Sigma f_i(m_i - \mu)^2 } \over N } = \sqrt{4302 \over 62} = \sqrt{69.39} = 8.33 \approx 8 \text{ cm} $$
+
+<br>
+
+<span id="sheppard-duzeltmesi"></span>
+
+---
+
+### Sheppard Düzeltmesi
+
+Düzeltilmiş Standart Sapma ya da Sheppard Düzeltmesi (Sheppard’s Correction) sınıflandırılmış (gruplandırılmış) serilerde standart sapmanın hatalı hesaplanması sonucu William Fleetwood Sheppard[^7] tarafından geliştirilen standart sapmadır.
+
+$$ \sigma^* = \sqrt{ \sigma^2 - { c^2 \over 12} } $$
+
+<strong>σ<sup>*</sup></strong>: Sheppard Düzeltmesi (Düzeltilmiş Standart Sapma), <strong>c</strong>: Sınıf Aralığı
+
+<br>
+
+<strong>Uygulama</strong>: Bir önceki örneğimizde standart sapmayı 8.3299 (8.33) bulmuştuk. Sınıf aralığı (c) 10’dur.
+
+Düzeltilmiş standart sapmayı aşağıdaki gibi hesaplarız.
+
+$$ \sigma^* = \sqrt{ \sigma^2 - { c^2 \over 12} } = \sqrt{ 8.3299^2 - { 10^2 \over 12} } = \sqrt{ 69.3871 - { 100 \over 12} } $$
+
+$$ = \sqrt{69.3871 - 8.33} = \sqrt{61.0538} = 7.81 \approx 8 \text{ cm} $$
+
+Sheppard düzeltmesi yapılabilmesi için serinin normal ya da normale yakın dağılması, frekansların büyük ve serinin iki ucunun da asimptotik sıfıra yaklaşması gerekmektedir.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -767,3 +945,5 @@ $$ \sigma = \sqrt{ { \Sigma f_i(X_i - \mu)^2 } \over N } = \sqrt{2485 \over 55} 
 [^5]: Normal distribution diagram
 
 [^6]: Kimi kaynaklarda 30’dan küçük olması şartı aranmaktadır.
+
+[^7]: 20 Kasım 1863 – 12 Ekim 1936 tarihleri arasında yaşayan Avustralyalı – İngiliz istatistikçi
