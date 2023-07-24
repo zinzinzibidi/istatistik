@@ -498,7 +498,7 @@ $$ s = \sqrt{ { \Sigma f_i(x_i - \bar x)^2 } \over n } $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ s = \sqrt{ { \Sigma f_i(m_i - \bar x)^2 } \over n } $$
+$$ s = \sqrt{ { \Sigma f_i(x_i - \bar x)^2 } \over n } $$
 
 <strong>m</strong>: Sınıf Orta Sayısı, <strong>f</strong>: Frekans, <strong>σ</strong>: Anakütle Standart Sapması, <strong>s</strong>: Örneklem Standart Sapması
 
