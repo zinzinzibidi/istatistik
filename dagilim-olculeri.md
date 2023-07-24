@@ -1140,7 +1140,7 @@ Output penceresinde ilgili dağılım ölçüleri görülebilir. Interquartile R
 Kutu Diyagramı (Box Plot yada Boxplot) seri karşılaştırmalarında en sık kullanılan istatistik göstergelerinden biridir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami.png" style="width: 360px;"/>
 </p>
 
 Öncelikle Q<sub>1</sub>, Q<sub>2</sub> (medyan) ve Q<sub>3</sub> kartilleri bulunur. IQR (Kartiller Arası Fark) Q<sub>3</sub> ve Q<sub>1</sub> kartillerinin farkı ile hesaplanır. Serinin minimum değeri Q<sub>1</sub> kartilinden 1.5 IQR'ın çıkarılmasıyla, maksimum değeri ise Q<sub>3</sub> kartiline 1.5 IQR eklenmesiyle bulunur. Minimum ve maksimum dışında kalan tüm değerler aykırı değer (outlier) olarak adlandırılır.
@@ -1172,7 +1172,7 @@ $$ Min = Q_1 - 1.5(IQR) = 24 - 1.5(6) = 24 - 9 = 15 $$
 $$ Max = Q_3 + 1.5(IQR) = 30 - 1.5(6) = 30 + 9 = 39 $$
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami-uygulama.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/kutu-diyagrami-uygulama.png" style="width: 360px;"/>
 </p>
 
 Bulunan değerler diyagramın üzerine yerleştirilirse kutu diyagramı (boxplot) oluşacaktır. Diyagramdan da görüleceği üzere 2, 98 ve 122 değerleri aykırı değerlerdir. Bu değerler aynı zamanda seride yaklaşık %99 oranda normal dağılan değerlerin dışında yer almaktadır. Bu yüzden aykırı değer olarak adlandırılır.
