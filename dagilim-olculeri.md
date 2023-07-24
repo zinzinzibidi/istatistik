@@ -567,7 +567,7 @@ $$ s = \sqrt{ { \Sigma (x_i - { {\Sigma x_i f_i } \over n })^2 } \over n }  $$
 $$ s = \sqrt{ { \Sigma (x_i - { {\Sigma m_i f_i } \over n })^2 } \over n }  $$
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/normal-dagilim.png" style="width: 480px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/normal-dagilim.png" style="width: 360px;"/>
 </p>
 
 Normal dağılım grafikleri[^5] standart sapma ile hesaplanmaktadır. Ortalamanın 0 (sıfır) alınması durumunda “standart normal dağılım” olarak adlandırılmaktadır. Normal dağılımda 68-95-99.7 Kuralı adlı verilen özel bir kural geçerlidir. Bu kurala göre ortalamadan ±1σ (artı eksi 1 standart sapma) uzaklığa kadar olan alan, tüm olasılıkların %68.2’sini, ±2σ uzaklığa kadar olan alan %95.4’ünü, ±3σ uzaklığa kadar olan alan ise %99.6’sını kapsamaktadır. İlerleyen konularda normal dağılım detaylıca anlatılacak olup standart sapmanın tüm dağılım ölçüleri içerisinde neden en önemli ölçü olduğu dağılımı grafiklerinden de anlaşılabilir.
