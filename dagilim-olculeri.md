@@ -150,7 +150,7 @@ Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
 
 $$ MAD = { { \Sigma|x_i - \bar x| } \over n } $$
 
-$$ MAD = { { |40 - 68| + |55 - 68| + ... + |85 - 68| + |90 - 68| } \over 10 } $$
+$$ MAD = { { |40 - 68| + |55 - 68| \ + ... + \ |85 - 68| + |90 - 68| } \over 10 } $$
 
 $$ MAD = { { 23 + 13 +\ ... +\ 17 + 22 } \over 10 } = 12 \text{ puan} $$
 
