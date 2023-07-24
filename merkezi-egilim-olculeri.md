@@ -8,6 +8,16 @@ Duyarlı ortalamalar serideki aykırı değerlerden etkilenirken duyarlı olmaya
 
 ## Duyarlı Ortalamalar
 
+<table align="center">
+  <tr align="center">
+    <td><a href="#aritmetik-ortalama"></a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="#geometrik-ortalama"></a></td>
+  </tr>
+  
+</table>
+
 * Aritmetik Ortalama
 * Geometrik Ortalama
 * Harmonik Ortalama
@@ -25,6 +35,8 @@ Duyarlı ortalamalar serideki aykırı değerlerden etkilenirken duyarlı olmaya
 * Düzeltilmiş Ortalama
 * Kırpılmış Ortalama
 * SPSS'te Duyarlı Olmayan Ortalamalar
+
+<span id="aritmetik-ortalama"></span>
 
 ### Aritmetik Ortalama
 
@@ -277,6 +289,10 @@ Sınıf aralıklarında son değer aralığa dahil, başlangıç değeri dahil d
 $$ \mu = {\Sigma m_i f_i \over N} $$
 
 $$ \mu = {(155 \times 4) + (165 \times 2) + (175 \times 36) + (185 \times 8) + (195 \times 2) \over 62} = 173.71 \approx 174 \text{ cm} $$
+
+<br>
+
+<span id="geometrik-ortalama"></span>
 
 ---
 
