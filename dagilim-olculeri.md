@@ -53,6 +53,8 @@ $$ R = x_{max} - x_{min} = 90 - 40 = 50 $$
 
 Serinin en büyük değeri 90, en küçük değeri 40’tır. İki değer arasındaki mesafe (range), değişim aralığını vermektedir.
 
+<br>
+
 ---
 
 ### Kartiller Arası Fark (IQR)
@@ -86,6 +88,8 @@ $$ Q_1 = { X_{ { N+2 } \over 4 } } = { X_{ { 11+2 } \over 4 } } = X_{3.25} \appr
 $$ Q_3 = { X_{ { 3N+2 } \over 4 } } = { X_{ { 3(11)+2 } \over 4 } } = X_{8.75} \approx X_9 = 18 $$
 
 $$ IQR = Q_3 - Q_1 = 18 - 14 = 4 $$
+
+<br>
 
 ---
 
@@ -456,6 +460,8 @@ Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
 
 $$ MAD = { { \Sigma f_i|m_i - \mu| } \over \Sigma f_i } = { 350 \over 62 } = 5.65 \approx 6 \text{ cm} $$
 
+<br>
+
 ---
 
 ### Standart Sapma (SD) ve Varyans
@@ -495,6 +501,13 @@ $$ s = \sqrt{ { \Sigma f_i(x_i - \bar x)^2 } \over n } $$
 $$ s = \sqrt{ { \Sigma f_i(m_i - \bar x)^2 } \over n } $$
 
 <strong>m</strong>: Sınıf Orta Sayısı, <strong>f</strong>: Frekans, <strong>σ</strong>: Anakütle Standart Sapması, <strong>s</strong>: Örneklem Standart Sapması
+
+
+
+
+
+
+
 
 
 
