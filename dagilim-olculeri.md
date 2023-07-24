@@ -1321,9 +1321,9 @@ Görüleceği üzere standart sapma sıfırdır. Standart sapma değerlerin orta
 
 <strong>Uygulama</strong>: Aynı sayıda öğrenciden oluşan iki farklı sınıfın sınav puanlarına ait ortalama ve standart sapma değerleri aşağıda listelenmiştir.
 
-$$ A\,Sınıfı: { \mu = 65, \sigma = 10 } $$
+$$ A Sınıfı: { \mu = 65, \sigma = 10 } $$
 
-$$ B\,Sınıfı: { \mu = 70, \sigma = 25 } $$
+$$ B Sınıfı: { \mu = 70, \sigma = 25 } $$
 
 Hangi sınıftaki notlar daha homojen dağılmıştır?
 
