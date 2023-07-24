@@ -35,11 +35,7 @@ $$ R = X_{max} - X_{min} $$
 
 $$ R = x_{max} - x_{min} $$
 
-R: Range, Değişim Aralığı
-
-X<sub>max</sub>: Serinin en büyük değeri
-
-X<sub>min</sub>: Serinin en küçük değeri
+<strong>R</strong>: Range, Değişim Aralığı <strong>X<sub>max</sub></strong>: Serinin en büyük değeri <strong>X<sub>min</sub></strong>: Serinin en küçük değeri
 
 > Excel’de değişim aralığını bulmak için =MAK()-MİN() formülünü kullanabiliriz.
 
@@ -158,10 +154,347 @@ $$ MAD = { { 23 + 13 + ... +\ 17 + 22 } \over 10 } = 12 \text{ puan} $$
 
 <strong>Uygulama</strong>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+  </tr>
+</table>
 
+Boy uzunluklarının ortalama mutlak sapmasını (MAD’ini) bulunuz.
 
+<br>
 
+Öncelikle aritmetik ortalamayı buluruz.
 
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu (X<sub>i</sub>)</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>X<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>155</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>320</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>1155</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>2720</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>3150</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>1080</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>740</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>190</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>9510</td>
+  </tr>
+</table>
+
+$$ \mu = {\Sigma X_i f_i \over N} $$
+
+$$ \mu = {155 + 320 + 1155 + 2720 + 3150 + 180 + 740 + 190 \over 55} = 172.91 \approx 173 \text{ cm} $$
+
+Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu (X<sub>i</sub>)</th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>|X<sub>i</sub>-µ|</th>
+  </tr>
+  <tr align="center">
+    <td>155 cm</td>
+    <td>1</td>
+    <td>1|155-173|</td>
+  </tr>
+  <tr align="center">
+    <td>160 cm</td>
+    <td>2</td>
+    <td>2|160-173|</td>
+  </tr>
+  <tr align="center">
+    <td>165 cm</td>
+    <td>7</td>
+    <td>7|165-173|</td>
+  </tr>
+  <tr align="center">
+    <td>170 cm</td>
+    <td>16</td>
+    <td>16|170-173|</td>
+  </tr>
+  <tr align="center">
+    <td>175 cm</td>
+    <td>18</td>
+    <td>18|175-173|</td>
+  </tr>
+  <tr align="center">
+    <td>180 cm</td>
+    <td>6</td>
+    <td>6|180-173|</td>
+  </tr>
+  <tr align="center">
+    <td>185 cm</td>
+    <td>4</td>
+    <td>4|185-173|</td>
+  </tr>
+  <tr align="center">
+    <td>190 cm</td>
+    <td>1</td>
+    <td>1|190-173</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>55</td>
+    <td>351</td>
+  </tr>
+</table>
+
+$$ MAD = { { \Sigma f_i|X_i - \mu| } \over \Sigma f_i } = { 351 \over 55 } = 6.38 \approx 6 \text{ cm} $$
+
+<br>
+
+<strong>Uygulama</strong>: Bir sınıftaki tüm öğrencilerin boy uzunlukları tabloda listelenmiştir.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>4</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>12</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>36</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>8</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>2</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>62</td>
+  </tr>
+</table>
+
+Boy uzunluklarının ortalama mutlak sapmasını (MAD’ini) bulunuz.
+
+<br>
+
+Öncelikle ortalamayı buluruz.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>m<sub>i</sub>f<sub>i</sub></th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>620</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>1980</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175</td>
+    <td>36</td>
+    <td>6300</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>1480</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>390</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>10770</td>
+  </tr>
+</table>
+
+$$ \mu = {\Sigma m_i f_i \over N} $$
+
+$$ \mu = {(155 \times 4) + (165 \times 2) + (175 \times 36) + (185 \times 8) + (195 \times 2) \over 62} = 173.71 \approx 174 \text{ cm} $$
+
+Ardından ortalama mutlak sapmayı (MAD’i) hesaplarız.
+
+<table align="center">
+  <tr>
+    <th>Boy Uzunluğu</th>
+    <th>m<sub>i</sub></th>
+    <th>Öğrenci Sayısı (f<sub>i</sub>)</th>
+    <th>f<sub>i</sub>|m<sub>i</sub>-µ|</th>
+  </tr>
+  <tr align="center">
+    <td>150 – 159 cm</td>
+    <td>155 cm</td>
+    <td>4</td>
+    <td>4|155 – 174|</td>
+  </tr>
+  <tr align="center">
+    <td>160 – 169 cm</td>
+    <td>165 cm</td>
+    <td>12</td>
+    <td>12|165 – 174|</td>
+  </tr>
+  <tr align="center">
+    <td>170 – 179 cm</td>
+    <td>175</td>
+    <td>36</td>
+    <td>36|175 – 174|</td>
+  </tr>
+  <tr align="center">
+    <td>180 – 189 cm</td>
+    <td>185 cm</td>
+    <td>8</td>
+    <td>8|185 – 174|</td>
+  </tr>
+  <tr align="center">
+    <td>190 – 200 cm</td>
+    <td>195 cm</td>
+    <td>2</td>
+    <td>2|195 – 174|</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td></td>
+    <td>62</td>
+    <td>350</td>
+  </tr>
+</table>
+
+$$ MAD = { { \Sigma f_i|m_i - \mu| } \over \Sigma f_i } = { 350 \over 62 } = 5.65 \approx 6 \text{ cm} $$
+
+---
+
+### Standart Sapma (SD) ve Varyans
+
+Standart Sapma (Standart Deviation, SD, STDEV) gözlem değerlerinin aritmetik ortalamadan sapmalarının kareli ortalamasıdır. Standart sapmanın karesi ise Varyans (Variance, VAR) olarak adlandırılır.
+
+En çok kullanılan ve en önemli dağılım ölçüsüdür. Açık uçlu dağılımlar için hesaplanamaz.
+
+Anakütle için <strong>σ</strong> (küçük sigma), örneklem için <strong>s</strong> notasyonu ile gösterilir.
+
+#### Anakütle Standart Sapması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \sigma = \sqrt{ { \Sigma (X_i - \mu)^2 } \over N } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \sigma = \sqrt{ { \Sigma f_i(X_i - \mu)^2 } \over N } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \sigma = \sqrt{ { \Sigma f_i(m_i - \mu)^2 } \over N } $$
+
+#### Örneklem Standart Sapması
+
+<div align="center">Basit Serilerde</div>
+
+$$ s = \sqrt{ { \Sigma (x_i - \bar x)^2 } \over n } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ s = \sqrt{ { \Sigma f_i(x_i - \bar x)^2 } \over n } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ s = \sqrt{ { \Sigma f_i(m_i - \bar x)^2 } \over n } $$
+
+<strong>m</strong>: Sınıf Orta Sayısı, <strong>f</strong>: Frekans, <strong>σ</strong>: Anakütle Standart Sapması, <strong>s</strong>: Örneklem Standart Sapması
 
 
 
