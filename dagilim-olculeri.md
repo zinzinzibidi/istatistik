@@ -383,7 +383,7 @@ Boy uzunluklarının ortalama mutlak sapmasını (MAD’ini) bulunuz.
   </tr>
   <tr align="center">
     <td>170 – 179 cm</td>
-    <td>175</td>
+    <td>175 cm</td>
     <td>36</td>
     <td>6300</td>
   </tr>
