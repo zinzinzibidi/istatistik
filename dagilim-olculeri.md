@@ -508,15 +508,15 @@ Formüller biraz daha detaylı yazılırsa…
 
 <div align="center">Basit Serilerde</div>
 
-$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i } \over N })^2 } \over N  $$
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i } \over N })^2 } \over N } $$
 
 <div align="center">Frekans Serilerinde</div>
 
-$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i f_i } \over N })^2 } \over N } } $$
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i f_i } \over N })^2 } \over N } $$
 
 <div align="center">Gruplandırılmış Serilerde</div>
 
-$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma m_i f_i } \over N })^2 } \over N  } $$
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma m_i f_i } \over N })^2 } \over N } $$
 
 #### Örneklem Standart Sapması
 
