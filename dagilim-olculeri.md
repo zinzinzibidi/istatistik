@@ -502,7 +502,35 @@ $$ s = \sqrt{ { \Sigma f_i(m_i - \bar x)^2 } \over n } $$
 
 <strong>m</strong>: Sınıf Orta Sayısı, <strong>f</strong>: Frekans, <strong>σ</strong>: Anakütle Standart Sapması, <strong>s</strong>: Örneklem Standart Sapması
 
+Formüller biraz daha detaylı yazılırsa…
 
+#### Anakütle Standart Sapması
+
+<div align="center">Basit Serilerde</div>
+
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i } \over N })^2 } \over N  $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma X_i f_i } \over N })^2 } \over N } } $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ \sigma = \sqrt{ { \Sigma (X_i - { {\Sigma m_i f_i } \over N })^2 } \over N  } $$
+
+#### Örneklem Standart Sapması
+
+<div align="center">Basit Serilerde</div>
+
+$$ s = \sqrt{ { \Sigma (x_i - { {\Sigma x_i } \over n })^2 } \over n } $$
+
+<div align="center">Frekans Serilerinde</div>
+
+$$ s = \sqrt{ { \Sigma (x_i - { {\Sigma x_i f_i } \over n })^2 } \over n }  $$
+
+<div align="center">Gruplandırılmış Serilerde</div>
+
+$$ s = \sqrt{ { \Sigma (x_i - { {\Sigma m_i f_i } \over n })^2 } \over n }  $$
 
 
 
