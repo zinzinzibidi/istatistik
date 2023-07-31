@@ -217,6 +217,29 @@ M<sub>1</sub>: 1. Dereceden Moment, M<sub>4</sub>: 4. Dereceden Moment, M<sub>r<
 
 Sıfıra göre momentler biliniyorsa, aritmetik ortalamaya göre momentler kolaylıkla hesaplanabilir. König Teoremi adı verilen momentler arasındaki ilişki şu şekildedir:
 
+$$ \mu_2 = M_2 - M_1^2 $$
+
+$$ \mu_3 = M_3 - 3M_1M_2 + 2M_1^3 $$
+
+$$ \mu_4 = M_4 - 4M_1M_3 + 6M_1^2M_2 - 3M_1^3 $$
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 7 değerden oluşan x serisi verilmiştir.
+
+$$ x = 10, 12, 14, 14, 16, 18, 20 $$
+
+Serinin 1’den 4. Dereceye kadar olan momentlerini sıfıra, aritmetik ortalamaya ve König Teoremine göre bulunuz.
+
+<br>
+
+Sıfıra göre momentler:
+
+
+
+
+
+
 
 
 
