@@ -485,6 +485,55 @@ Serinin çarpıklığını Pearson, Bowley ve Momentlere Dayanan Asimetri ölç�
 
 Pearson Asimetri Ölçüsüne göre öncelikle ortalama ve medyan değerleri bulunmalıdır.
 
+$$ \bar x = { \Sigma x_i \over n } = { 153 \over 12 } = 12.75 $$
+
+$$ \tilde x = { { x_{n \over 2} + x_{ {n \over 2} + 1 } } \over 2 } = { { x_6 + x_7 } \over 2 } = { { 12 + 12 } \over 2 } = 12.00 $$
+
+$$ s = \sqrt{ { \Sigma (x_i - \bar x)^2 } \over n - 1 } = \sqrt{ 86.25 \over 11 } = \sqrt{ 7.1875 } = 2.80 $$
+
+$$ AS_P = { { 3(\bar x - \tilde x) } \over s } = { { 3(12.75 - 12.00) } \over 2.80 } = 0.80 $$
+
+1.00’a yakın pozitif bir asimetri ölçüsü söz konusudur. Bu sebeple hafif sağa çarpık pozitif asimetrik dağılımdan söz edilebilir.
+
+<br>
+
+Bowley Asimetri Ölçüsüne göre Q<sub>4</sub> dışında tüm kartil değerleri bulunmalıdır.
+
+$$ Q_1 = x_{ {n+2} \over 4} = x_{ 12+2 \over 4} = x_{3.50} = { {x_3 + x_4} \over 2 } = { { 11 + 12 } \over 2 } = 11.50 $$
+
+$$ Q_2 = \tilde x ={ { x_{ {n} \over 2} } + { x_{ { {n} \over 2} + 1 } } \over 2 } =  12.00 $$
+
+$$ Q_3 = x_{ {3n+2} \over 4} = x_{ 38 \over 4 } = x_{9.50} = { {x_9 + x_{10}} \over 2 } = { { 12 + 14 } \over 2 } = 13.00 $$
+
+$$  AS_B = { { (Q_3 - Q_2) - (Q_2 - Q_1) } \over { (Q_3 - Q_2) + (Q_2 - Q_1) } } = { { (13 - 12) - (12 - 11.50) } \over { (13 - 12) + (12 - 11.50) } } = 0.33 $$
+
+Pearson Asimetri ölçüsünde olduğu gibi 1.00’a yakın pozitif asimetri söz konusudur. Bu sebeple hafif sağa çarpık pozitif asimetrik dağılımdan söz edilebilir.
+
+<br>
+
+Momentlere Dayanan Asimetri Ölçüsüne göre serinin 3. dereceden momentini bulmamız yeterlidir. Standart sapmayı Pearson Asimetri Ölçüsünde hesaplamıştık.
+
+$$ M_3 = { \Sigma (x_i - \bar x)^3 \over n } = { 367.88 \over 12 } = 30.66 $$
+
+$$ \alpha_3 = { M_3 \over \sigma^3 } = { 30.66 \over 2.80^3 } = { 30.66 \over 21.96 } = 1.40 $$
+
+Bulunan asimetri ölçüsü 0’ın üzerinde olduğu için sağa çarpık pozitif asimetrik dağılımdan söz edilir. 3 asimetri ölçüsünde de seri değerlerinin pozitif asimetrik dağıldığı ve dağılım sağa çarpık olduğu sonucuna varılmıştır.
+
+<br>
+
+<span id="basiklik"></span>
+
+---
+
+## Basıklık
+
+
+
+
+
+
+
+
 
 
 
