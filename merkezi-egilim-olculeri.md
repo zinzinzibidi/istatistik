@@ -1286,31 +1286,31 @@ Seri karşılaştırmalarında harmonik ortalama istatistiksel olarak daha anlam
 Sadece aritmetik ortalama bulunmak isteniyorsa aşağıdaki adımlar uygulanır.[^3]
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-01.png" style="width: 700px;"/>
 </p>
 
 Analyze > Descriptive Statistics > Descriptives… yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-02.png" style="width: 700px;"/>
 </p>
 
 İlgili değişken Variable(s)[^4] alanına taşınır. Options[^5]’a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-03.png" style="width: 700px;"/>
 </p>
 
 Açılan pencerede sadece Mean[^6] seçilir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-04.png" style="width: 700px;"/>
 </p>
 
 OK'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-05.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-ortalama-05.png" style="width: 700px;"/>
 </p>
 
 x<sub>1</sub> = 10, 10, 11, 11, 12, 12, 480 serisine ait aritmetik ortalamanın 78 olduğu bulunur.
@@ -1322,13 +1322,13 @@ x<sub>1</sub> = 10, 10, 11, 11, 12, 12, 480 serisine ait aritmetik ortalamanın 
 Aritmetik, geometrik ve harmonik ortalama birlikte bulunmak isteniyorsa aşağıdaki adımlar uygulanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-01.png" style="width: 700px;"/>
 </p>
 
 Analyze > Reports > Case Summaries… yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-02.png" style="width: 700px;"/>
 </p>
 
 Display cases seçimi kaldırılır. (Kaldırılmadığı takdirde tüm seri değerleri rapora eklenecektir.)
@@ -1336,19 +1336,19 @@ Display cases seçimi kaldırılır. (Kaldırılmadığı takdirde tüm seri de�
 Statistics…’e tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-03.png" style="width: 700px;"/>
 </p>
 
 Statistics listesinden Mean, Geometric Mean ve Harmonic Mean seçilir. Cell Statistics alanına aktarılır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-04.png" style="width: 700px;"/>
 </p>
 
 Summarize Cases penceresinde OK'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-05.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-aritmetik-geometrik-harmonik-ortalama-05.png" style="width: 700px;"/>
 </p>
 
 Aritmetik, geometrik ve harmonik ortalamalar görseldeki gibi bulunur.
@@ -2288,25 +2288,25 @@ $$ \bar x_{(trimmed)b} = {\Sigma x_i \over n} = {251 \over 10 } = 25.1 \approx 2
 Elimizde 5’ten 76’ya kadar olan basit bir seri olduğunu varsayalım.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 700px;"/>
 </p>
 
 Analyze > Descriptive Statistics > Frequencies… yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 700px;"/>
 </p>
 
 Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-03.png" style="width: 700px;"/>
 </p>
 
 Quartiles (kartiller), Mean (aritmetik ortalama), Median (medyan) ve Mode (mod) seçimleri yapılır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-04.png" style="width: 700px;"/>
 </p>
 
 Mod (mode), medyan (median) ve kartil (quartile) değerleri görseldeki gibi listelenir.
@@ -2320,19 +2320,19 @@ Percentiles (25) Q1, Percentiles (50) Q2, Percentiles (75) ise Q3 kartilini beli
 Mod, medyan ve kartil hesaplamasında kullandığımız serinin 8. desilini ve 75. persantilini hesaplamak isteyelim.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-01.png" style="width: 700px;"/>
 </p>
 
 Analyze > Descriptive Statistics > Frequencies… yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-mod-medyan-kartil-02.png" style="width: 700px;"/>
 </p>
 
 Seri, Variable(s) alanına aktarılır ve Statistics...’e tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-01.png" style="width: 700px;"/>
 </p>
 
 Açılan pencerede Cut points for alanına 10 yazılır. Bu şekilde tüm desil değerleri listelenecektir.
@@ -2340,7 +2340,7 @@ Açılan pencerede Cut points for alanına 10 yazılır. Bu şekilde tüm desil 
 Percentile(s) alanına 75 yazılır ve Add düğmesi ile kutucuğa eklenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-desil-persantil-02.png" style="width: 700px;"/>
 </p>
 
 Percentiles alanında
