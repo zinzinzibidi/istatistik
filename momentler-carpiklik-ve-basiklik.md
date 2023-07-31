@@ -453,12 +453,37 @@ olmak üzere 3’e ayrılır.
 
 #### Pearson Asimetri Ölçüsü
 
+$$ AS_P = { { 3(\bar x - \tilde x) } \over s } $$
 
+x̄: Aritmetik Ortalama, x̃: Medyan, s: Standart Sapma
 
+Ortalamaya dayanan asimetri ölçüsüdür. -3 ve +3 arasında değer alır. 0’ın altında olduğu durumlarda sola çarpık negatif asimetrik dağılımdan, 0’ın üzerinde olduğu durumlarda ise sağa çarpık pozitif asimetrik dağılımlardan söz edilir. Tam simetri durumunda 0 değerini verir.
 
+#### Bowley Asimetri Ölçüsü
 
+$$ AS_B = { { (Q_3 - Q_2) - (Q_2 - Q_1) } \over { (Q_3 - Q_2) + (Q_2 - Q_1) } } $$
 
+Kartillere dayanan asimetri ölçüsüdür. -1 ve +1 arasında değer alır. 0’ın altında olduğu durumlarda sola çarpık negatif asimetrik dağılımdan, 0’ın üzerinde olduğu durumlarda ise sağa çarpık pozitif asimetrik dağılımlardan söz edilir. Tam simetri durumunda 0 değerini verir.
 
+#### Momentlere Dayanan Asimetri Ölçüsü
+
+$$ \alpha_3 = { M_3 \over \sigma^3 } = { M_3 \over \sqrt{M_2^3} } $$
+
+Momentler yardımıyla hesaplanan bu çarpıklık ölçüsünde sonuç 0’dan küçükse sola çarpık negatif asimetrik dağılımdan, 0’dan büyükse sağa çarpık pozitif asimetrik dağılımdan söz edilir. Tam simetri durumunda 0 değerini verir.
+
+Aritmetik ortalamaya göre 3. dereceden moment asimetri ölçüsü olarak bilinir. Bu sebeple α<sub>3</sub> ile gösterilir.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 12 değerden oluşan x serisi verilmiştir.
+
+$$ x = 10, 10, 11, 12, 12, 12, 12, 12, 12, 14, 16, 20 $$
+
+Serinin çarpıklığını Pearson, Bowley ve Momentlere Dayanan Asimetri ölçülerine göre yorumlayınız.
+
+<br>
+
+Pearson Asimetri Ölçüsüne göre öncelikle ortalama ve medyan değerleri bulunmalıdır.
 
 
 
