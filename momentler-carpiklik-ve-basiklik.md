@@ -244,7 +244,6 @@ Sıfıra göre momentler:
     <th>(x<sub>i</sub>)<sup>4</sup></th>
   </tr>
   <tr align="center">
-    <td></td>
     <td>10</td>
     <td>100</td>
     <td>1000</td>
