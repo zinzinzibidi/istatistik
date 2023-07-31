@@ -370,7 +370,7 @@ Kan tahlili sonuçlarının geometrik ortalamasını bulunuz.
 
 $$ \text{Log Geo Ort} = {\Sigma logx_i \over n} $$
 
-$$ \text{Log Geo Ort} = {log(84) + log(244) + log(246)\,+\,\,...\,+\,log(252) + log(254) + log(1486) \over 10} $$
+$$ \text{Log Geo Ort} = {log(84) + log(244) + log(246) + ... + log(252) + log(254) + log(1486) \over 10} $$
 
 $$ \text{Log Geo Ort} = 2.43  $$
 
