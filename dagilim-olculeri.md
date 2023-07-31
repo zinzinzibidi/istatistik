@@ -610,7 +610,7 @@ Standart sapmayı hesapladığımızda
 
 $$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } $$
 
-$$ s = \sqrt{ { (40-68)^2 + (55-68)^2\,+\,...\,+\,(85-68)^2+(90-68)^2 } \over 10 - 1 } $$
+$$ s = \sqrt{ { (40-68)^2 + (55-68)^2 + ... + (85-68)^2 + (90-68)^2 } \over 10 - 1 } $$
 
 $$ s = \sqrt{ 2090 \over 9 } = \sqrt{228.89} = 15.13 \approx 15 \text{ puan} $$
 
