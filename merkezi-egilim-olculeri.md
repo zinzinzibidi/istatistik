@@ -934,7 +934,7 @@ Sıcaklık değerlerinin kareli ortalamasını bulunuz.
 
 <br>
 
-$$ \text{Kareli Ort} = \sqrt { {\Sigma {x_i}^2} \over n } = \sqrt { { {-4}^2 + {-2}^2 \,+\,\,...\,+\, 13^2 + 13^2 } \over 7 } = \sqrt { 438 \over 7 } = 7.91 \approx 8^{\circ}C $$
+$$ \text{Kareli Ort} = \sqrt { {\Sigma {x_i}^2} \over n } = \sqrt { { {-4}^2 + {-2}^2 + ... + 13^2 + 13^2 } \over 7 } = \sqrt { 438 \over 7 } = 7.91 \approx 8^{\circ}C $$
 
 <br>
 
