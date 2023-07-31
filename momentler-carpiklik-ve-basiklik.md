@@ -641,33 +641,21 @@ bulunmuştur. İki serinin çarpıklık ve basıklık değerlerini yorumlayını
 
 <details>
 <summary>Yanıtı Göster</summary>
-<br>A serisinin Pearson Asimetri Ölçüsü 0'dan büyük olduğu için sağa çarpık pozitif asimetrik dağılım, Basıklık Ölçüsü 3'ten büyük olduğu için sivri uçlu dağılım sergilendiğinden söz edilebilir.<br>B serisinin Pearson Asimetri Ölçüsü 0'dan küçük olduğu için sola çarpık negatif asimetrik dağılım, Basıklık Ölçüsü 3'ten küçük olduğu için basık dağılım sergilendiğinden söz edilebilir.
+<br>A serisinin Pearson Asimetri Ölçüsü 0'dan büyük olduğu için sağa çarpık pozitif asimetrik dağılım, Basıklık Ölçüsü 3'ten büyük olduğu için sivri uçlu dağılım sergilendiğinden söz edilebilir.<br><br>B serisinin Pearson Asimetri Ölçüsü 0'dan küçük olduğu için sola çarpık negatif asimetrik dağılım, Basıklık Ölçüsü 3'ten küçük olduğu için basık dağılım sergilendiğinden söz edilebilir.
 </details>
 
+<br>
 
-
-
-
-
-
-
-
-$$ $$
-
-$$ $$
-
-$$ $$
-
-$$ $$
-
-$$ $$
-
-
-
-
-
-
-
+<table align="center">
+  <tr>
+    <td colspan="3" align="center">Navigasyon</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/dagilim-olculeri.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+  </tr>
+</table>
 
 [^1]: İngilizce adı da momenttir.
 
