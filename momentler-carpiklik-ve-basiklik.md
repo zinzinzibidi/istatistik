@@ -37,6 +37,19 @@ Momentler 2 gruba ayrılır:
 
 <div align="center">Anakütle Sıfıra Göre Momentleri</div>
 
+<table align="center">
+  <tr>
+    <th>Basit Serilerde</th>
+    <th>Frekans Serlerinde</th>
+    <th>Gruplandırılmış Serilerde</th>
+  </tr>
+  <tr align="center">
+    <td>$$ M_1 = { \Sigma X_i \over N } $$</td>
+    <td>$$ M_1 = { \Sigma f_i X_i \over \Sigma f_i } $$</td>
+    <td>$$ M_1 = { \Sigma f_i m_i \over \Sigma f_i } $$</td>
+  </tr>
+ 
+</table>
 
 
 
