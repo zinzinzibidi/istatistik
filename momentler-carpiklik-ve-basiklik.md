@@ -559,7 +559,7 @@ Bulunan sonuç 3’ten büyük olduğu için serinin sivri bir dağılım sergil
 
 <br>
 
-<span id="spss-carpiklik-ve-basiklik"></span>
+<span id="spss-carpiklik-basiklik"></span>
 
 ---
 
