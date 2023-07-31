@@ -50,7 +50,7 @@ Momentler 2 gruba ayrılır:
   </tr> 
 </table>
 
-\begin{center}
+$$ \begin{center}
     \begin{tabular}{ | m{7em} | m{5em}| m{9em} | } 
             \hline
         Set & operation & Identity \\ 
@@ -69,7 +69,7 @@ Momentler 2 gruba ayrılır:
         \(\mathbb{R}\) & \(\times\) & \(0\)    \\ 
             \hline
     \end{tabular}
-\end{center}
+\end{center} $$
 
 
 [^1]: İngilizce adı da momenttir.
