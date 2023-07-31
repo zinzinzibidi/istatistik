@@ -235,14 +235,81 @@ Serinin 1’den 4. Dereceye kadar olan momentlerini sıfıra, aritmetik ortalama
 
 Sıfıra göre momentler:
 
+<table align="center">
+  <tr>
+    <th></th>
+    <th>(x<sub>i</sub>)</th>
+    <th>(x<sub>i</sub>)<sup>2</sup></th>
+    <th>(x<sub>i</sub>)<sup>3</sup></th>
+    <th>(x<sub>i</sub>)<sup>4</sup></th>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>10</td>
+    <td>100</td>
+    <td>1000</td>
+    <td>10000</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>12</td>
+    <td>144</td>
+    <td>1728</td>
+    <td>20736</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>14</td>
+    <td>196</td>
+    <td>2744</td>
+    <td>38416</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>14</td>
+    <td>196</td>
+    <td>2744</td>
+    <td>38416</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>16</td>
+    <td>256</td>
+    <td>4096</td>
+    <td>65536</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>18</td>
+    <td>324</td>
+    <td>5832</td>
+    <td>104976</td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>20</td>
+    <td>400</td>
+    <td>8000</td>
+    <td>160000</td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>104</td>
+    <td>1616</td>
+    <td>26144</td>
+    <td>438080</td>
+  </tr>
+</table>
 
+$$ M_1 = { \Sigma x_i \over n } = { 104 \over 7 } = 14.86 $$
 
+$$ M_2 = { \Sigma x_i^2 \over n } = { 1616 \over 7 } = 230.86 $$
 
+$$ M_3 = { \Sigma x_i^3 \over n } = { 26144 \over 7 } = 3734.86 $$
 
+$$ M_4 = { \Sigma x_i^4 \over n } = { 438080 \over 7 } = 62582.86 $$
 
-
-
-
+<br>
 
 
 $$ $$
