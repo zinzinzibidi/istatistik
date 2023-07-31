@@ -311,6 +311,105 @@ $$ M_4 = { \Sigma x_i^4 \over n } = { 438080 \over 7 } = 62582.86 $$
 
 <br>
 
+Aritmetik ortalamaya göre momentler:
+
+x̄ = 15
+
+<table align="center">
+  <tr>
+    <th></th>
+    <th>(x<sub>i</sub> - x̄)</th>
+    <th>(x<sub>i</sub> - x̄)<sup>2</sup></th>
+    <th>(x<sub>i</sub> - x̄)<sup>3</sup></th>
+    <th>(x<sub>i</sub> - x̄)<sup>4</sup></th>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(10 – 15)</td>
+    <td>(10 – 15)<sup>2</sup></td>
+    <td>(10 – 15)<sup>3</sup></td>
+    <td>(10 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(12 – 15)</td>
+    <td>(12 – 15)<sup>2</sup></td>
+    <td>(12 – 15)<sup>3</sup></td>
+    <td>(12 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(14 – 15)</td>
+    <td>(14 – 15)<sup>2</sup></td>
+    <td>(14 – 15)<sup>3</sup></td>
+    <td>(14 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(14 – 15)</td>
+    <td>(14 – 15)<sup>2</sup></td>
+    <td>(14 – 15)<sup>3</sup></td>
+    <td>(14 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(16 – 15)</td>
+    <td>(16 – 15)<sup>2</sup></td>
+    <td>(16 – 15)<sup>3</sup></td>
+    <td>(16 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(18 – 15)</td>
+    <td>(18 – 15)<sup>2</sup></td>
+    <td>(18 – 15)<sup>3</sup></td>
+    <td>(18 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td></td>
+    <td>(20 – 15)</td>
+    <td>(20 – 15)<sup>2</sup></td>
+    <td>(20 – 15)<sup>3</sup></td>
+    <td>(20 – 15)<sup>4</sup></td>
+  </tr>
+  <tr align="center">
+    <td>Toplam (Σ)</td>
+    <td>-1</td>
+    <td>71</td>
+    <td>-1</td>
+    <td>1415</td>
+  </tr>
+</table>
+
+$$ M_1 = { \Sigma (x_i - \bar x) \over n } = { -1 \over 7 } = -0.14 $$
+
+$$ M_2 = { \Sigma (x_i - \bar x)^2 \over n } = { 71 \over 7 } = 10.14 $$
+
+$$ M_3 = { \Sigma (x_i - \bar x)^3 \over n } = { -1 \over 7 } = -0.14 $$
+
+$$ M_4 = { \Sigma (x_i - \bar x)^4 \over n } = { 1415 \over 7 } = 202.14 $$
+
+<br>
+
+König Teoremine göre momentler:
+
+$$ \mu_2 = M_2 - M_1^2 = 230.86 - 14.86^2 = 10.04 $$
+
+$$ \mu_3 = M_3 - 3M_1M_2 + 2M_1^3 = 3734.86 - 3(14.86)(230.86) + 2(14.86)^3 = 5.88 $$
+
+$$ \mu_4 = M_4 - 4M_1M_3 + 6M_1^2M_2 - 3M_1^3 $$
+
+$$ \mu_4 = 62582.86-4(14.86)(3734.86)+6(14.86)^2 (230.86)-3(14.86)^4 $$
+
+$$ \mu_4 = 169.37 $$
+
+
+
+
+
+
+
+
 
 $$ $$
 
