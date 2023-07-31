@@ -445,11 +445,9 @@ x̄: Aritmetik Ortalama, x̃: Medyan
 
 Çarpıklık ölçüleri
 
-<ul>
-    <li>Ortalamaya Dayanan Asimetri Ölçüsü (Pearson Asimetri Ölçüsü)</li>
-    <li>Kartillere Dayanan Asimetri Ölçüsü (Bowley Asimetri Ölçüsü)[^3]</li>
-    <li>Momentlere Dayanan Asimetri Ölçüsü</li>
-</ul>
+* Ortalamaya Dayanan Asimetri Ölçüsü (Pearson Asimetri Ölçüsü)
+* Kartillere Dayanan Asimetri Ölçüsü (Bowley Asimetri Ölçüsü)[^3]
+* Momentlere Dayanan Asimetri Ölçüsü
 
 olmak üzere 3’e ayrılır.
 
