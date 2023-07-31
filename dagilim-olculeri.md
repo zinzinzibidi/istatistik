@@ -1086,13 +1086,13 @@ hesaplanacaktır. Bu şekilde B semtinde ortalama kiraların (3200) A semtine g�
 SPSS'te çok hızlı bir şekilde değişim aralığı, standart sapma, varyans ve standart hata değerleri hesaplanabilir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-01.png" style="width: 700px;"/>
 </p>
 
 Analyze > Descrpitive Statistics > Descriptives... yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-02.png" style="width: 700px;"/>
 </p>
 
 Descriptives penceresinde ilgili değişken Variable(s) alanına aktarılır ve ardından Options...'a tıklanır.
@@ -1100,7 +1100,7 @@ Descriptives penceresinde ilgili değişken Variable(s) alanına aktarılır ve 
 Açılan Descrpitives: Options penceresinde ilgili dağılım ölçüleri seçilir ve Continue'ya tıklanıldıktan sonra Descriptives penceresinde OK'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-03.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-03.png" style="width: 700px;"/>
 </p>
 
 Sonuçlar Output (Çıktı) penceresinde görseldeki gibi listelenecektir.
@@ -1112,19 +1112,19 @@ Sonuçlar Output (Çıktı) penceresinde görseldeki gibi listelenecektir.
 SPSS'te değişim aralığı, standart sapma, varyans ve kartilleri arası farkı hesaplamak için aşağıdaki adımlar uygulanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-04.png" style="width: 700px;"/>
 </p>
 
 Analyze > Descrpitive Statistics > Explore... yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-05.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-05.png" style="width: 700px;"/>
 </p>
 
 Açılan Explore penceresinde x değişkeni Dependent List alanına aktarılır ve herhangi bir değişiklik yapılmadan OK'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-06.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-dagilim-olculeri-06.png" style="width: 700px;"/>
 </p>
 
 Output penceresinde ilgili dağılım ölçüleri görülebilir. Interquartile Range (IQR) kartiller arası farkı belirtmektedir.
@@ -1194,13 +1194,13 @@ Kutu diyagramları çoğunlukla seri karşılaştırmalarında kullanılır. Ser
 SPSS'te kutu diyagramı (boxplot) çizmek oldukça basittir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-01.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-01.png" style="width: 700px;"/>
 </p>
 
 Seri değerleri girildikten sonra menüden Graphs > Legacy Dialogs > Boxplot... yolu izlenir.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-02.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-02.png" style="width: 700px;"/>
 </p>
 
 Simple seçilir. Tek bir serinin kutu diyagramı çizilmek isteniyorsa "Summaries of seperate variables" seçimi yapılır ve Define'a tıklanır.
@@ -1212,7 +1212,7 @@ Simple seçilir. Tek bir serinin kutu diyagramı çizilmek isteniyorsa "Summarie
 Değişken Boxes Represent alanına aktarılır ve OK'a tıklanır.
 
 <p align="center">
-  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-04.png" style="width: 600px;"/>
+  <img src="https://zinzinzibidi.com/img/istatistik/spss-boxplot-04.png" style="width: 700px;"/>
 </p>
 
 Kutu diyagramı görseldeki gibi oluşturulacaktır.
