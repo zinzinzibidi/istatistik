@@ -209,7 +209,7 @@ M<sub>1</sub>: 1. Dereceden Moment, M<sub>4</sub>: 4. Dereceden Moment, M<sub>r<
 
 <br>
 
-<span id="konig"></span>
+<span id="#konig"></span>
 
 ---
 
@@ -405,7 +405,7 @@ $$ \mu_4 = 169.37 $$
 
 <br>
 
-<span id="carpiklik"></span>
+<span id="#carpiklik"></span>
 
 ---
 
@@ -521,7 +521,7 @@ Bulunan asimetri ölçüsü 0’ın üzerinde olduğu için sağa çarpık pozit
 
 <br>
 
-<span id="basiklik"></span>
+<span id="#basiklik"></span>
 
 ---
 
@@ -559,7 +559,7 @@ Bulunan sonuç 3’ten büyük olduğu için serinin sivri bir dağılım sergil
 
 <br>
 
-<span id="spss-carpiklik-basiklik"></span>
+<span id="#spss-carpiklik-basiklik"></span>
 
 ---
 
