@@ -44,11 +44,10 @@ Momentler 2 gruba ayrılır:
     <th>Gruplandırılmış Serilerde</th>
   </tr>
   <tr align="center">
-    <td>$$ M_1 = { \Sigma X_i \over N } $$</td>
+    <td>$$ \mu = {\Sigma X_i f_i \over N} $$</td>
     <td>$$ M_1 = { \Sigma f_i X_i \over \Sigma f_i } $$</td>
     <td>$$ M_1 = { \Sigma f_i m_i \over \Sigma f_i } $$</td>
-  </tr>
- 
+  </tr> 
 </table>
 
 
