@@ -527,7 +527,122 @@ Bulunan asimetri ölçüsü 0’ın üzerinde olduğu için sağa çarpık pozit
 
 ## Basıklık
 
+Basıklık (Kurtosis) seri değerlerinin ortalama etrafında ne kadar yoğunlaşıp yoğunlaşmadıklarının ölçüsüdür.
 
+Ortalama etrafında yoğunlaşan seriler sivri bir görünüme sahip olup standart sapmaları düşüktür. Ortalamadan uzaklaşan seriler ise basık bir görünüme sahip standart sapmaları yüksektir. Normal dağılımlar ise ne sivri ne de basık bir görünüme sahiptir. Simetrik görünüm sergiler.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/basiklik.png" style="width: 600px;"/>
+</p>
+
+Aritmetik ortalamaya göre 4. dereceden moment, basıklık (kurtosis) ölçüsü olarak bilinir ve α<sub>4</sub> ile gösterilir.
+
+$$ \alpha_4 = { M_4 \over \sigma^4 } = { M_4 \over \sqrt{M_2^2} } $$
+
+Basıklık ölçüsü 3’e eşitse seri normal yükseklikte, 3’ten küçükse seri basık, 3’ten büyükse serinin sivri olduğu söylenir. Özetle kurtosiste ölçünün 3’ten büyük olup olmamasına bakılır.
+
+<br>
+
+<strong>Uygulama</strong>: Aşağıda 12 değerden oluşan x = 10, 10, 11, 12, 12, 12, 12, 12, 12, 14, 16, 20 serisinin basıklık ölçüsünü hesaplayınız.
+
+<br>
+
+Basılık ölçüsünü bulabilmek için serinin 4. dereceden momentini ve standart sapmasını bulmamız yeterlidir.
+
+$$ s = \sqrt{ { \Sigma(x_i - \bar x)^2 } \over n - 1 } = \sqrt{ 86.25 \over 11 } = \sqrt{ 7.1875 } = 2.80 $$
+
+$$ M_4 = { \Sigma (x_i - \bar x)^4 \over n } = { 3002.48 \over 12 } = 250.21 $$
+
+$$ \alpha_4 = { M_4 \over \sigma^4 } = { 250.21 \over 2.80^4 } = { 250.21 \over 61.48 } = 4.07 $$
+
+Bulunan sonuç 3’ten büyük olduğu için serinin sivri bir dağılım sergilediği sonucuna ulaşılabilir.
+
+<br>
+
+<span id="spss-carpiklik-ve-basiklik"></span>
+
+---
+
+## SPSS'te Çarpıklık ve Basıklık
+
+SPSS'te çarpıklık (skewness) ve basıklık (kurtosis) değerlerini hesaplamak basittir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-01.png" style="width: 700px;"/>
+</p>
+
+Seri değerleri girildikten sonra menüden Analyze > Descriptive Statistics > Descrpitives... yolu izlenir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-02.png" style="width: 700px;"/>
+</p>
+
+Değişken Variable(s) alanına aktarıldıktan sonra Options'a tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-03.png" style="width: 700px;"/>
+</p>
+
+Açılan pencerede Kurtosis (Basıklık) ve Skewness (Çarpıklık) seçimleri yapılır. Continue'ya tıklanır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-04.png" style="width: 700px;"/>
+</p>
+
+Çıktı alanında Skewness (Çarpıklık) ve Kurtosis (Basıklık) değerleri standart sapmaları ile birlikte listelencektir.
+
+SPSS'in çarpıklık ve basıklık hesaplaması biraz önce öğrendiğimiz yöntemden farklıdır. SPSS çarpıklık ve basıklık değerlerini hesaplarken normalleştirme (normalization) yöntemini uygulamaktadır. Buna göre skewness (çarpıklık) değeri +1'den yüksekse sağa çarpık, -1'den azsa sola çarpık bir dağılım söz konusudur. Çarpıklık değeri -1 ve +1 arasında ise asimetriden söz edilmez. Aynı şekilde kurtosis (basıklık) değeri +1'den yüksekse leptokurtik olarak adlandırılan sivri uçlu dağılım, -1'den küçükse platykurtik olarak adlandırılan basık dağılım söz konusudur. Kurtosis -1 ve +1 arasında ise basık olmayan normal dağılımdan söz edilir. Örneğimizde skewness 1.828 hesaplanmıştır. +1'den büyük olduğu için seri sağa çarpık bir dağılım sergilemiştir. Kurtosis ise 3.662 hesaplanmıştır. Yine +1'den büyük olduğu için sivri uçlu dağılım söz konusudur. Sonuç olarak serimiz sağa çarpık sivri uçlu bir dağılımdır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-05.png" style="width: 700px;"/>
+</p>
+
+Eğer çarpıklık ve basıklık değerlerini grafikleştirmek istersek öncelikle menüden Analyze > Descriptive Statistics > Frequencies... yolunu izlemeliyiz.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-06.png" style="width: 700px;"/>
+</p>
+
+Display frequency tables seçeneğini kaldırdıktan sonra değişkenimizi Variable(s) alanına taşımalıyız. Ardından Charts düğmesine tıklıyoruz.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-07.png" style="width: 700px;"/>
+</p>
+
+Açılan sayfada Histograms ve bir altındaki kutucuğu seçiyoruz. Continue'ya, ardından OK'a tıklıyoruz.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/spsste-carpiklik-ve-basiklik-08.png" style="width: 700px;"/>
+</p>
+
+Çıktı penceresinde dağılımın sivri uçlu sağa çarpık bir dağılım olduğu teyit edilebilir. Gözlem değerlerimiz az olduğu için bu tür örneklerde çarpıklık ve basıklık net olarak görülemeyebilir. Buna rağmen gözlem değerleri, yani veri birimlerin sayısı arttıkça serinin çarpıklık ve basıklık durumu hakkında daha kapsamlı sonuçlara ulaşılabilir.
+
+<br>
+
+---
+
+## Sıra Sizde
+
+<strong>Uygulama</strong>:
+
+A serisinin
+
+* Pearson Asitmeri Ölçüsü 2.2816
+* Basıklık Ölçüsü 3.9614
+
+B serisinin
+
+* Pearson Asitmeri Ölçüsü -1.2817
+* Basıklık Ölçüsü 1.241
+
+bulunmuştur. İki serinin çarpıklık ve basıklık değerlerini yorumlayınız.
+
+<br>
+
+<details>
+<summary>Yanıtı Göster</summary>
+<br>A serisinin Pearson Asimetri Ölçüsü 0'dan büyük olduğu için sağa çarpık pozitif asimetrik dağılım, Basıklık Ölçüsü 3'ten büyük olduğu için sivri uçlu dağılım sergilendiğinden söz edilebilir.<br>B serisinin Pearson Asimetri Ölçüsü 0'dan küçük olduğu için sola çarpık negatif asimetrik dağılım, Basıklık Ölçüsü 3'ten küçük olduğu için basık dağılım sergilendiğinden söz edilebilir.
+</details>
 
 
 
