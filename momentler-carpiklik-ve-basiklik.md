@@ -50,26 +50,7 @@ Momentler 2 gruba ayrılır:
   </tr> 
 </table>
 
-$$ \begin{center}
-    \begin{tabular}{ | m{7em} | m{5em}| m{9em} | } 
-            \hline
-        Set & operation & Identity \\ 
-            \hline
-        \(\mathbb{Z}\) & \(+\) & \(0\)    \\
-            \hline
-        \(\mathbb{Q}\) & \(+\) & \(0\)    \\
-            \hline
-        \(\mathbb{R}\) & \(+\) & \(0\)    \\ 
-            \hline
-
-        \(\mathbb{Z}\) & \(\times \) & \(0\)    \\
-            \hline
-        \(\mathbb{Q}\) & \(\times\) & \(0\)    \\
-            \hline
-        \(\mathbb{R}\) & \(\times\) & \(0\)    \\ 
-            \hline
-    \end{tabular}
-\end{center} $$
+$$ \begin{array} {|r|r|}\hline 0_0 & 0_1 & 0_2 \\ \hline 1_0 & 1_1 & 1_2 \\ \hline 2_0 & 2_1 & 2_2 \\ \hline 3_0 & 3_1 & 3_2 \\ \hline 4_0 & 4_1 & 4_2 \\ \hline 5_0 & 5_1 & 5_2 \\ \hline  \end{array} $$
 
 
 [^1]: İngilizce adı da momenttir.
