@@ -37,20 +37,44 @@ Momentler 2 gruba ayrılır:
 
 <div align="center">Anakütle Sıfıra Göre Momentleri</div>
 
-<table align="center">
-  <tr>
-    <th>Basit Serilerde</th>
-    <th>Frekans Serlerinde</th>
-    <th>Gruplandırılmış Serilerde</th>
-  </tr>
-  <tr align="center">
-    <td><pre>$$ \mu = {\Sigma X_i f_i \over N} $$</pre></td>
-    <td>$$ M_1 = { \Sigma f_i X_i \over \Sigma f_i } $$</td>
-    <td>$$ M_1 = { \Sigma f_i m_i \over \Sigma f_i } $$</td>
-  </tr> 
-</table>
+Basit Serilerde
 
-$$ \begin{array} {|r|r|} \hline 0_0 & 0_1 & 0_2 \\ \hline 1_0 & 1_1 & 1_2 \\ \hline 2_0 & 2_1 & 2_2 \\ \hline 3_0 & 3_1 & 3_2 \\ \hline 4_0 & 4_1 & 4_2 \\ \hline 5_0 & 5_1 & 5_2 \\ \hline \end{array} $$
+$$ M_1 = { \Sigma X_i \over N } $$
 
+$$ M_2 = { \Sigma X_i^2 \over N } $$
+
+$$ M_3 = { \Sigma X_i^3 \over N } $$
+
+$$ M_4 = { \Sigma X_i^4 \over N } $$
+
+$$ M_r = { \Sigma X_i^r \over N } $$
+
+Frekans Serlerinde
+
+$$ M_1 = { \Sigma f_i X_i \over \Sigma f_i } $$
+
+$$ M_2 = { \Sigma f_i X_i^2 \over \Sigma f_i } $$
+
+$$ M_3 = { \Sigma f_i X_i^3 \over \Sigma f_i } $$
+
+$$ M_4 = { \Sigma f_i X_i^4 \over \Sigma f_i } $$
+
+$$ M_r = { \Sigma f_i X_i^r \over \Sigma f_i } $$
+
+Gruplandırılmış Serilerde
+
+$$ M_1 = { \Sigma f_i m_i \over \Sigma f_i } $$
+
+$$ M_2 = { \Sigma f_i m_i^2 \over \Sigma f_i } $$
+
+$$ M_3 = { \Sigma f_i m_i^3 \over \Sigma f_i }  $$
+
+$$ M_4 = { \Sigma f_i m_i^4 \over \Sigma f_i } $$
+
+$$ M_r = { \Sigma f_i m_i^r \over \Sigma f_i } $$
+
+
+
+$$ $$
 
 [^1]: İngilizce adı da momenttir.
