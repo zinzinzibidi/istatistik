@@ -403,6 +403,60 @@ $$ \mu_4 = 62582.86-4(14.86)(3734.86)+6(14.86)^2 (230.86)-3(14.86)^4 $$
 
 $$ \mu_4 = 169.37 $$
 
+<br>
+
+<span id="carpiklik"></span>
+
+---
+
+## Çarpıklık
+
+Asimetri ya da Çarpıklık (Skewness) seri değerlerinin başta mı yoksa sonda mı yoğunlaştığını tespit etmemize yarayan istatistik ölçüsüdür.
+
+Serileri incelediğimizde her seri aynı özelliğe sahip olmayabilir. Örneğin ortalaması ve standart sapması eşit olan iki seriden birindeki değerler başlangıç değerleri etrafında yoğunlaşırken ikinci serideki değerler son değerler etrafında yoğunlaşabilir. Bu şekilde serilerin simetrik dağılıp dağılmadığına bakarız. Seriler simetrik dağılmadığında adına asimetrik dağılım (skewed distribution, asymmetrical distribution) deriz.[^2]
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/simetrik-dagilim.png" style="width: 600px;"/>
+</p>
+
+Simetrik dağılımlarda Mod = Medyan = Ortalama birbirine eşittir. Normal dağılım, simetrik dağılıma en iyi örnektir.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/pozitif-asimetrik-dagilim.png" style="width: 600px;"/>
+</p>
+
+Pozitif asimetrik dağılımlarda Mod > Medyan > Ortalama ilişkisi vardır. Bu dağılımlar aynı zamanda “sağa çarpık” olarak adlandırılır.
+
+<p align="center">
+  <img src="https://zinzinzibidi.com/img/istatistik/negatif-asimetrik-dagilim.png" style="width: 600px;"/>
+</p>
+
+Negatif asimetrik dağılımlarda Ortalama > Medyan > Mod ilişkisi vardır. Bu dağılımlar aynı zamanda “sola çarpık” olarak adlandırılır.
+
+Tam simetrik ya da tam simetriğe yakın serilerde şu ilişki vardır:
+
+$$ \bar x - Mod = 3(\bar x - \tilde x) $$
+
+x̄: Aritmetik Ortalama, x̃: Medyan
+
+<br>
+
+### Çarpıklık (Asimetri) Ölçüleri
+
+Çarpıklık ölçüleri
+
+<ul>
+    <li>Ortalamaya Dayanan Asimetri Ölçüsü (Pearson Asimetri Ölçüsü)</li>
+    <li>Kartillere Dayanan Asimetri Ölçüsü (Bowley Asimetri Ölçüsü)[^3]</li>
+    <li>Momentlere Dayanan Asimetri Ölçüsü</li>
+</ul>
+
+olmak üzere 3’e ayrılır.
+
+#### Pearson Asimetri Ölçüsü
+
+
+
 
 
 
@@ -429,3 +483,7 @@ $$ $$
 
 
 [^1]: İngilizce adı da momenttir.
+
+[^2]: Dağılım, simetrikse ve aykırı değerler yoksa aritmetik ortalama, asimetrikse ve aykırı değerler varsa medyan kullanımı tercih edilir.
+
+[^3]: Galton Asimetri Ölçüsü olarak da bilinir.
