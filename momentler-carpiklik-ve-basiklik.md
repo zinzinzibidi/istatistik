@@ -73,8 +73,78 @@ $$ M_4 = { \Sigma f_i m_i^4 \over \Sigma f_i } $$
 
 $$ M_r = { \Sigma f_i m_i^r \over \Sigma f_i } $$
 
+<div align="center">Örneklem Sıfıra Göre Momentleri</div>
+
+Basit Serilerde
+
+$$ M_1 = { \Sigma x_i \over n } $$
+
+$$ M_2 = { \Sigma x_i^2 \over n } $$
+
+$$ M_3 = { \Sigma x_i^3 \over n } $$
+
+$$ M_4 = { \Sigma x_i^4 \over n } $$
+
+$$ M_r = { \Sigma x_i^r \over n } $$
+
+Frekans Serlerinde
+
+$$ M_1 = { \Sigma f_i x_i \over \Sigma f_i } $$
+
+$$ M_2 = { \Sigma f_i x_i^2 \over \Sigma f_i } $$
+
+$$ M_3 = { \Sigma f_i x_i^3 \over \Sigma f_i } $$
+
+$$ M_4 = { \Sigma f_i x_i^4 \over \Sigma f_i } $$
+
+$$ M_r = { \Sigma f_i x_i^r \over \Sigma f_i } $$
+
+Gruplandırılmış Serilerde
+
+$$ M_1 = { \Sigma f_i m_i \over \Sigma f_i }  $$
+
+$$ M_2 = { \Sigma f_i m_i^2 \over \Sigma f_i } $$
+
+$$ M_3 = { \Sigma f_i m_i^3 \over \Sigma f_i } $$
+
+$$ M_4 = { \Sigma f_i m_i^4 \over \Sigma f_i } $$
+
+$$ M_r = { \Sigma f_i m_i^r \over \Sigma f_i } $$
+
+<br>
+
+m: Sınıf Orta Sayısı, f: Frekans
+
+M<sub>1</sub>: 1. Dereceden Moment, M<sub>4</sub>: 4. Dereceden Moment, M<sub>r</sub>: r. Dereceden Moment
+
+### Aritmetik Ortalamaya Göre Momentler
+
+<div align="center">Anakütle Aritmetik Ortalamaya Göre Momentleri</div>
+
+Basit Serilerde
+
+
+
+
+
+
 
 
 $$ $$
+
+$$ $$
+
+$$ $$
+
+$$ $$
+
+$$ $$
+
+
+
+
+
+
+
 
 [^1]: İngilizce adı da momenttir.
