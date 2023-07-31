@@ -1346,7 +1346,7 @@ A sınıfının Değişim Katsayısı (CV'si) sıfıra daha yakın olduğu için
   <tr>
     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/merkezi-egilim-olculeri.md">&#60;&#60;&#60; Önceki Konu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
      <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/README.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İçindekiler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
+     <td><a href="https://github.com/zinzinzibidi/istatistik/blob/main/momentler-carpiklik-ve-basiklik.md">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonraki Konu &#62;&#62;&#62;</a></td>
   </tr>
 </table>
 
