@@ -1,5 +1,14 @@
 # Merkezî Eğilim Ölçüleri
 
+<table align="center">
+  <tr align="center">
+    <td><a href="#aritmetik-ortalama">İstatistik Konuları Veri Bilimi ve Veri Bilimi Sitemize Taşınmıştır</a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Tıklayınız</a></td>
+  </tr>
+</table>
+
 Veri kümesinin ortasını belirlemeye yönelik ölçülerin tümüne merkezî eğilim ölçüsü (measure of central tendency) denir. Adından da anlaşılacağı üzere amaç, veri setinin ne yöne doğru eğilim gösterdiğini tespit etmektir. Bu eğilimi tespit etmek içinse ortalamalar kullanılmaktadır.
 
 Ortalama denilince birçoğumuzun aklına aritmetik ortalama gelmektedir. Fakat istatistikte geometrik ve harmonik ortalama, mod, medyan gibi kimi durumlarda daha anlamlı sonuçlar veren ortalamalar da bulunmaktadır.
