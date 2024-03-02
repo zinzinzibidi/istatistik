@@ -2,12 +2,37 @@
 
 <table align="center">
   <tr align="center">
-    <td><a href="#aritmetik-ortalama">İstatistik Konuları Veri Bilimi ve Veri Bilimi Sitemize Taşınmıştır</a></td>
+    <td>İstatistik Konuları Veri Bilimi ve Veri Bilimi Sitemize Taşınmıştır</td>
   </tr>
   <tr align="center">
     <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Tıklayınız</a></td>
   </tr>
 </table>
+
+<style>
+    .heatMap {
+        width: 70%;
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .heatMap tr:nth-child(1) { background: red; }
+    .heatMap tr:nth-child(2) { background: orange; }
+    .heatMap tr:nth-child(3) { background: green; }
+</style>
+
+<div class="heatMap">
+
+| Everything | in this table | is Centered | and the table will only take up 70% of the screen width | 
+| -- | -- | -- | -- |
+| This | is | a | Red Row |
+| This | is | an | Orange Row |
+| This | is | a | Green Row |
+
+</div>
 
 Veri kümesinin ortasını belirlemeye yönelik ölçülerin tümüne merkezî eğilim ölçüsü (measure of central tendency) denir. Adından da anlaşılacağı üzere amaç, veri setinin ne yöne doğru eğilim gösterdiğini tespit etmektir. Bu eğilimi tespit etmek içinse ortalamalar kullanılmaktadır.
 
