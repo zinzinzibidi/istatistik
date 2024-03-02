@@ -2,11 +2,29 @@
 
 Araştırmaya başlanılmadan önce edinilen ham verilerin kirli verilerden temizlenmesi konusuna değinmiştik. Ham veriler kirli veriler içermese bile veri setini okunaklı hâle getirmek için bazı düzenlemelere ihtiyaç duyarız.
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 Veri modellemesinde “Verilerin Toplanması” (Collecting Data) aşamasının ardından “Verilerin Derlenmesi ve Düzenlenmesi” (Compiling & Organizing Data) aşamalarına geçilir. Veriler türlerine göre derlendikten sonra veri setini “sınıflama ve gruplama metodları” ile özet tablolara dönüştürürüz.
 
 ## Verilerin Toplanması
 
 Elimizde 122 öğrencinin istatistik sınav notlarını temsil edecek 44 öğrenciye ait 4 farklı sınıfın verisi olsun.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 $$ x_1 = 48, 45, 48, 64, 50, 24, 04, 12, 88, 71, 64 $$
 
@@ -102,6 +120,15 @@ Bu noktada sınavda 48, 64 ve 88 not alan öğrencilerin çoğunlukta olduğu so
 Tabloyu biraz daha özet hâle getirelim.
 
 <table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
+<table align="center">
   <tr>
     <th>Sınıf Aralığı</th>
     <th>Frekans (f)</th>
@@ -141,6 +168,15 @@ Bu işleme ise gruplandırma ya da gruplama (statistical grouping) denilmektedir
 Yoğunlaşmayı net görebilmek için histogram grafikleri kullanırız. (Yukarıdaki grafik histogram grafiğidir.)
 
 Bu tür basit örneklerde sınıf aralığı ve birim sayısının az olmasından dolayı grafik kullanmamıza bile gerek bulunmamaktadır. Buna rağmen çok fazla verinin ve sınıf aralığının olduğu veri setlerinde grafik kullanılması yoğunlaşmanın nerede olduğunu anlamamızda tablolara göre daha fazla esneklik sağlayacaktır.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 ## Gruplandırmada Sınıf Aralığı Uzunluğunun Belirlenmesi
 
@@ -222,6 +258,15 @@ Bir önceki histogram grafiğinden farklı olarak sınav notlarının 43 ve 56 a
 ## Göreceli ve Birikimli Frekans
 
 <b>Göreceli Frekans (Relatif Frekans, Relative Frequency)</b>: Frekans dağılımının yüzdesel gösterimidir.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <b>Birikimli Frekans (Kümülatif Frekans, Cumulative Frequency)</b>: Frekans dağılımının birikimli gösterimidir.
 
@@ -319,6 +364,15 @@ Hatırlarsanız 122 öğrenciden 44 öğrenciyi örnekleme amacıyla seçmiştik
 
 > Herhangi bir istatistiksel kaynakta “göreceli” ya da “relatif” ifadeleri geçiyorsa “oransal” (nispî, proportional) değerlerden söz ediliyordur. Göreceli değerler çoğunlukla oransal (yüzdesel) artışları veya azalışları göstermek için kullanılır.
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 ## Yüzde (%) Gösterimleri ve Yuvarlamalar
 
 % (yüzde) ifadeleri kendi notasyonu ile gösterilse de 0.1424 şeklinde ondalıklı da gösterilebilir. Kimi zaman ondalıklı değerler 100 ile çarpılır ve 14.24 gösterimleri tercih edilir. “Çarpı 100” gösterimlerinin tercih edilmesi durumunda sütun başlıklarında ifadenin oransal değer olduğu mutlaka belirtilmelidir. Sütun başlığının “Pay” yerine “Pay (%)” olması gibi …
@@ -351,6 +405,15 @@ $$ Sınıf Aralığı = [24 - 10]/[1+3.3log(11)] $$
 $$ Sınıf Aralığı \approx 3.1556 \approx 3 $$
 
 Bu şekilde sınıf aralığını 3 buluruz. Sınıf uzunluğu 24 - 10 = 14'tür.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <br>
 
