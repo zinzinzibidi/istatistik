@@ -2,10 +2,10 @@
 
 <table align="center">
   <tr align="center">
-    <td>İstatistik Konuları Veri Bilimi ve Veri Bilimi Sitemize Taşınmıştır</td>
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
   </tr>
   <tr align="center">
-    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Tıklayınız</a></td>
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
   </tr>
 </table>
 
