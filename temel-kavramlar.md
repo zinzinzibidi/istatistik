@@ -1,5 +1,14 @@
 # Temel Kavramlar
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 > Veriler tek başına anlam ifade etmezler. Anlam ifade ettikleri zaman adına 'bilgi' deriz.
 
 Bu bölümde istatistikte sıkça kullanılan temel kavramlara değinilecektir. İlerleyen bölümlerde anlatılan kavramların daha net anlaşılabilmesi için mutlaka okunmalıdır.
@@ -9,6 +18,15 @@ Bu bölümde istatistikte sıkça kullanılan temel kavramlara değinilecektir. 
 * <b>Ham Veri (Raw Data, Primary Data)</b>: Verinin işlenmemiş hâli
 * <b>İşlenmiş Veri (Processed Data, Secondary Data)</b>: Verinin işlenmiş hâli
 * <b>Kirli Veri (Dirty Data)</b>: Ham verinin, veri yazılımlarının işleyemeyeceği derecede hatalı, formatı bozuk ya da boş veri birimleri içermesidir.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <b>Veri Birimi (Data Point)</b>: Veri seti içindeki her bir hücre
 
@@ -80,6 +98,15 @@ Sürekli verileri matematikteki ışına benzetebiliriz. Işın üzerindeki herh
   <img src="https://zinzinzibidi.com/img/istatistik/kesikli-isin.png" style="width: 240px;"/>
 </p>
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 Işını tamsayılara denk gelecek şekilde eşit parçalara böldüğümüzde (eşit aralıklarla kestiğimizde) aralıklı veriler elde ederiz. Aralıklı verilerle oluşturulan değişkenlere aynı zamanda “kesikli değişken” adı verilmesinin sebebi budur.
 
 ## Veri Türlerinde Dikkat Edilmesi Gerekenler
@@ -145,6 +172,15 @@ Parametre (parameter), anakütleden elde edilen ortalama, standart sapma ve benz
 
 Örneklem seçiminin resmî anlamda yapıldığı diğer bir örnek Türkiye İstatistik Kurumu (TÜİK) tarafından düzenli olarak hesaplanan “işsizlik oranı”dır. İşsizlik oranı hesaplanırken tüm ülke nüfusunun iş durumunu tespit etmek imkânsıza yakın olduğu için 58,560 hanehalkına[^2] anket soruları yöneltir. Katılımcılara son 4 haftada iş arayıp aramadıkları sorulur.[^3] Toplam 24,604,086 hanehalkının sadece %0.24’üne denk gelen 58,560 birimlik hanehalkı ile işsizlik oranları hesaplanır.[^4] Anakütlenin yüzde 1’i bile olmayan örnekleme yapılır. Biraz önce de belirttiğimiz gibi önemli olan parametrelerin doğru tahmin edilmesidir. Örneklem büyüklüğü arttıkça parametreler de gerçeğe en yakın tahmin edilebilecektir.
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 ---
 
 ## Sıra Sizde
@@ -188,6 +224,15 @@ D) Sürekli veri
 <summary>Yanıtı Göster</summary>
 <br>Anket sorularına verilen yanıtların neredeyse tamamı ordinal veri türünde değerlendirilir. Ordinal veriler, kendi içinde hiyerarşik sıralamaya sahip verilerden oluşur.
 </details>
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <br>
 
