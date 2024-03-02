@@ -9,31 +9,6 @@
   </tr>
 </table>
 
-<style>
-    .heatMap {
-        width: 70%;
-        text-align: center;
-    }
-    .heatMap th {
-        background: grey;
-        word-wrap: break-word;
-        text-align: center;
-    }
-    .heatMap tr:nth-child(1) { background: red; }
-    .heatMap tr:nth-child(2) { background: orange; }
-    .heatMap tr:nth-child(3) { background: green; }
-</style>
-
-<div class="heatMap">
-
-| Everything | in this table | is Centered | and the table will only take up 70% of the screen width | 
-| -- | -- | -- | -- |
-| This | is | a | Red Row |
-| This | is | an | Orange Row |
-| This | is | a | Green Row |
-
-</div>
-
 Veri kümesinin ortasını belirlemeye yönelik ölçülerin tümüne merkezî eğilim ölçüsü (measure of central tendency) denir. Adından da anlaşılacağı üzere amaç, veri setinin ne yöne doğru eğilim gösterdiğini tespit etmektir. Bu eğilimi tespit etmek içinse ortalamalar kullanılmaktadır.
 
 Ortalama denilince birçoğumuzun aklına aritmetik ortalama gelmektedir. Fakat istatistikte geometrik ve harmonik ortalama, mod, medyan gibi kimi durumlarda daha anlamlı sonuçlar veren ortalamalar da bulunmaktadır.
@@ -135,6 +110,15 @@ $$ \bar x = {\Sigma m_i f_i \over n} $$
 > Excel’de aritmetik ortalama almak için =ORTALAMA() formülünü kullanabiliriz.
 
 <br>
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <b>Uygulama</b>: Bir sınıftan seçilen 10 öğrencinin sınav notları aşağıda verilmiştir.
 
@@ -671,6 +655,15 @@ Yatırımcı 1000 TL anaparasını 3 yıl boyunca sırasıyla %10, %15 ve %20 fa
 <span id="harmonik-ortalama"></span>
 
 ---
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 ### Harmonik Ortalama
 
@@ -1313,6 +1306,15 @@ Seri karşılaştırmalarında harmonik ortalama istatistiksel olarak daha anlam
 
 ---
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 ### SPSS'te Duyarlı Ortalamalar
 
 #### Aritmetik Ortalama
@@ -1674,6 +1676,15 @@ $$ \tilde x = { { x_{ \Sigma f_i \over 2 } + x_{ { \Sigma f_i \over 2 } + 1 } } 
 Birikimli frekans içerisinde 10. ve 11. sıraya karşılık gelen boy uzunlukları toplanır ve 2’ye bölünür. Elde edilen değer frekans serisinin medyan değeridir.
 
 <br>
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <strong>Uygulama</strong>: Sınav notları aşağıdaki tabloda gruplandırılmıştır.
 
@@ -2255,6 +2266,15 @@ $$ P_{67} = x_{ { i\Sigma f_i + 2 } \over 100 } = x_{ { 67*20+2 } \over 100 } = 
 
 ---
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 ### Düzeltilmiş Ortalama
 
 Düzeltilmiş Ortalama serinin başındaki ve sonundaki aykırı değerlerin etkisini azaltan özel bir ortalama türüdür.
@@ -2498,6 +2518,15 @@ $$ Q_3  = { 18 + 20 \over 2} $$
 $$ Q_3  = 19 $$
 
 Serinin 3. dereceden kartili (Q<sub>3</sub>'ü) <strong>19</strong> bulunur.
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <br>
 
