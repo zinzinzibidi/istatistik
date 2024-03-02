@@ -1,5 +1,14 @@
 # Dağılım Ölçüleri
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 Yayılım ya da Değişkenlik Ölçüleri olarak da adlandırılan Dağılım Ölçüleri (measure of dispersion)[^1] veri birimlerinin genelinin ortalamadan ne kadar uzak ya da ortalamaya ne kadar yakın olduğunu gösteren temel ölçülerden biridir. Merkezî eğilim ölçülerinden olan aritmetik ortalama, mod ve medyan her zaman serinin heterojen ya da homojen dağıldığını göstermemektedir. Bu sebeple serinin dağılımı hakkında merkezî eğilim ölçülerine göre daha anlamlı sonuçlar veren standart sapma ve değişim katsayısı gibi dağılım ölçüleri kullanılır.
 
 <p align="center">
@@ -9,6 +18,15 @@ Yayılım ya da Değişkenlik Ölçüleri olarak da adlandırılan Dağılım Ö
 Yukarıdaki grafikte kişi başına günlük harcama tutarlarını gösteren iki gruba ait veriler dağılım grafiğinde gösterilmiştir. İki grubun da kişi başına günlük ortalama harcaması 100 TL olmasına rağmen kırmızı grubun standart sapması[^2] 10 TL iken mavi grubun standart sapması 50 TL’dir. Bu sebeple iki grubun da aynı karakteristik özelliklere sahip olduğunu söyleyemeyiz. İki grubu birbiri ile karşılaştırmak için dağılım ölçülerinden yararlanırız.
 
 ## Dağılım Ölçüleri
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <table align="center">
   <tr align="center">
@@ -86,6 +104,15 @@ Serinin en büyük değeri 90, en küçük değeri 40’tır. İki değer arası
 <span id="iqr"></span>
 
 ---
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 ### Kartiller Arası Fark (IQR)
 
@@ -930,6 +957,15 @@ $$ \sigma = \sqrt{ { \Sigma f_i(m_i - \mu)^2 } \over N } = \sqrt{4302 \over 62} 
 
 ---
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 ### Sheppard Düzeltmesi
 
 Düzeltilmiş Standart Sapma ya da Sheppard Düzeltmesi (Sheppard’s Correction) sınıflandırılmış (gruplandırılmış) serilerde standart sapmanın hatalı hesaplanması sonucu William Fleetwood Sheppard[^7] tarafından geliştirilen standart sapmadır.
@@ -1082,6 +1118,15 @@ hesaplanacaktır. Bu şekilde B semtinde ortalama kiraların (3200) A semtine g�
 ### SPSS'te Dağılım Ölçüleri
 
 #### Değişim Aralığı, Standart Sapma, Varyans ve Standart Hata
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 SPSS'te çok hızlı bir şekilde değişim aralığı, standart sapma, varyans ve standart hata değerleri hesaplanabilir.
 
@@ -1338,6 +1383,15 @@ $$ CV_B = { \sigma \over \mu } * 100 = { 25 \over 70 } * 100 \approx 35.71 $$
 A sınıfının Değişim Katsayısı (CV'si) sıfıra daha yakın olduğu için A sınıfındaki notlar B sınıfına göre daha homojen dağılmıştır diyebiliriz.
 
 <br>
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <table align="center">
   <tr>
