@@ -1,5 +1,14 @@
 # Momentler, Çarpıklık ve Basıklık
 
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
+
 Momentler, çarpıklık (asimetri) ve basıklık bir serinin ortalamaya göre nasıl dağıldığını belirlemek için kullanılan temel istatistik ölçüleridir.
 
 <table align="center">
@@ -25,6 +34,15 @@ Momentler, çarpıklık (asimetri) ve basıklık bir serinin ortalamaya göre na
 <span id="moment"></span>
 
 ## Moment
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 Terimlerin sıfırdan veya aritmetik ortalamadan sapmalarının çeşitli kuvvetlerine moment[^1] adı verilmektedir. Moment, bir serideki gözlem değerlerinin sıfırdan veya aritmetik ortalamadan farklarının kuvvetlerinin aritmetik ortalamasıdır.
 
@@ -214,6 +232,15 @@ M<sub>1</sub>: 1. Dereceden Moment, M<sub>4</sub>: 4. Dereceden Moment, M<sub>r<
 ---
 
 ## König Teoremi
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 Sıfıra göre momentler biliniyorsa, aritmetik ortalamaya göre momentler kolaylıkla hesaplanabilir. König Teoremi adı verilen momentler arasındaki ilişki şu şekildedir:
 
@@ -410,6 +437,15 @@ $$ \mu_4 = 169.37 $$
 ---
 
 ## Çarpıklık
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 Asimetri ya da Çarpıklık (Skewness) seri değerlerinin başta mı yoksa sonda mı yoğunlaştığını tespit etmemize yarayan istatistik ölçüsüdür.
 
@@ -643,6 +679,15 @@ bulunmuştur. İki serinin çarpıklık ve basıklık değerlerini yorumlayını
 <summary>Yanıtı Göster</summary>
 <br>A serisinin Pearson Asimetri Ölçüsü 0'dan büyük olduğu için sağa çarpık pozitif asimetrik dağılım, Basıklık Ölçüsü 3'ten büyük olduğu için sivri uçlu dağılım sergilendiğinden söz edilebilir.<br><br>B serisinin Pearson Asimetri Ölçüsü 0'dan küçük olduğu için sola çarpık negatif asimetrik dağılım, Basıklık Ölçüsü 3'ten küçük olduğu için basık dağılım sergilendiğinden söz edilebilir.
 </details>
+
+<table align="center">
+  <tr align="center">
+    <td>İstatistik konuları ve daha fazlası yeni sitemize taşınmıştır.</td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://zinzinzibidi.com/veri_bilimi_ve_veri_analizi/istatistik">Veri Bilimi ve Veri Analizi | İstatistik için tıklayınız.</a></td>
+  </tr>
+</table>
 
 <br>
 
